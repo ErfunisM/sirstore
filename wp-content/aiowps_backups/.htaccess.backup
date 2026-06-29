@@ -1,0 +1,130 @@
+
+# BEGIN LSCACHE
+# END LSCACHE
+# BEGIN NON_LSCACHE
+# END NON_LSCACHE
+
+# http to https by SirstoreWP
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://sirstore.ir/$1 [R,L]
+
+# This file was updated by Duplicator on 2023-09-30 11:40:11.
+# See the original_files_ folder for the original source_site_htaccess file.
+# BEGIN WordPress
+# دستورالعمل‌های (خطوط) بین "BEGIN WordPress" و "END WordPress"
+# به طور پویا تولید شده‌اند، و فقط باید به وسیلهٔ صافی‌های وردرپرس ویرایش شوند.
+# هر تغییری در دستورالعمل‌های بین این نشان‌گرها بازنویشی خواهند شد.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php8_module>
+php_flag display_errors Off
+php_value max_execution_time 30
+php_value max_input_time 60
+php_value max_input_vars 1000
+php_value memory_limit 128M
+php_value post_max_size 30720M
+php_value session.gc_maxlifetime 1440
+php_value session.save_path "/var/cpanel/php/sessions/ea-php81"
+php_value upload_max_filesize 30720M
+php_flag zlib.output_compression Off
+</IfModule>
+<IfModule lsapi_module>
+php_flag display_errors Off
+php_value max_execution_time 30
+php_value max_input_time 60
+php_value max_input_vars 1000
+php_value memory_limit 128M
+php_value post_max_size 30720M
+php_value session.gc_maxlifetime 1440
+php_value session.save_path "/var/cpanel/php/sessions/ea-php81"
+php_value upload_max_filesize 30720M
+php_flag zlib.output_compression Off
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+RewriteCond %{HTTP_REFERER} !^http://sirstore.ir/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://sirstore.ir$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.sirstore.ir/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.sirstore.ir$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://sirstore.ir/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://sirstore.ir$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.sirstore.ir/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.sirstore.ir$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+
+# BEGIN seraphinite-accelerator
+# دستورالعمل‌های (خطوط) بین "BEGIN seraphinite-accelerator" و "END seraphinite-accelerator"
+# به طور پویا تولید شده‌اند، و فقط باید به وسیلهٔ صافی‌های وردرپرس ویرایش شوند.
+# هر تغییری در دستورالعمل‌های بین این نشان‌گرها بازنویشی خواهند شد.
+<IfModule mod_mime.c>
+AddType image/avif .avif
+AddType image/webp .webp
+AddType application/font-woff2 .woff2
+AddType application/x-font-opentype .otf
+</IfModule>
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType text/css                      "access plus 43200 minutes"
+ExpiresByType text/javascript               "access plus 43200 minutes"
+ExpiresByType application/javascript        "access plus 43200 minutes"
+ExpiresByType application/x-javascript      "access plus 43200 minutes"
+ExpiresByType font/eot                      "access plus 43200 minutes"
+ExpiresByType font/opentype                 "access plus 43200 minutes"
+ExpiresByType font/woff                     "access plus 43200 minutes"
+ExpiresByType application/vnd.ms-fontobject "access plus 43200 minutes"
+ExpiresByType application/font-woff         "access plus 43200 minutes"
+ExpiresByType application/font-woff2        "access plus 43200 minutes"
+ExpiresByType application/x-font-ttf        "access plus 43200 minutes"
+ExpiresByType application/x-font-woff       "access plus 43200 minutes"
+ExpiresByType image/vnd.microsoft.icon      "access plus 43200 minutes"
+ExpiresByType image/x-icon                  "access plus 43200 minutes"
+ExpiresByType image/bmp                     "access plus 43200 minutes"
+ExpiresByType image/gif                     "access plus 43200 minutes"
+ExpiresByType image/jpeg                    "access plus 43200 minutes"
+ExpiresByType image/png                     "access plus 43200 minutes"
+ExpiresByType image/svg+xml                 "access plus 43200 minutes"
+ExpiresByType image/avif                    "access plus 43200 minutes"
+ExpiresByType image/webp                    "access plus 43200 minutes"
+ExpiresByType audio/ogg                     "access plus 43200 minutes"
+ExpiresByType video/mp4                     "access plus 43200 minutes"
+ExpiresByType video/ogg                     "access plus 43200 minutes"
+ExpiresByType video/webm                    "access plus 43200 minutes"
+</IfModule>
+<IfModule mod_headers.c>
+<FilesMatch \.(jpe|jpg|jpeg|png|gif|bmp|webp|avif)$>
+Header merge Vary Accept
+</FilesMatch>
+</IfModule>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_ACCEPT} image\/webp
+RewriteCond %{REQUEST_FILENAME} \.(jpe|jpg|jpeg|png|gif|bmp|webp|avif)$
+RewriteCond %{REQUEST_FILENAME}.webp -f
+RewriteRule ^(.*)\.(jpe|jpg|jpeg|png|gif|bmp|webp|avif)$ $1\.$2\.webp [QSA]
+</IfModule>
+<IfModule mod_headers.c>
+<FilesMatch \.(jpe|jpg|jpeg|png|gif|bmp|webp|avif)\.webp$>
+Header merge Vary Accept
+</FilesMatch>
+</IfModule>
+<IfModule mod_deflate.c>
+<IfModule mod_filter.c>
+AddOutputFilterByType DEFLATE text/plain text/css text/javascript application/javascript application/x-javascript application/json text/html text/xml application/atom+xml application/rss+xml application/xhtml+xml application/xml text/x-component application/vnd.ms-fontobject application/x-font-ttf font/eot font/opentype image/bmp image/svg+xml image/vnd.microsoft.icon image/x-icon
+</IfModule>
+</IfModule>
+# END seraphinite-accelerator

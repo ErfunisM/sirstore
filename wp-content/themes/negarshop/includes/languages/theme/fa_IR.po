@@ -1,0 +1,2608 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Project-Id-Version: negarshop\n"
+"POT-Creation-Date: 2020-01-17 19:25+0330\n"
+"PO-Revision-Date: 2023-07-04 19:22+0330\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: fa_IR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:11
+msgid "صفحه نخست"
+msgstr ""
+
+#. translators: %s: post title
+#: comments.php:18
+#, php-format
+msgctxt "comments title"
+msgid "یک دیدگاه برای &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:23
+#, php-format
+msgctxt "comments title"
+msgid "%1$s دیدگاه برای &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s دیدگاه برای &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:42
+msgid "پاسخ دادن"
+msgstr ""
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:47
+msgid "Edit Account Details"
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:54
+#: woocommerce/myaccount/form-edit-account.php:27
+msgid "First name"
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:59
+#: woocommerce/myaccount/form-edit-account.php:31
+msgid "Last name"
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:65
+#: woocommerce/myaccount/form-edit-account.php:43
+#: woocommerce/myaccount/form-login.php:134
+msgid "Email address"
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:70
+msgid "Password Change"
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:73
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:78
+msgid "New Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:83
+msgid "Confirm New Password"
+msgstr ""
+
+#: dokan/dashboard/edit-account.php:94
+#: woocommerce/myaccount/form-edit-account.php:69
+msgid "Save changes"
+msgstr ""
+
+#: dokan/global/product-tab.php:11
+msgid "Vendor Information"
+msgstr ""
+
+#: dokan/global/product-tab.php:22
+msgid "Store Name:"
+msgstr ""
+
+#: dokan/global/product-tab.php:31
+msgid "Vendor:"
+msgstr ""
+
+#: dokan/global/product-tab.php:40
+msgid "Address:"
+msgstr ""
+
+#. translators: 1: user display name 2: user ID 3: user email
+#: dokan/orders/date-export.php:22
+#, php-format
+msgid "%1$s (#%2$s)"
+msgstr ""
+
+#: dokan/orders/date-export.php:35
+msgid "Filter by Date"
+msgstr ""
+
+#: dokan/orders/date-export.php:36
+msgid "Filter by Customer"
+msgstr ""
+
+#: dokan/orders/date-export.php:39 dokan/products/listing-filter.php:46
+msgid "Filter"
+msgstr ""
+
+#: dokan/orders/date-export.php:49
+msgid "Export All"
+msgstr ""
+
+#: dokan/orders/date-export.php:50
+msgid "Export Filtered"
+msgstr ""
+
+#: dokan/orders/listing.php:14
+msgid "Bulk Actions"
+msgstr ""
+
+#: dokan/orders/listing.php:15
+msgid "Change status to on-hold"
+msgstr ""
+
+#: dokan/orders/listing.php:16
+msgid "Change status to processing"
+msgstr ""
+
+#: dokan/orders/listing.php:17
+msgid "Change status to completed"
+msgstr ""
+
+#: dokan/orders/listing.php:39 dokan/products/products-listing.php:80
+msgid "Apply"
+msgstr ""
+
+#: dokan/orders/listing.php:52 dokan/orders/listing.php:72
+#: woocommerce/myaccount/my-orders.php:13
+msgid "Order"
+msgstr ""
+
+#: dokan/orders/listing.php:53 dokan/orders/listing.php:79
+msgid "Order Total"
+msgstr ""
+
+#: dokan/orders/listing.php:54 dokan/orders/listing.php:82
+#: dokan/products/products-listing-row.php:53
+#: dokan/products/products-listing.php:94
+#: inc/functions/class-tgm-plugin-activation.php:2647
+#: woocommerce/myaccount/my-orders.php:15
+msgid "Status"
+msgstr ""
+
+#: dokan/orders/listing.php:55 dokan/orders/listing.php:85
+msgid "Customer"
+msgstr ""
+
+#: dokan/orders/listing.php:56 dokan/orders/listing.php:112
+#: dokan/products/products-listing-row.php:128
+#: dokan/products/products-listing.php:104
+#: woocommerce/myaccount/my-orders.php:14
+msgid "Date"
+msgstr ""
+
+#: dokan/orders/listing.php:58 dokan/orders/listing.php:132
+msgid "Action"
+msgstr ""
+
+#: dokan/orders/listing.php:74 dokan/orders/listing.php:76
+#, php-format
+msgid "Order %s"
+msgstr ""
+
+#: dokan/orders/listing.php:106
+msgid "Guest"
+msgstr ""
+
+#: dokan/orders/listing.php:115 dokan/products/products-listing-row.php:131
+msgid "Unpublished"
+msgstr ""
+
+#: dokan/orders/listing.php:122 dokan/products/products-listing-row.php:141
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: dokan/orders/listing.php:142
+msgid "Processing"
+msgstr ""
+
+#: dokan/orders/listing.php:151
+msgid "Complete"
+msgstr ""
+
+#: dokan/orders/listing.php:161
+msgid "View"
+msgstr ""
+
+#: dokan/orders/listing.php:225
+msgid "No orders found"
+msgstr ""
+
+#: dokan/products/listing-filter.php:26
+#: dokan/products/new-product-single.php:254
+msgid "- Select a category -"
+msgstr ""
+
+#: dokan/products/listing-filter.php:57
+msgid "Search Products"
+msgstr ""
+
+#: dokan/products/listing-filter.php:59
+msgid "Search"
+msgstr ""
+
+#: dokan/products/listing-status-filter.php:13
+#, php-format
+msgid "All (%d)"
+msgstr ""
+
+#: dokan/products/new-product-single.php:8
+msgid "Access Denied, No product found"
+msgstr ""
+
+#: dokan/products/new-product-single.php:32
+msgid "Access Denied"
+msgstr ""
+
+#: dokan/products/new-product-single.php:106
+msgid "Edit Product"
+msgstr ""
+
+#: dokan/products/new-product-single.php:113
+msgid "View Product"
+msgstr ""
+
+#: dokan/products/new-product-single.php:118
+msgid "Hidden"
+msgstr ""
+
+#: dokan/products/new-product-single.php:129
+msgid "Error!"
+msgstr ""
+
+#: dokan/products/new-product-single.php:137
+msgid "Success!"
+msgstr ""
+
+#: dokan/products/new-product-single.php:137
+msgid "The product has been saved successfully."
+msgstr ""
+
+#: dokan/products/new-product-single.php:140
+msgid "View Product &rarr;"
+msgstr ""
+
+#: dokan/products/new-product-single.php:163
+msgid "Title"
+msgstr ""
+
+#: dokan/products/new-product-single.php:164
+msgid "Product name.."
+msgstr ""
+
+#: dokan/products/new-product-single.php:166
+msgid "Please enter product title!"
+msgstr ""
+
+#: dokan/products/new-product-single.php:178
+msgid "Product Type"
+msgstr ""
+
+#: dokan/products/new-product-single.php:178
+msgid ""
+"Choose Variable if your product has multiple attributes - like sizes, "
+"colors, quality etc"
+msgstr ""
+
+#: dokan/products/new-product-single.php:194
+#: dokan/products/products-listing-row.php:81
+#: dokan/products/products-listing.php:100 woocommerce/cart/cart.php:31
+#: woocommerce/cart/cart.php:97
+msgid "Price"
+msgstr ""
+
+#: dokan/products/new-product-single.php:195
+msgid " You Earn : "
+msgstr ""
+
+#: dokan/products/new-product-single.php:199
+#: dokan/products/new-product-single.php:212
+msgid "0.00"
+msgstr ""
+
+#: dokan/products/new-product-single.php:205
+msgid "Discounted Price"
+msgstr ""
+
+#: dokan/products/new-product-single.php:206
+msgid "Schedule"
+msgstr ""
+
+#: dokan/products/new-product-single.php:207
+msgid "Cancel"
+msgstr ""
+
+#: dokan/products/new-product-single.php:219
+msgid "Product price can't be less than the vendor fee!"
+msgstr ""
+
+#: dokan/products/new-product-single.php:226
+msgid "From"
+msgstr ""
+
+#: dokan/products/new-product-single.php:227
+#: dokan/products/new-product-single.php:234
+msgid "YYYY-MM-DD"
+msgstr ""
+
+#: dokan/products/new-product-single.php:233
+msgid "To"
+msgstr ""
+
+#: dokan/products/new-product-single.php:242
+#: dokan/products/new-product-single.php:275
+msgid "Category"
+msgstr ""
+
+#: dokan/products/new-product-single.php:270
+msgid "Please choose a category!"
+msgstr ""
+
+#: dokan/products/new-product-single.php:295
+msgid "Select product category"
+msgstr ""
+
+#: dokan/products/new-product-single.php:301
+msgid "Tags"
+msgstr ""
+
+#: dokan/products/new-product-single.php:321
+msgid "Select product tags"
+msgstr ""
+
+#: dokan/products/new-product-single.php:348
+msgid "Upload a product cover image"
+msgstr ""
+
+#: dokan/products/new-product-single.php:380
+msgid "Delete image"
+msgstr ""
+
+#: dokan/products/new-product-single.php:386
+msgid "Add gallery image"
+msgstr ""
+
+#: dokan/products/new-product-single.php:400
+msgid "Short Description"
+msgstr ""
+
+#: dokan/products/new-product-single.php:405
+msgid "Description"
+msgstr ""
+
+#: dokan/products/new-product-single.php:421
+#: dokan/products/new-product-single.php:422
+msgid "Save Product"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:33
+#: dokan/products/products-listing.php:92
+#: inc/unyson/extensions/shortcodes/shortcodes/media-image/config.php:6
+msgid "Image"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:40
+#: dokan/products/products-listing.php:93
+msgid "Name"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:59
+#: dokan/products/products-listing.php:98
+msgid "SKU"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:68
+#: dokan/products/products-listing.php:99
+msgid "Stock"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:71
+msgid "In stock"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:73
+msgid "Out of stock"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:90
+#: dokan/products/products-listing.php:101
+msgid "Earning"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:101
+#: dokan/products/products-listing.php:102
+#: inc/functions/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:104
+msgid "Grouped"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:106
+msgid "External/Affiliate"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:110
+msgid "Virtual"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:112
+msgid "Downloadable"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:114
+msgid "Simple"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:118
+msgid "Variable"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:125
+#: dokan/products/products-listing.php:103
+msgid "Views"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:134
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:143
+msgid "Y/m/d"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:152
+msgid "Published"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:155
+msgid "Missed schedule"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:157
+msgid "Scheduled"
+msgstr ""
+
+#: dokan/products/products-listing-row.php:160
+msgid "Last Modified"
+msgstr ""
+
+#: dokan/products/products-listing.php:46
+msgid "Add new product"
+msgstr ""
+
+#: dokan/products/products-listing.php:175
+msgid "No product found"
+msgstr ""
+
+#: dokan/products/products-listing.php:198
+msgid "&laquo; Previous"
+msgstr ""
+
+#: dokan/products/products-listing.php:199
+msgid "Next &raquo;"
+msgstr ""
+
+#: dokan/settings/store-form.php:77
+msgid "Upload banner"
+msgstr ""
+
+#: dokan/settings/store-form.php:90
+#, php-format
+msgid "Upload a banner for your store. Banner size is (%sx%s) pixels."
+msgstr ""
+
+#: dokan/settings/store-form.php:103
+msgid "Profile Picture"
+msgstr ""
+
+#: dokan/settings/store-form.php:113
+msgid "Upload Photo"
+msgstr ""
+
+#: dokan/settings/store-form.php:119
+msgid "Store Name"
+msgstr ""
+
+#: dokan/settings/store-form.php:122
+msgid "store name"
+msgstr ""
+
+#: dokan/settings/store-form.php:129
+msgid "Store Product Per Page"
+msgstr ""
+
+#: dokan/settings/store-form.php:152
+msgid "Phone No"
+msgstr ""
+
+#: dokan/settings/store-form.php:154
+msgid "+123456.."
+msgstr ""
+
+#: dokan/settings/store-form.php:159
+msgid "Email"
+msgstr ""
+
+#: dokan/settings/store-form.php:164
+msgid "Show email address in store"
+msgstr ""
+
+#: dokan/settings/store-form.php:171
+msgid "More products"
+msgstr ""
+
+#: dokan/settings/store-form.php:176
+msgid "Enable tab on product single page view"
+msgstr ""
+
+#: dokan/settings/store-form.php:184
+msgid "Map"
+msgstr ""
+
+#: dokan/settings/store-form.php:191
+msgid "Type an address to find"
+msgstr ""
+
+#: dokan/settings/store-form.php:192
+msgid "Find Address"
+msgstr ""
+
+#: dokan/settings/store-form.php:206
+msgid "Terms and Conditions"
+msgstr ""
+
+#: dokan/settings/store-form.php:210
+msgid "Show terms and conditions in store page"
+msgstr ""
+
+#: dokan/settings/store-form.php:216
+msgid "TOC Details"
+msgstr ""
+
+#: dokan/settings/store-form.php:235
+msgid "Store Opening Closing Time"
+msgstr ""
+
+#: dokan/settings/store-form.php:242
+msgid "Show store opening closing time widget in store page"
+msgstr ""
+
+#: dokan/settings/store-form.php:259
+msgid "Close"
+msgstr ""
+
+#: dokan/settings/store-form.php:262
+msgid "Open"
+msgstr ""
+
+#: dokan/settings/store-form.php:279
+msgid "Store Open Notice"
+msgstr ""
+
+#: dokan/settings/store-form.php:283
+msgid "Store is open"
+msgstr ""
+
+#: dokan/settings/store-form.php:289
+msgid "Store Close Notice"
+msgstr ""
+
+#: dokan/settings/store-form.php:293
+msgid "Store is closed"
+msgstr ""
+
+#: dokan/settings/store-form.php:304
+msgid "Update Settings"
+msgstr ""
+
+#: dokan/store-header.php:40
+msgid "رویه‌های ارسال"
+msgstr ""
+
+#: dokan/store-header.php:44
+msgid "اطلاعات فروشنده"
+msgstr ""
+
+#: dokan/store-header.php:57 woocommerce/myaccount/dashboard.php:52
+msgid "تاریخ عضویت:"
+msgstr ""
+
+#: dokan/store-header.php:62
+msgid "آدرس:"
+msgstr ""
+
+#: dokan/store-header.php:70
+msgid "شماره تماس:"
+msgstr ""
+
+#: dokan/store-header.php:78
+msgid "رایانامه:"
+msgstr ""
+
+#: dokan/store.php:33 woocommerce/myaccount/navigation.php:39
+msgid "عضویت از "
+msgstr ""
+
+#: dokan/store.php:33 inc/functions/encode/_init-2.php:121
+#: inc/unyson/extensions/shortcodes/shortcodes/blog-tile/views/post-item.php:20
+#: woocommerce/myaccount/navigation.php:39
+msgid " پیش"
+msgstr ""
+
+#: dokan/store.php:38
+msgid "٪ رضایت خرید"
+msgstr ""
+
+#: dokan/store.php:39
+msgid " رای"
+msgstr ""
+
+#: dokan/store.php:66
+msgid "Store Category"
+msgstr ""
+
+#: dokan/store.php:69
+msgid "Store Location"
+msgstr ""
+
+#: dokan/store.php:73
+msgid "Contact Vendor"
+msgstr ""
+
+#: dokan/store.php:110
+msgid "No products were found of this vendor!"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:15
+msgid "Your Name"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:18
+msgid "you@example.com"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:21
+msgid "Type your messsage..."
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:30
+msgid "Send Message"
+msgstr ""
+
+#: dokan/withdraw/request-form.php:16
+msgid "Withdraw Amount"
+msgstr ""
+
+#: dokan/withdraw/request-form.php:29
+msgid "Payment Method"
+msgstr ""
+
+#: dokan/withdraw/request-form.php:44
+msgid "Submit Request"
+msgstr ""
+
+#: dokan/withdraw/request-form.php:50
+msgid ""
+"No withdraw method is available. Please update your payment method to "
+"withdraw funds."
+msgstr ""
+
+#: dokan/withdraw/request-form.php:50
+msgid "Payment Settings Setup"
+msgstr ""
+
+#: footer.php:7 inc/functions/encode/_init-10.php:38
+msgid "مقایسه"
+msgstr ""
+
+#: footer.php:10
+msgid "علاقه مندی ها"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/functions/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/functions/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/functions/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/functions/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/functions/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/functions/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/functions/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/functions/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:393
+#: inc/functions/class-tgm-plugin-activation.php:920
+#: inc/functions/class-tgm-plugin-activation.php:2626
+#: inc/functions/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:394
+#: inc/functions/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:395
+#: inc/functions/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/functions/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/functions/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/functions/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:1027
+#: inc/functions/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:1214
+#: inc/functions/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/functions/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/functions/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/functions/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/functions/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/functions/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/functions/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/functions/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/functions/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/functions/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/functions/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/functions/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/functions/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/functions/class-tgm-plugin-activation.php:3602
+#: inc/functions/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "عملیات مرتبط با افزونه %1$s با موفقیت انجام یافت."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/functions/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/functions/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/functions/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/functions/custom-styles.php:128
+msgid "در انتظار تایید مدیریت"
+msgstr ""
+
+#: inc/functions/custom-styles.php:129 woocommerce/single-product/price.php:24
+msgid "قیمت: "
+msgstr ""
+
+#: inc/functions/custom-styles.php:130 inc/functions/encode/_init-3.php:49
+#: inc/unyson/extensions/shortcodes/shortcodes/slider/views/view.php:88
+#: woocommerce/archive-product-slider.php:76
+msgid "بعدی"
+msgstr ""
+
+#: inc/functions/custom-styles.php:131 inc/functions/encode/_init-3.php:49
+#: inc/unyson/extensions/shortcodes/shortcodes/slider/views/view.php:84
+#: woocommerce/archive-product-slider.php:72
+msgid "قبلی"
+msgstr ""
+
+#: inc/functions/custom-styles.php:132
+msgid "تعداد: "
+msgstr ""
+
+#: inc/functions/custom-styles.php:133
+msgid "حذف"
+msgstr ""
+
+#: inc/functions/custom-styles.php:134
+msgid "برند: "
+msgstr ""
+
+#: inc/functions/custom-styles.php:135
+msgid "برای ورود کلیک کنید"
+msgstr ""
+
+#: inc/functions/custom-styles.php:136
+msgid "پاک کردن ویژگی ها"
+msgstr ""
+
+#: inc/functions/custom-styles.php:137
+msgid "(ضروری)"
+msgstr ""
+
+#: inc/functions/custom-styles.php:138
+msgid "قیمت قبل: "
+msgstr ""
+
+#: inc/functions/custom-styles.php:139
+msgid "قیمت جدید: "
+msgstr ""
+
+#: inc/functions/custom-styles.php:140
+msgid "تغییرات: "
+msgstr ""
+
+#: inc/functions/custom-styles.php:141
+msgid "مابه التفاوت: "
+msgstr ""
+
+#: inc/functions/encode/_init-1.php:268
+msgid "نتیجه مورد نظر را پیدا نکردید؟"
+msgstr ""
+
+#: inc/functions/encode/_init-1.php:269
+msgid "مشاهده همه"
+msgstr ""
+
+#: inc/functions/encode/_init-1.php:270
+msgid "چیزی پیدا نشد!"
+msgstr ""
+
+#: inc/functions/encode/_init-1.php:271
+msgid "مشکلی هنگام ارسال پیش آمد!"
+msgstr ""
+
+#: inc/functions/encode/_init-1.php:272 inc/functions/encode/_init-10.php:125
+msgid "بد"
+msgstr ""
+
+#: inc/functions/encode/_init-1.php:273 inc/functions/encode/_init-10.php:128
+msgid "متوسط"
+msgstr ""
+
+#: inc/functions/encode/_init-1.php:274 inc/functions/encode/_init-10.php:131
+msgid "خوب"
+msgstr ""
+
+#: inc/functions/encode/_init-1.php:275 inc/functions/encode/_init-10.php:137
+msgid "عالی"
+msgstr ""
+
+#: inc/functions/encode/_init-1.php:276 inc/functions/encode/_init-10.php:122
+msgid "خیلی بد"
+msgstr ""
+
+#: inc/functions/encode/_init-1.php:277
+msgid "لطفا صبر کنید ..."
+msgstr ""
+
+#: inc/functions/encode/_init-10.php:11
+msgid "خبر بده"
+msgstr ""
+
+#: inc/functions/encode/_init-10.php:21
+msgid "اطلاع رسانی هنگام موجود شدن"
+msgstr ""
+
+#: inc/functions/encode/_init-10.php:22
+msgid "با خبر شدن از تغییرات محصول"
+msgstr ""
+
+#: inc/functions/encode/_init-10.php:38
+msgid "مقایسه محصول"
+msgstr ""
+
+#: inc/functions/encode/_init-10.php:57
+msgid "صفحه محصول"
+msgstr ""
+
+#: inc/functions/encode/_init-10.php:65
+msgid "ایمیل با موفقیت ارسال شد!"
+msgstr ""
+
+#: inc/functions/encode/_init-10.php:134
+msgid "خیلی خوب"
+msgstr ""
+
+#: inc/functions/encode/_init-10.php:249
+msgid "دیدگاهی پیدا نشد!"
+msgstr ""
+
+#: inc/functions/encode/_init-10.php:268
+msgid "سربرگ کنونی"
+msgstr ""
+
+#: inc/functions/encode/_init-10.php:273
+msgid "پابرگ کنونی"
+msgstr ""
+
+#: inc/functions/encode/_init-10.php:320
+msgid "گالری متغیر"
+msgstr ""
+
+#: inc/functions/encode/_init-10.php:335
+msgid "اضافه کردن"
+msgstr ""
+
+#: inc/functions/encode/_init-2.php:24 inc/functions/encode/_init-8.php:366
+msgid "سبد خرید"
+msgstr ""
+
+#: inc/functions/encode/_init-2.php:59
+msgid "گروه"
+msgstr ""
+
+#: inc/functions/encode/_init-2.php:99
+msgid " فروشنده:"
+msgstr ""
+
+#: inc/functions/encode/_init-2.php:105
+msgid "SKU:"
+msgstr ""
+
+#: inc/functions/encode/_init-2.php:105
+#: woocommerce/order/order-details-customer.php:35
+#: woocommerce/order/order-details-customer.php:53
+msgid "N/A"
+msgstr ""
+
+#: inc/functions/encode/_init-2.php:221 inc/functions/encode/_init-7.php:239
+#: woocommerce/content-product.php:50
+msgid "ناموجود"
+msgstr ""
+
+#: inc/functions/encode/_init-2.php:257
+msgid "حراج"
+msgstr ""
+
+#: inc/functions/encode/_init-2.php:260 inc/functions/encode/_init-9.php:456
+msgid "سه بعدی"
+msgstr ""
+
+#: inc/functions/encode/_init-2.php:451 inc/functions/encode/_init-6.php:384
+msgid "محصولی یافت نشد!"
+msgstr ""
+
+#: inc/functions/encode/_init-2.php:464
+msgid "بررسی ها"
+msgstr ""
+
+#: inc/functions/encode/_init-2.php:524
+#: woocommerce/single-product/tabs/description.php:64
+msgid "نقاط قوت"
+msgstr ""
+
+#: inc/functions/encode/_init-2.php:531
+#: woocommerce/single-product/tabs/description.php:76
+msgid "نقاط ضعف"
+msgstr ""
+
+#: inc/functions/encode/_init-3.php:6
+msgid "مشاهده سریع محصول"
+msgstr ""
+
+#: inc/functions/encode/_init-3.php:51 inc/functions/encode/_init-5.php:68
+#: inc/functions/encode/_init-7.php:188 inc/functions/encode/_init-7.php:190
+#: woocommerce/single-product/additional-products.php:105
+msgid "افزودن به سبد خرید"
+msgstr ""
+
+#: inc/functions/encode/_init-3.php:67
+msgid "مشاهده محصول"
+msgstr ""
+
+#: inc/functions/encode/_init-3.php:89 woocommerce/myaccount/form-login.php:82
+msgid "ورود به حساب کاربری"
+msgstr ""
+
+#: inc/functions/encode/_init-3.php:95
+msgid "نام کاربری یا ایمیل"
+msgstr ""
+
+#: inc/functions/encode/_init-3.php:103
+msgid "گذرواژه"
+msgstr ""
+
+#: inc/functions/encode/_init-3.php:111
+msgid "مرا به خاطر بسپار"
+msgstr ""
+
+#: inc/functions/encode/_init-3.php:114
+msgid "رمز عبور خود را فراموش کرده اید؟"
+msgstr ""
+
+#: inc/functions/encode/_init-3.php:120 inc/functions/encode/_init-8.php:263
+#: woocommerce/myaccount/form-login.php:69
+msgid "ثبت نام"
+msgstr ""
+
+#: inc/functions/encode/_init-3.php:122
+msgid "ورود به حساب "
+msgstr ""
+
+#: inc/functions/encode/_init-4.php:66
+msgid "ثابت"
+msgstr ""
+
+#: inc/functions/encode/_init-4.php:68
+msgid "افزایش"
+msgstr ""
+
+#: inc/functions/encode/_init-4.php:70
+msgid "کاهش"
+msgstr ""
+
+#: inc/functions/encode/_init-4.php:400
+msgid "تغییرات"
+msgstr ""
+
+#: inc/functions/encode/_init-4.php:421
+msgid "تغییرات قیمت محصول"
+msgstr ""
+
+#: inc/functions/encode/_init-4.php:430
+msgid "قیمت ها"
+msgstr ""
+
+#: inc/functions/encode/_init-4.php:440
+msgid "تاریخ"
+msgstr ""
+
+#: inc/functions/encode/_init-4.php:458
+msgid "قیمت:"
+msgstr ""
+
+#: inc/functions/encode/_init-5.php:99
+msgid "وارد شدید! درحال انتقال..."
+msgstr ""
+
+#: inc/functions/encode/_init-5.php:116
+msgid "ایمیل وارد شده اشتباه است!"
+msgstr ""
+
+#: inc/functions/encode/_init-5.php:142
+msgid "خطا هنگام ورود، مجددا تلاش کنید!"
+msgstr ""
+
+#: inc/functions/encode/_init-5.php:149
+msgid "نام کاربری وارد شده اشتباه است."
+msgstr ""
+
+#: inc/functions/encode/_init-5.php:170
+msgid "مشکلی هنگام ورود به وجود آمده است، لطفا مجددا سعی نمایید."
+msgstr ""
+
+#: inc/functions/encode/_init-5.php:181
+msgid "رمز عبور وارد شده صحیح نمی باشد!"
+msgstr ""
+
+#: inc/functions/encode/_init-5.php:183
+msgid "کاربری با مشخصات وارد شده یافت نشد!"
+msgstr ""
+
+#: inc/functions/encode/_init-5.php:185
+msgid "مشکلی هنگام ورود به وجود آمده است!"
+msgstr ""
+
+#: inc/functions/encode/_init-6.php:206
+msgid "(optional)"
+msgstr ""
+
+#: inc/functions/encode/_init-6.php:211
+msgid "نام شما (اجباری)"
+msgstr ""
+
+#: inc/functions/encode/_init-6.php:212
+#: woocommerce/single-product-reviews.php:135
+msgid "نام خود را بنویسید"
+msgstr ""
+
+#: inc/functions/encode/_init-6.php:218
+msgid "ایمیل شما (اجباری)"
+msgstr ""
+
+#: inc/functions/encode/_init-6.php:219
+#: woocommerce/single-product-reviews.php:137
+msgid "ایمیل خود را بنویسید"
+msgstr ""
+
+#: inc/functions/encode/_init-6.php:225
+msgid "اطلاعات مرا در مرورگر ذخیره کن"
+msgstr ""
+
+#: inc/functions/encode/_init-6.php:232
+msgid "متن دیدگاه خود را بنویسید"
+msgstr ""
+
+#: inc/functions/encode/_init-6.php:233
+msgid "نقاط قوت:"
+msgstr ""
+
+#: inc/functions/encode/_init-6.php:233
+msgid "نقاط قوت را بنویسید"
+msgstr ""
+
+#: inc/functions/encode/_init-6.php:234
+msgid "نقاط ضعف:"
+msgstr ""
+
+#: inc/functions/encode/_init-6.php:234
+msgid "نقاط ضعف را بنویسید"
+msgstr ""
+
+#: inc/functions/encode/_init-6.php:322
+msgid "محصول مورد نظر شما به علاقه مندی ها اضافه شد!"
+msgstr ""
+
+#: inc/functions/encode/_init-6.php:329
+msgid "محصول مورد نظر شما از علاقه مندی ها حذف شد!"
+msgstr ""
+
+#: inc/functions/encode/_init-6.php:345
+msgid "افزودن به علاقه مندی ها"
+msgstr ""
+
+#: inc/functions/encode/_init-6.php:347
+msgid "محبوب"
+msgstr ""
+
+#: inc/functions/encode/_init-6.php:366
+msgid "نام محصول"
+msgstr ""
+
+#: inc/functions/encode/_init-6.php:373
+msgid "پاک کردن"
+msgstr ""
+
+#: inc/functions/encode/_init-7.php:201
+msgid "مشکلی هنگام اجرای درخواست پیش آمد!"
+msgstr ""
+
+#: inc/functions/encode/_init-7.php:214
+msgid " به سبد خرید اضافه شد!"
+msgstr ""
+
+#: inc/functions/encode/_init-7.php:235
+msgid "بزودی"
+msgstr ""
+
+#: inc/functions/encode/_init-7.php:394
+msgid "رنگبندی ها"
+msgstr ""
+
+#: inc/functions/encode/_init-8.php:116
+msgid "جستجو در سایت"
+msgstr ""
+
+#: inc/functions/encode/_init-8.php:143 inc/functions/encode/_init-8.php:300
+msgid "دسته بندی ها"
+msgstr ""
+
+#: inc/functions/encode/_init-8.php:148
+msgid "همه دسته ها"
+msgstr ""
+
+#: inc/functions/encode/_init-8.php:160
+msgid "وضعیت محصول"
+msgstr ""
+
+#: inc/functions/encode/_init-8.php:162
+msgid "همه محصولات"
+msgstr ""
+
+#: inc/functions/encode/_init-8.php:163 woocommerce/product-searchform.php:37
+msgid "فقط موجود ها"
+msgstr ""
+
+#: inc/functions/encode/_init-8.php:200
+msgid " عزیز، خوش آمدید!"
+msgstr ""
+
+#: inc/functions/encode/_init-8.php:200
+msgid "لطفا وارد حساب خود شوید!"
+msgstr ""
+
+#: inc/functions/encode/_init-8.php:211 inc/functions/encode/_init-8.php:216
+msgid "حساب کاربری"
+msgstr ""
+
+#: inc/functions/encode/_init-8.php:234
+msgid "پنل فروشندگان"
+msgstr ""
+
+#: inc/functions/encode/_init-8.php:238
+msgid "پنل کاربری"
+msgstr ""
+
+#: inc/functions/encode/_init-8.php:239
+msgid "سفارشات من"
+msgstr ""
+
+#: inc/functions/encode/_init-8.php:253
+msgid "تنظیمات"
+msgstr ""
+
+#: inc/functions/encode/_init-8.php:254
+msgid "خروج"
+msgstr ""
+
+#: inc/functions/encode/_init-8.php:260
+msgid "ورود به حساب"
+msgstr ""
+
+#: inc/functions/encode/_init-9.php:515
+msgid "ارسال به شبکه های اجتماعی"
+msgstr ""
+
+#: inc/functions/encode/_init-9.php:515
+msgid "اشتراک گذاری در شبکه های اجتماعی"
+msgstr ""
+
+#: inc/functions/encode/_init-9.php:521
+msgid "کپی به کلیپ بورد"
+msgstr ""
+
+#: inc/functions/encode/_init-9.php:530
+msgid "ارسال"
+msgstr ""
+
+#: inc/functions/encode/_init-9.php:540
+msgid "اشتراک گذاری"
+msgstr ""
+
+#: inc/functions/encode/_init-9.php:541
+msgid "اشتراک گذاری محصول با دوستان خود"
+msgstr ""
+
+#: inc/functions/encode/_init-9.php:543
+msgid "ارسال از طریق ایمیل"
+msgstr ""
+
+#: inc/functions/encode/_init-9.php:544
+msgid "می توانید از طریق ایمیل به دوستان خود ارسال نمائید!"
+msgstr ""
+
+#: inc/functions/encode/_init-9.php:547
+msgid "به آدرس"
+msgstr ""
+
+#: inc/functions/encode/_init-9.php:552
+msgid "ارسال ایمیل"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/banners/options.php:30
+#: inc/unyson/extensions/shortcodes/shortcodes/media-image/options.php:8
+msgid "Choose Image"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/banners/options.php:31
+#: inc/unyson/extensions/shortcodes/shortcodes/media-image/options.php:9
+msgid ""
+"Either upload a new, or choose an existing image from your media library"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/banners/options.php:38
+#: inc/unyson/extensions/shortcodes/shortcodes/media-image/options.php:33
+msgid "Image Link"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/banners/options.php:39
+#: inc/unyson/extensions/shortcodes/shortcodes/media-image/options.php:34
+msgid "Where should your image link to?"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/banners/options.php:43
+#: inc/unyson/extensions/shortcodes/shortcodes/media-image/options.php:38
+msgid "Open Link in New Window"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/banners/options.php:44
+#: inc/unyson/extensions/shortcodes/shortcodes/media-image/options.php:39
+msgid "Select here if you want to open the linked page in a new window"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/banners/options.php:47
+#: inc/unyson/extensions/shortcodes/shortcodes/media-image/options.php:42
+msgid "Yes"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/banners/options.php:51
+#: inc/unyson/extensions/shortcodes/shortcodes/media-image/options.php:46
+msgid "No"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/blog-main/views/view.php:74
+msgid "صفحات:"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/divider/config.php:6
+msgid "Divider"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/divider/config.php:7
+msgid "Add a Divider"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/divider/config.php:8
+#: inc/unyson/extensions/shortcodes/shortcodes/text-block/config.php:10
+#: inc/unyson/extensions/shortcodes/shortcodes/widget-area/config.php:10
+msgid "Content Elements"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/divider/options.php:13
+msgid "Ruler Type"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/divider/options.php:14
+msgid "Here you can set the styling and size of the HR element"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/divider/options.php:16
+msgid "Line"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/divider/options.php:17
+msgid "Whitespace"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/divider/options.php:24
+#: inc/unyson/extensions/shortcodes/shortcodes/media-image/options.php:22
+msgid "Height"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/divider/options.php:25
+msgid ""
+"How much whitespace do you need? Enter a pixel value. Positive value will "
+"increase the whitespace, negative value will reduce it. eg: '50', '-25', "
+"'200'"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/grid-products/views/view.php:133
+msgid " بارگذاری بیشتر "
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/media-image/config.php:7
+msgid "Add an Image"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/media-image/config.php:8
+msgid "Media Elements"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/media-image/options.php:16
+msgid "Width"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/media-image/options.php:17
+msgid "Set image width"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/media-image/options.php:23
+msgid "Set image height"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/class-fw-shortcode-section.php:43
+#: inc/unyson/extensions/shortcodes/shortcodes/section/config.php:5
+msgid "Layout Elements"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/class-fw-shortcode-section.php:44
+#: inc/unyson/extensions/shortcodes/shortcodes/section/config.php:6
+msgid "Section"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/class-fw-shortcode-section.php:45
+msgid "Creates a section"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/class-fw-shortcode-section.php:86
+#: woocommerce/myaccount/my-address.php:53
+msgid "Edit"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/class-fw-shortcode-section.php:87
+msgid "Duplicate"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/class-fw-shortcode-section.php:88
+msgid "Remove"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/class-fw-shortcode-section.php:89
+msgid "Collapse"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/config.php:7
+msgid "Add a Section"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/includes/template-component/class-fw-ext-builder-templates-component-section.php:12
+msgid "Sections"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/includes/template-component/class-fw-ext-builder-templates-component-section.php:60
+msgid "No Templates Saved"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/includes/template-component/class-fw-ext-builder-templates-component-section.php:63
+msgid "Load Template"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/includes/template-component/class-fw-ext-builder-templates-component-section.php:104
+msgid "Template Name"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/includes/template-component/class-fw-ext-builder-templates-component-section.php:105
+msgid "Save Section"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/includes/template-component/class-fw-ext-builder-templates-component-section.php:106
+msgid "Save as Template"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/includes/template-component/class-fw-ext-builder-templates-component-section.php:188
+msgid "No Title"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/options.php:7
+msgid "Full Width"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/options.php:69
+msgid "Background Color"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/options.php:70
+msgid "Please select the background color"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/options.php:74
+msgid "Background Image"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/section/options.php:75
+msgid "Please select the background image"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/slider-amazings/views/view.php:13
+msgid "پیشنهاد های شگفت انگیز"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/slider-amazings/views/view.php:210
+msgid "تمام شد!"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/slider-amazings/views/view.php:217
+msgid "فروش: "
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/slider-amazings/views/view.php:218
+msgid "موجودی: "
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/slider-amazings/views/view.php:218
+msgid "نامحدود"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/text-block/config.php:8
+msgid "Text Block"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/text-block/config.php:9
+msgid "Add a Text Block"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/text-block/options.php:9
+msgid "Content"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/text-block/options.php:10
+msgid "Enter some content for this texblock"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/widget-area/config.php:8
+msgid "Widget Area"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/widget-area/config.php:9
+msgid "Add a Widget Area"
+msgstr ""
+
+#: inc/unyson/extensions/shortcodes/shortcodes/widget-area/options.php:5
+msgid "Sidebar"
+msgstr ""
+
+#: searchform.php:5
+msgid "جستجو در وبلاگ"
+msgstr ""
+
+#: searchform.php:7
+msgid "جستجو"
+msgstr ""
+
+#: searchform.php:10
+msgid "جستجو در بین محتوای وبلاگ"
+msgstr ""
+
+#: sidebar-shop.php:8
+msgid "بستن فیلتر ها"
+msgstr ""
+
+#: sidebar-shop.php:12
+msgid "فیلتر ها"
+msgstr ""
+
+#: single.php:40
+msgid " بازدید"
+msgstr ""
+
+#: template-parts/footer/default-content.php:9
+msgid "تمامی محتوا اعم از مطالب، تصاویر و... متعلق به این سایت می باشد."
+msgstr ""
+
+#: template-parts/page/blog.php:13
+#, php-format
+msgid " نتایج جستجو برای \"%s\""
+msgstr ""
+
+#: template-parts/page/blog.php:15
+msgid "چیزی یافت نشد!"
+msgstr ""
+
+#: woocommerce/archive-product.php:50
+msgid "مرتب سازی بر اساس :"
+msgstr ""
+
+#: woocommerce/archive-product.php:52
+msgid "جدیدترین"
+msgstr ""
+
+#: woocommerce/archive-product.php:53
+msgid "محبوب‌ترین"
+msgstr ""
+
+#: woocommerce/archive-product.php:54
+msgid "رتبه بندی"
+msgstr ""
+
+#: woocommerce/archive-product.php:55
+msgid "ارزان‌ترین"
+msgstr ""
+
+#: woocommerce/archive-product.php:56
+msgid "گران‌ترین"
+msgstr ""
+
+#: woocommerce/archive-product.php:59
+msgid "فقط موجود ها: "
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:31
+msgid "به حساب کاربری خود وارد شوید"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:41
+msgid "Return to shop"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:51
+#, php-format
+msgid "Shipping to %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:52
+msgid "Change address"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:54
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:61
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:63
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:66
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:67
+msgid "Enter a different address"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:28
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:33 woocommerce/cart/cart-totals.php:34
+#: woocommerce/cart/cart.php:125 woocommerce/cart/mini-cart.php:75
+#: woocommerce/checkout/review-order.php:24
+#: woocommerce/checkout/review-order.php:57
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:55 woocommerce/cart/cart-totals.php:56
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:71
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:92 woocommerce/cart/cart-totals.php:93
+#: woocommerce/cart/cart.php:33 woocommerce/checkout/review-order.php:104
+#: woocommerce/myaccount/my-orders.php:16
+#: woocommerce/order/order-details.php:52
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30 woocommerce/cart/cart.php:77
+#: woocommerce/checkout/review-order.php:23
+#: woocommerce/order/order-details.php:51
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:103
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:56 woocommerce/cart/mini-cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:92
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:145 woocommerce/checkout/form-coupon.php:33
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:148 woocommerce/checkout/form-coupon.php:36
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:156
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:85
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:27
+msgid "Proceed to checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:24
+msgid "Calculate shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:31
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:50
+#: woocommerce/cart/shipping-calculator.php:55
+#: woocommerce/cart/shipping-calculator.php:67
+msgid "State / County"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:56
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:76
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:82
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:86
+#: woocommerce/checkout/payment.php:44
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:24
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:28
+msgid "Billing details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:64
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:52
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:31
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:26
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:67
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional information"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:33
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:33
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#. translators: $1 and $2 opening and closing emphasis tags respectively
+#: woocommerce/checkout/payment.php:42
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/loop/orderby.php:24
+msgid "Shop order"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:27
+msgid "Showing the single result"
+msgstr ""
+
+#. translators: %d: total results
+#: woocommerce/loop/result-count.php:30
+#, php-format
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: first result 2: last result 3: total results
+#: woocommerce/loop/result-count.php:35
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/dashboard.php:28
+#, php-format
+msgid ""
+"From your account dashboard you can view your <a href=\"%1$s\">recent "
+"orders</a>, manage your <a href=\"%2$s\">shipping and billing addresses</a>, "
+"and <a href=\"%3$s\">edit your password and account details</a>."
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:38
+msgid "نام و نام خانوادگی:"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:42
+msgid "پست الکترونیک :"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:48
+msgid "شماره تلفن همراه:"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:57
+msgid "ویرایش اطلاعات"
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:41
+msgid "Go shop"
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:43
+msgid "No downloads available yet."
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:37
+msgid "Display name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:38
+msgid ""
+"This will be how your name will be displayed in the account section and in "
+"reviews"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:48
+msgid "Password change"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:51
+msgid "Current password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:55
+msgid "New password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:59
+msgid "Confirm new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:32
+#: woocommerce/order/order-details-customer.php:32
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/order/order-details-customer.php:51
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:49
+msgid "Save address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:60
+msgid "ورود"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:61
+msgid "به"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:70
+msgid "در"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:88
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:92
+#: woocommerce/myaccount/form-login.php:141
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:96
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:102
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:107
+msgid "Log in"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:107
+msgid "ورود به"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:119
+#: woocommerce/myaccount/form-login.php:151
+msgid "ثبت نام در"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:127
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:151
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:25
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:28
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:38
+msgid "Reset password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:25
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:28
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:32
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:45
+msgid "Save"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:41
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:57
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:30
+msgid "Recent orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:55 woocommerce/myaccount/orders.php:49
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#. translators: 1: formatted order total 2: total order items
+#: woocommerce/myaccount/my-orders.php:67 woocommerce/myaccount/orders.php:61
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/navigation.php:41
+msgid " خروج از حساب"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:88
+msgid "Previous"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:92
+msgid "Next"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:100
+msgid "Go to the shop"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:102
+msgid "No order has been made yet."
+msgstr ""
+
+#: woocommerce/order/order-details.php:45
+msgid "Order details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:93
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:25
+msgid "Downloads"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:57
+msgid "&infin;"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:63
+msgid "Never"
+msgstr ""
+
+#: woocommerce/product-searchform.php:37
+msgid "موجود"
+msgstr ""
+
+#: woocommerce/product-searchform.php:42
+msgid "انتخاب دسته بندی"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:57
+msgid "امتیازات کاربران"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:58
+msgid "میانگین امتیازات کاربران به ویژگی های محصول"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+msgid "افزودن دیدگاه جدید"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "مرتب سازی بر اساس:"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:96
+msgid "جدید ترین نظرات"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:97
+msgid "نظر خریداران"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "مفید ترین نظرات"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:103
+msgid "درحال بارگذاری لطفا صبر کنید"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:115
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:128
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:135
+msgid "نام شما:"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:137
+msgid "ایمیل شما:"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:140
+msgid "ثبت دیدگاه"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:147
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:164
+msgid "متن دیدگاه:"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:166
+msgid "امتیاز شما:"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:167
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:168
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:169
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:170
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:171
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:172
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:182
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:49
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variation.php:23
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+
+#: woocommerce/single-product/additional-products.php:96
+msgid "تعداد کل:"
+msgstr ""
+
+#: woocommerce/single-product/additional-products.php:100
+msgid "جمع کل:"
+msgstr ""
+
+#: woocommerce/single-product/attrs.php:6
+msgid "ویژگی های محصول"
+msgstr ""
+
+#: woocommerce/single-product/custom-short-description.php:17
+msgid "معرفی کوتاه"
+msgstr ""
+
+#: woocommerce/single-product/custom-title.php:46
+msgid "فروش موفق"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:29
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:31
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/product-image.php:43
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/product-sale.php:34
+msgid "فروش فوق العاده"
+msgstr ""
+
+#: woocommerce/single-product/product-sale.php:36
+msgid "زمان باقی مانده :"
+msgstr ""
+
+#: woocommerce/single-product/product-sale.php:42
+msgid "اتمام فروش ویژه!"
+msgstr ""
+
+#: woocommerce/single-product/product-thumbnails.php:33
+msgid "دیدن ماکت محصول"
+msgstr ""
+
+#: woocommerce/single-product/related.php:26
+msgid "Related products"
+msgstr ""
+
+#: woocommerce/single-product/review.php:36
+msgid "خریدار این محصول:"
+msgstr ""
+
+#: woocommerce/single-product/review.php:40
+msgid "مدیریت سایت"
+msgstr ""
+
+#: woocommerce/single-product/review.php:43
+msgid "کاربر مهمان"
+msgstr ""
+
+#: woocommerce/single-product/review.php:84
+msgid "آیا این نظر برایتان مفید بود؟"
+msgstr ""
+
+#: woocommerce/single-product/review.php:85
+msgid "بله"
+msgstr ""
+
+#: woocommerce/single-product/review.php:86
+msgid "خیر"
+msgstr ""
+
+#: woocommerce/single-product/stock.php:24
+msgid "موجودی:"
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:28
+msgid "مشخصات"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Negarshop"
+msgstr "نگارشاپ"
+
+#. Description of the plugin/theme
+msgid "پوسته فروشگاهی از سری قالب های نگار"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "پسرک کدنویس"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.coderboy.ir/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "وبلاگ */"
+msgstr ""

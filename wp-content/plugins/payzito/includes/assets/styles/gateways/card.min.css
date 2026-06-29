@@ -1,0 +1,435 @@
+body{
+    background: #f5f5f5 !important;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+.pa-card-gateway{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.pa-card-gateway:before{
+    content: '';
+    width: 100%;
+    height: 70px;
+    background: #2f77eb;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-radius: 0 0 50% 50%;
+}
+.pa-card-parent {
+    padding: 25px 0;
+}
+.pa-card-content{
+    position: relative;
+    width: 1020px;
+    max-width: 98%;
+    margin: 0 auto;
+    z-index: 2;
+    /*padding: 4px;*/
+
+}
+.pa-card-header{
+    margin: 0 0 15px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.pa-card-header > .pa-right img{
+    width: 65px !important;
+    height: auto;
+}
+.pa-card-main{
+    position: relative;
+    margin: 0 auto;
+    border-radius: 8px;
+    min-height: 345px;
+}
+.pa-card-info{
+    width: 380px;
+    padding: 30px 20px 80px;
+    position: relative;
+}
+.pa-card-field label{
+    display: block !important;
+}
+.pa-card-boxes{
+    padding: 20px;
+    width: calc(100% - 395px);
+    min-height: 435px;
+}
+.pa-card-invoice-info{
+    text-align: center;
+}
+.pa-card-info-label{
+    color: #999 !important;
+    font-size: 14px !important;
+    line-height: 24px;
+}
+.pa-card-info-value{
+    color: green;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+.pa-card-code-field{
+    text-align: center;
+    direction: ltr !important;
+}
+.pa-card-code-field input{
+    height: 45px !important;
+    width: 42px !important;
+    border: 1px solid #80868a !important;
+    border-radius: 5px;
+    background-color: #fff !important;
+    margin: auto 5px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.pa-card-field{
+    position: relative;
+    margin: 10px 0 33px;
+}
+.pa-card-field label{
+    position: absolute;
+    background: #fff;
+    top: -8px;
+    right: 16px;
+    padding: 0 6px;
+    font-weight: bold !important;
+    color: #777 !important;
+}
+.pa-card-field input{
+    background: #fff !important;
+    width: 100% !important;
+    border: 1px solid #80867a  !important;
+    box-shadow: unset !important;
+    border-radius: 5px !important;
+    height: 44px !important;
+    text-align: left;
+    direction: ltr;
+    padding: 10px 15px 7px !important;
+}
+.pa-card-box[bid="1"]{
+    padding: 10px 30px;
+}
+.pa-card-box{
+    text-align: center;
+}
+.pa-card-code-desc{
+    font-size: 15px !important;
+    line-height: 32px;
+    margin-top: 10px;
+}
+.pa-card-code-label{
+    font-size: 13px !important;
+    color: #999 !important;
+    margin: 14px auto 20px;
+}
+.pa-card-final-info{
+    font-size: 14px !important;
+    margin-top: 10px !important;
+}
+/*.pa-card-boxes .pa-card-box:not(:nth-child(1)){
+    display: none;
+}*/
+.pa-card-btn{
+    height: 42px;
+    line-height: 42px;
+    border-radius: 5px;
+    background: #38c88a;
+    text-align: center;
+    font-size: 14px !important;
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 13px;
+}
+.pa-card-cancel-btn{
+    border: 2px solid #e38585;
+    color: #e38585!important;
+    background: #fff4f4;
+    line-height: 40px;
+    width: 200px;
+}
+.pa-card-field-msg{
+    text-align: right;
+    font-size: 11px !important;
+    color: #b00022;
+    line-height: 18px;
+    margin: 2px 5px 0;
+}
+.pa-card-field[stat="0"] label{
+    color: #b00022 !important;
+}
+.pa-card-field[stat="0"] input{
+    border-color: #b00022 !important;
+}
+.pa-card-field[stat="1"] label{
+    color: #008000 !important;
+}
+.pa-card-field[stat="1"] input{
+    border-color: #008000 !important;
+}
+.pa-card-base-info{
+    text-align: center;
+}
+.pa-card-base-info img{
+    background: #e5e5e5;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 0 auto;
+    display: block !important;
+    width: 100px !important;
+    height: auto !important;
+}
+.pa-card-base-info div{
+    font-size: 14px !important;
+    color: #444;
+    margin: 10px 0 30px;
+    font-weight: bold;
+}
+.pa-card-confirm-code{
+    width: 140px !important;
+    margin: 30px auto 0;
+}
+.pa-card-final-loading{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 3px solid #f7f7f7;
+}
+.pa-card-final-loading div{
+    font-size: 14px !important;
+    margin-top: 25px;
+}
+.pa-card-final-loading img{
+    width: 30px;
+}
+.pa-card-final-info{
+    font-size: 14px;
+}
+.pa-card-name{
+    font-size: 14px !important;
+    font-weight: bold;
+}
+.pa-card-name-parent{
+    text-align: right !important;
+    padding: 20px 34px 0;
+}
+.pa-card-name-parent span{
+    color: #000 !important;
+    font-size: 14px;
+}
+.pa-card-card{
+    width: 80%;
+    background: rgba(255,255,255,.2);
+    border-radius: 5px;
+    height: 40px;
+    direction: ltr !important;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px !important;
+    line-height: 42px;
+    font-weight: bold;
+    color: #282828 !important;
+}
+.pa-card-final-amount{
+    margin-top: 15px;
+}
+.pa-card-final-amount span{
+    color: #098109 !important;
+    font-weight: bold;
+    font-size: 22px !important;
+}
+.pa-card-final-amount span:nth-child(2){
+    font-size: 18px !important;
+}
+.pa-card-final-desc{
+    margin-top: 5px;
+}
+.pa-card-bg{
+    background: #fff;
+    box-shadow: 0 0 11px -3px rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+.pa-card-header-title{
+    text-align: center;
+    position: absolute;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 44px;
+}
+.pa-card-header-title div:nth-child(1){
+    font-size: 15px;
+    font-weight: bold;
+    color: #555;
+}
+.pa-card-header-title div:nth-child(2){
+    font-size: 12px;
+    color: #ababab;
+}
+.pa-card-timer{
+    margin: 0 0 15px;
+    background: #f5f5f5;
+    padding: 10px 13px;
+    border-radius: 5px;
+}
+.pa-card-step[sid="2"] .pa-card-step-content,
+.pa-card-step[sid="3"] .pa-card-step-content,
+.pa-card-step[sid="4"] .pa-card-step-content{
+    text-align: center;
+}
+.pa-card-step-content{
+    position: relative;
+    padding: 15px 60px 20px;
+}
+.pa-card-step-content:before{
+    content: '';
+    position: absolute;
+    background: #eee;
+    width: 2px;
+    height: 100%;
+    display: block;
+    top: 0;
+    bottom: 0;
+    right: 18px;
+    display: none;
+}
+.pa-card-step-header{
+    position: relative;
+    height: 40px;
+    margin: 7px 0;
+    padding-right: 52px;
+    display: none;
+}
+.pa-card-step-icon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    right: 0;
+}
+.pa-card-step-title {
+    color: #2f77eb !important;
+    background: #2f77eb14;
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 7px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.pa-card-rules{
+    padding: 10px 0 0;
+    border-top: 2px solid #f5f5f5;
+}
+.pa-card-data{
+    margin: 20px 0;
+}
+.pa-card-data-row{
+    line-height: 30px;
+    padding-right: 14px;
+}
+.pa-card-data-row:before {
+    position: absolute;
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #f5c57c;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.pa-card-data-title{
+    min-width: 130px;
+    color: #999 !important;
+}
+.pa-card-data-value{
+    font-weight: bold;
+    color: #626262 !important;
+}
+.pa-card-step .pa-card-step-content{
+    display: none;
+}
+.pa-card-step[sid="1"] .pa-card-step-content{
+    display: block;
+}
+.pa-card-info-actions{
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 26px;
+}
+.pa-card-send-again{
+    margin-top: 14px;
+}
+.pa-card-admin-info{
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 340px;
+    height: 180px;
+    padding-top: 70px !important;
+    background-image: url("../../images/tejarat.png");
+}
+.pa-card-success-ref{
+    margin-top: 2px;
+    color: #686868 !important;
+    font-size: 13px !important;
+}
+.pa-card-success-msg{
+    font-size: 15px !important;
+    margin-top: 26px;
+    color: #037c03 !important;
+}
+.pa-card-success-icon{
+    margin-top: 50px;
+}
+.pa-card-msg .pa-log-msg{
+    width: 100% !important;
+    font-size: 14px !important;
+    text-align: center;
+    height: 40px;
+    line-height: 40px !important;
+    padding: 0 10px !important;
+}
+.pa-card-site-logo{
+    width: 124px;
+    height: 124px;
+    margin: 0 auto;
+}
+.pa-card-site-logo img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}

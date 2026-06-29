@@ -1,0 +1,74 @@
+{
+    "770abaae8139f9df": {
+        "hash": "770abaae8139f9df",
+        "text": "str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated \/home\/sirstore\/public_html\/wp-content\/plugins\/payzito\/includes\/libraries\/cms.php in line : 0",
+        "time": 1707155198,
+        "version": "1.1.18",
+        "viewable": 1,
+        "count": 5
+    },
+    "e4c5d198cce88d13": {
+        "hash": "e4c5d198cce88d13",
+        "text": "Undefined variable $isLocalTrial \/home\/sirstore\/public_html\/wp-content\/plugins\/payzito\/includes\/views\/admin\/general\/menus.php in line : 0",
+        "time": 1701002393,
+        "version": "1.1.15",
+        "viewable": 0,
+        "count": 1
+    },
+    "89d4da314d466e0b": {
+        "hash": "89d4da314d466e0b",
+        "text": "The file \/home\/sirstore\/public_html\/wp-content\/plugins\/rtl-theme\/lib\/rtl_theme_class.php encoded as type [1\/72] cannot be decoded by this version of the ionCube Loader.\n Unknown in line : 0",
+        "time": 1702204031,
+        "version": "1.1.17",
+        "viewable": 1,
+        "count": 6
+    },
+    "cc5d685eac5cada2": {
+        "hash": "cc5d685eac5cada2",
+        "text": "openssl_encrypt(): Passing null to parameter #1 ($data) of type string is deprecated \/home\/sirstore\/public_html\/wp-content\/plugins\/payzito\/includes\/libraries\/cms.php in line : 0",
+        "time": 1703451189,
+        "version": "1.1.17",
+        "viewable": 1,
+        "count": 4
+    },
+    "e38bdf5ee925ebe7": {
+        "hash": "e38bdf5ee925ebe7",
+        "text": "خطای دریافتی از سرور : متاسفانه افزونه پِی زیتو تجاری وردپرس در لیست محصولات شما وجود ندارد.",
+        "time": 1703451189,
+        "version": "1.1.17",
+        "viewable": 1,
+        "count": 1
+    },
+    "82938f182f9fe82e": {
+        "hash": "82938f182f9fe82e",
+        "text": "خطای دریافتی از سرور : پِی زیتو شما به روز نیست. لطفا ابتدا پِی زیتو خود را به آخرین نسخه بروزرسانی نمایید.",
+        "time": 1710163876,
+        "version": "1.1.18",
+        "viewable": 1,
+        "count": 1
+    },
+    "0ee0081d5d41e3aa": {
+        "hash": "0ee0081d5d41e3aa",
+        "text": "CURL ERROR : [28] Resolving timed out after 12000 milliseconds",
+        "time": 1713420817,
+        "version": "1.1.21",
+        "viewable": 1,
+        "count": 2
+    },
+    "f42a9ed91ffd945e": {
+        "hash": "f42a9ed91ffd945e",
+        "text": "Undefined array key 0 \/home\/sirstore\/public_html\/wp-content\/plugins\/payzito\/includes\/libraries\/field.php in line : 0",
+        "time": 1716876794,
+        "version": "1.1.24",
+        "viewable": 0,
+        "count": 1
+    },
+    "2cc68b84dfb8d741": {
+        "hash": "2cc68b84dfb8d741",
+        "text": "Undefined array key \"HTTP_HOST\" \/home\/sirstore\/public_html\/wp-content\/plugins\/payzito\/includes\/cms\/wordpress\/libraries\/wordpress.php in line : 0",
+        "time": 1717383586,
+        "version": "1.1.24",
+        "viewable": 0,
+        "count": 6
+    }
+}

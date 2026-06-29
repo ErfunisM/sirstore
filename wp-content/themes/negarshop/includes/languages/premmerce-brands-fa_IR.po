@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-07-19 16:38+0300\n"
+"PO-Revision-Date: 2018-07-23 13:04+0430\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Last-Translator: \n"
+"Language: fa_IR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: freemius\n"
+"X-Poedit-SearchPathExcluded-1: build\n"
+
+#: src/Admin/Admin.php:78
+msgid "Brands settings"
+msgstr "تنظیمات برند"
+
+#: src/Admin/Admin.php:90
+msgid "Brands base"
+msgstr "مارک های پایه"
+
+#: src/Admin/Admin.php:121
+msgid "You can customize your brand url segment"
+msgstr "شما می توانید بخش آدرس نام تجاری خود را سفارشی"
+
+#: src/Admin/Admin.php:187
+msgid "Image"
+msgstr "عكس"
+
+#: src/BrandsPlugin.php:54 src/BrandsPlugin.php:64
+#: views/admin/brands-quick-edit.php:5
+msgid "Brands"
+msgstr "برندها"
+
+#: src/BrandsPlugin.php:55 views/admin/brands-bulk-edit.php:5
+#: views/frontend/brands-meta.php:3
+msgid "Brand"
+msgstr "برند"
+
+#: src/BrandsPlugin.php:56
+msgid "Search brands"
+msgstr "جستجوی برند"
+
+#: src/BrandsPlugin.php:57
+msgid "All brands"
+msgstr "تمامی برندها"
+
+#: src/BrandsPlugin.php:58
+msgid "Parent brand"
+msgstr "برند مادر"
+
+#: src/BrandsPlugin.php:59
+msgid "Parent brand:"
+msgstr "برند مادر:"
+
+#: src/BrandsPlugin.php:60
+msgid "Edit brand"
+msgstr "ویرایش برند"
+
+#: src/BrandsPlugin.php:61
+msgid "Update brand"
+msgstr "به روز رسانی برند"
+
+#: src/BrandsPlugin.php:62
+msgid "Add new brand"
+msgstr "افزودن برند جدید"
+
+#: src/BrandsPlugin.php:63
+msgid "New brand name"
+msgstr "نام برند جدید"
+
+#: src/BrandsPlugin.php:75
+msgid "No brands found"
+msgstr "هیچ مارک یافت نشد"
+
+#: src/BrandsPlugin.php:97
+#, php-format
+msgid "The %s plugin requires %s plugin to be active!"
+msgstr "پلاگین %s نیازمند فعال سازی پلاگین %s دارد"
+
+#: src/Frontend/Widgets/BrandsWidget.php:27
+msgid "Premmerce brands"
+msgstr "برندها"
+
+#: src/Frontend/Widgets/BrandsWidget.php:28
+msgid "A list of brands"
+msgstr "یک لیست از برند ها"
+
+#: views/admin/brands-bulk-edit.php:8
+msgid "— No change —"
+msgstr "— بدون تغییر —"
+
+#: views/admin/brands-bulk-edit.php:9 views/admin/brands-quick-edit.php:7
+#: views/admin/brands-select.php:5
+msgid "Not specified"
+msgstr "مشخص نشده"
+
+#: views/admin/brands-filter-select.php:4
+msgid "Filter by brand"
+msgstr "فیلتر بر اساس برند محصول"
+
+#: views/admin/brands-widget-form.php:4
+msgid "Title"
+msgstr "عنوان"
+
+#: views/admin/brands-widget-form.php:9
+msgid "Mode"
+msgstr "حالت"
+
+#: views/admin/brands-widget-form.php:12
+msgid "Auto"
+msgstr "خودکار"
+
+#: views/admin/brands-widget-form.php:13
+msgid "Custom"
+msgstr "سفارشی"
+
+#: views/admin/brands-widget-form.php:20
+msgid "Only with photo"
+msgstr "تنها همراه با تصویر"
+
+#: views/admin/brands-widget-form.php:23
+msgid "Limit"
+msgstr "حدود"
+
+#: views/admin/brands-widget-form.php:30
+msgid "Selected"
+msgstr "انتخاب شده"
+
+#: views/admin/create-brands-fields.php:4 views/admin/edit-brands-fields.php:4
+msgid "Thumbnail"
+msgstr "بند انگشتی"
+
+#: views/admin/create-brands-fields.php:8 views/admin/edit-brands-fields.php:9
+msgid "Upload/Add image"
+msgstr "آپلود/افزودن تصویر"
+
+#: views/admin/create-brands-fields.php:9 views/admin/edit-brands-fields.php:10
+msgid "Remove image"
+msgstr "حذف تصویر"
+
+#: views/admin/create-brands-fields.php:12
+#: views/admin/edit-brands-fields.php:13
+msgid "Choose an image"
+msgstr "یک تصویر انتخاب کنید"
+
+#: views/admin/create-brands-fields.php:13
+#: views/admin/edit-brands-fields.php:14
+msgid "Use image"
+msgstr "استفاده از تصویر"
+
+#: views/frontend/brands-page.php:20
+msgid "No brands ware found."
+msgstr "هیچ سازنده ای یافت نشد"

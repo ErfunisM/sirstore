@@ -1,0 +1,63 @@
+body, html {
+    direction: rtl;
+    text-align: right;
+    font-family: Vazir, sans-serif;
+}
+
+.print-area {
+    padding: 30px;
+    border-radius: 15px;
+    border: #ddd 1px dashed;
+    background: #fff;
+    line-height: 2rem;
+}
+
+.print-area .print-object {
+    background: #fff;
+}
+
+.factor-customer .factor-header .header-logo {
+    width: 160px;
+    height: auto;
+}
+
+.print-area td {
+    line-height: 2.4rem;
+}
+
+.factor-post .divider {
+    height: 15px;
+    background: rgb(0, 191, 255);
+    background: linear-gradient(60deg, rgba(0, 191, 255, 1) 0%, rgba(0, 191, 255, 1) 15%, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 30%, rgba(172, 241, 127, 1) 30%, rgba(172, 241, 127, 1) 50%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 65%, rgba(255, 177, 0, 1) 65%, rgba(255, 177, 0, 1) 80%, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 1) 95%, rgba(0, 191, 255, 1) 95%);
+    background-size: 200px;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.print-mode .hide-in-print {
+    display: none !important;
+}
+
+.print-mode .print-area {
+    padding: 0;
+    border-radius: 0;
+    border: none;
+}
+
+.woocommerce-Price-amount, .woocommerce-Price-amount * {
+    unicode-bidi: plaintext;
+}
+
+@media print {
+    .hide-in-print {
+        display: none !important;
+    }
+
+    .print-area {
+        padding: 0;
+        border-radius: 0;
+        border: none;
+    }
+}

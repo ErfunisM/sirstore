@@ -1,0 +1,77 @@
+
+
+# BEGIN LSCACHE
+# END LSCACHE
+# BEGIN NON_LSCACHE
+# END NON_LSCACHE
+
+# http to https by SirstoreWP
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://sirstore.ir/$1 [R,L]
+
+# This file was updated by Duplicator on 2023-09-30 11:40:11.
+# See the original_files_ folder for the original source_site_htaccess file.
+# BEGIN WordPress
+# دستورالعمل‌های (خطوط) بین "BEGIN WordPress" و "END WordPress"
+# به طور پویا تولید شده‌اند، و فقط باید به وسیلهٔ صافی‌های وردرپرس ویرایش شوند.
+# هر تغییری در دستورالعمل‌های بین این نشان‌گرها بازنویشی خواهند شد.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php8_module>
+php_flag display_errors Off
+php_value max_execution_time 30
+php_value max_input_time 60
+php_value max_input_vars 1000
+php_value memory_limit 128M
+php_value post_max_size 30720M
+php_value session.gc_maxlifetime 1440
+php_value session.save_path "/var/cpanel/php/sessions/ea-php81"
+php_value upload_max_filesize 30720M
+php_flag zlib.output_compression Off
+</IfModule>
+<IfModule lsapi_module>
+php_flag display_errors Off
+php_value max_execution_time 30
+php_value max_input_time 60
+php_value max_input_vars 1000
+php_value memory_limit 128M
+php_value post_max_size 30720M
+php_value session.gc_maxlifetime 1440
+php_value session.save_path "/var/cpanel/php/sessions/ea-php81"
+php_value upload_max_filesize 30720M
+php_flag zlib.output_compression Off
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+RewriteCond %{HTTP_REFERER} !^http://sirstore.ir/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://sirstore.ir$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.sirstore.ir/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.sirstore.ir$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://sirstore.ir/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://sirstore.ir$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.sirstore.ir/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.sirstore.ir$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+
+# BEGIN seraphinite-accelerator
+# دستورالعمل‌های (خطوط) بین "BEGIN seraphinite-accelerator" و "END seraphinite-accelerator"
+# به طور پویا تولید شده‌اند، و فقط باید به وسیلهٔ صافی‌های وردرپرس ویرایش شوند.
+# هر تغییری در دستورالعمل‌های بین این نشان‌گرها بازنویشی خواهند شد.
+
+# END seraphinite-accelerator
+

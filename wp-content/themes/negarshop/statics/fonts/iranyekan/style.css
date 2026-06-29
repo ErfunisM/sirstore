@@ -1,0 +1,21 @@
+@font-face {
+	font-family: IRANYekan;
+	src: url("5bea6c32.eot?#iefix") format("embedded-opentype"), url("1fdcadec.woff2") format("woff2"), url("56a1baa4.woff") format("woff"), url("79533773.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: IRANYekan;
+	src: url("699085bd.eot?#iefix") format("embedded-opentype"), url("a80f71ff.woff2") format("woff2"), url("088dfe8a.woff") format("woff"), url("2c83275a.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+}
+@font-face {
+	font-family: IRANYekan;
+	src: url("7c912e00.eot?#iefix") format("embedded-opentype"), url("fe12f13a.woff2") format("woff2"), url("2d7cc7cd.woff") format("woff"), url("a7d41f91.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}

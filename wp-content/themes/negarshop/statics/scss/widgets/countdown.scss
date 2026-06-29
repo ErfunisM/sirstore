@@ -1,0 +1,45 @@
+.widget-negarshop-countdown {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  direction: ltr;
+
+  .countdown-item {
+    .item-value {
+      display: flex;
+      width: 60px;
+      height: 60px;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      color: #444;
+      border-radius: 50%;
+      font-size: 1.125rem;
+      font-weight: 600;
+    }
+
+    &:last-of-type {
+      .item-value {
+        background-color: var(--ns-primary);
+        color: #fff;
+        font-size: 1.3rem;
+        animation: zoom 1s infinite;
+      }
+    }
+
+    .item-label {
+      display: block;
+      text-align: center;
+      font-size: 0.8rem;
+      font-weight: normal;
+      color: #444;
+      margin-top: 5px;
+    }
+  }
+
+  &:not(.initialized) {
+    .countdown-item .item-value {
+      font-size: 0 !important;
+    }
+  }
+}

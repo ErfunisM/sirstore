@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "\/home\/sirstore\/public_html\/wp-content\/uploads\/wpo_wcpdf_be9474b6a6ab1b91b0060a5ae50df89d\/fonts\/OpenSans-Normal",
+        "bold": "\/home\/sirstore\/public_html\/wp-content\/uploads\/wpo_wcpdf_be9474b6a6ab1b91b0060a5ae50df89d\/fonts\/OpenSans-Bold",
+        "italic": "\/home\/sirstore\/public_html\/wp-content\/uploads\/wpo_wcpdf_be9474b6a6ab1b91b0060a5ae50df89d\/fonts\/OpenSans-Italic",
+        "bold_italic": "\/home\/sirstore\/public_html\/wp-content\/uploads\/wpo_wcpdf_be9474b6a6ab1b91b0060a5ae50df89d\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "\/home\/sirstore\/public_html\/wp-content\/uploads\/wpo_wcpdf_be9474b6a6ab1b91b0060a5ae50df89d\/fonts\/Segoe-Normal",
+        "bold": "\/home\/sirstore\/public_html\/wp-content\/uploads\/wpo_wcpdf_be9474b6a6ab1b91b0060a5ae50df89d\/fonts\/Segoe-Bold",
+        "italic": "\/home\/sirstore\/public_html\/wp-content\/uploads\/wpo_wcpdf_be9474b6a6ab1b91b0060a5ae50df89d\/fonts\/Segoe-Italic",
+        "bold_italic": "\/home\/sirstore\/public_html\/wp-content\/uploads\/wpo_wcpdf_be9474b6a6ab1b91b0060a5ae50df89d\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "\/home\/sirstore\/public_html\/wp-content\/uploads\/wpo_wcpdf_be9474b6a6ab1b91b0060a5ae50df89d\/fonts\/RobotoSlab-Normal",
+        "bold": "\/home\/sirstore\/public_html\/wp-content\/uploads\/wpo_wcpdf_be9474b6a6ab1b91b0060a5ae50df89d\/fonts\/RobotoSlab-Bold",
+        "italic": "\/home\/sirstore\/public_html\/wp-content\/uploads\/wpo_wcpdf_be9474b6a6ab1b91b0060a5ae50df89d\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "\/home\/sirstore\/public_html\/wp-content\/uploads\/wpo_wcpdf_be9474b6a6ab1b91b0060a5ae50df89d\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "\/home\/sirstore\/public_html\/wp-content\/uploads\/wpo_wcpdf_be9474b6a6ab1b91b0060a5ae50df89d\/fonts\/currencies",
+        "bold": "\/home\/sirstore\/public_html\/wp-content\/uploads\/wpo_wcpdf_be9474b6a6ab1b91b0060a5ae50df89d\/fonts\/currencies",
+        "italic": "\/home\/sirstore\/public_html\/wp-content\/uploads\/wpo_wcpdf_be9474b6a6ab1b91b0060a5ae50df89d\/fonts\/currencies",
+        "bold_italic": "\/home\/sirstore\/public_html\/wp-content\/uploads\/wpo_wcpdf_be9474b6a6ab1b91b0060a5ae50df89d\/fonts\/currencies"
+    }
+}

@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'DimaFred';
+  src: url('DimaFred.ttf');
+  src: url('DimaFred.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

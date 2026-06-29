@@ -1,0 +1,368 @@
+.site-bottom-bar {
+  #responsive-footer-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, .1) 0 -3px 6px;
+
+
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: flex;
+
+      li {
+        flex: 1;
+        text-align: center;
+
+        a {
+          display: flex;
+          width: 100%;
+          height: 60px;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+          color: #666;
+          flex-direction: column;
+          margin: auto;
+          transition: 0.2s;
+
+          .menu-title {
+            display: block;
+            font-size: 0;
+            transition: 0.2s;
+          }
+
+          i {
+            font-size: 16px;
+          }
+
+          .back-icon {
+            display: none;
+          }
+        }
+
+        &.pending-show a {
+          i {
+            animation: pulse2x .5s infinite;
+            -webkit-animation: pulse2x .5s infinite;
+
+          }
+        }
+      }
+
+      li.active-item {
+        a {
+          color: $primaryColor;
+
+          i {
+            font-weight: 600;
+          }
+
+          .menu-title {
+            font-size: 11px;
+            margin-top: 7px;
+          }
+        }
+      }
+
+      li.back-item {
+        &:not(.show-item) {
+          display: none;
+        }
+
+        &.show-item + li {
+          display: none;
+        }
+      }
+    }
+
+    &.page-is-showing {
+      ul li.current-page a {
+        i {
+          display: none;
+        }
+
+        .back-icon {
+          display: block;
+        }
+      }
+    }
+  }
+
+  #responsive-contents {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+    z-index: 999;
+    background: #fff;
+    padding: 20px;
+    transition: .2s;
+
+    .section-title {
+      margin-bottom: 30px;
+      color: #888;
+      font-weight: 400;
+    }
+
+    &:not(.show-menu) {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    & > div {
+      height: 100%;
+      display: none;
+      padding-bottom: 60px;
+      max-width: 480px;
+      margin: auto;
+      overflow: auto;
+    }
+
+  }
+
+  #responsive-categories-page {
+    .terms-list {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+
+      li {
+        a {
+          display: flex;
+          align-items: center;
+          background: #eee;
+          margin-bottom: 5px;
+          height: 50px;
+          border-radius: 10px;
+          position: relative;
+
+          &:hover {
+            background: #ddd;
+            color: #666;
+          }
+        }
+
+        img {
+          width: 40px;
+          height: 40px;
+          border-radius: 10px;
+          margin-right: 5px;
+        }
+
+        .cat-name {
+          flex: 1;
+          padding-right: 10px;
+        }
+
+        .arrow {
+          display: block;
+          width: 50px;
+          height: 50px;
+          text-align: center;
+          line-height: 50px;
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+
+
+        .children {
+          display: none;
+        }
+      }
+
+      .item-parent {
+        display: flex;
+        align-items: center;
+        padding: 15px 0;
+        color: #666;
+
+        .arrow {
+          position: static !important
+        }
+      }
+    }
+
+    .child-term {
+      display: none;
+    }
+  }
+
+  .responsive-loader {
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    transition: .2s;
+
+    .spinner {
+      margin: 0 auto 15px auto;
+      position: static;
+      animation-duration: .5s;
+    }
+
+    .loader-text {
+      color: #666;
+      font-size: 13px;
+    }
+  }
+
+
+  &--fit {
+
+  }
+
+  &--minimal {
+    #responsive-footer-bar {
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+      border-radius: 60px;
+      box-shadow: rgba(0, 0, 0, .1) 0 3px 6px;
+      padding: 10px;
+
+      ul li {
+        a {
+          height: 40px;
+          border-radius: 60px;
+
+          .menu-title {
+            display: none !important;
+          }
+        }
+
+        &.active-item a {
+          color: #fff;
+          flex-direction: row;
+          background: $primaryColor;
+        }
+      }
+    }
+    #responsive-contents{
+      bottom: 70px;
+      box-shadow: #fff 0 70px 0;
+    }
+  }
+
+  .header-search {
+    position: relative;
+
+    .search-box {
+      .search-options{
+        top: 60px;
+      }
+      .search-input {
+        background-color: #eee;
+      }
+    }
+  }
+}
+
+body:not(.mobile-loading) .responsive-loader {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.product-single-responsive-bar {
+  position: fixed;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+  z-index: 997;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-top: #ddd 1px solid;
+
+  button {
+    height: 40px;
+  }
+
+  .show-actions {
+    width: 40px;
+    margin-right: 5px;
+    font-size: 18px;
+    background-color: transparent !important;
+    color: #666 !important;
+  }
+
+  .show-addtocart {
+    padding: 0 25px;
+  }
+
+  .product-price {
+    flex: 1;
+    padding-left: 5px;
+    font-size: 13px;
+
+    .price-title {
+      color: #999;
+    }
+
+    .price-inner {
+      font-size: 0;
+
+      del {
+        display: none;
+      }
+
+      ins {
+        text-decoration: none;
+      }
+
+      .woocommerce-Price-amount {
+        font-size: 14px;
+        color: $primaryColor;
+        font-weight: bold;
+
+        & ~ .woocommerce-Price-amount {
+          display: none;
+        }
+      }
+    }
+  }
+
+
+  &--minimal {
+    left: 10px;
+    right: 10px;
+    border-radius: 30px;
+    border: none;
+    background: #eee;
+    bottom: 80px;
+    padding: 10px 20px 10px 10px;
+
+    button {
+      border-radius: 60px;
+    }
+  }
+}
+
+.ns-mobile-dimmer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .1);
+  z-index: 999;
+  transition: .2s;
+}

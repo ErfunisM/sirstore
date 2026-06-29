@@ -1,0 +1,30 @@
+@font-face {
+	font-family: Vazir;
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('eot/Vazir-FD.eot');
+	src: url('eot/Vazir-FD.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('woff/Vazir-FD.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('ttf/Vazir-FD.ttf') format('truetype');
+}
+@font-face {
+	font-family: Vazir;
+	font-style: normal;
+	font-weight: bold;
+	font-display: swap;
+	src: url('eot/Vazir-Bold-FD.eot');
+	src: url('eot/Vazir-Bold-FD.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('woff/Vazir-Bold-FD.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('ttf/Vazir-Bold-FD.ttf') format('truetype');
+}
+@font-face {
+	font-family: Vazir;
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url('eot/Vazir-Light-FD.eot');
+	src: url('eot/Vazir-Light-FD.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('woff/Vazir-Light-FD.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('ttf/Vazir-Light-FD.ttf') format('truetype');
+}

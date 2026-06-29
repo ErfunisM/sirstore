@@ -1,0 +1,182 @@
+.mfp-auto-cursor .mfp-content {
+  max-width: 740px;
+}
+
+body .dokan-form-group .ajax_prev {
+  margin-right: 0 !important;
+}
+
+.dokan-single-store .profile-frame .profile-info-box .profile-info-summery-wrapper .profile-info-summery .profile-info .dokan-store-info .dokan-store-open-close .store-open-close-notice,
+.dokan-single-store .profile-frame .profile-info-box .profile-info-summery-wrapper .profile-info-summery .profile-info .dokan-store-info .dokan-store-open-close .store-open-close-notice #vendor-store-times {
+  z-index: 99 !important;
+}
+
+.dokan-dashboard {
+  .dokan-dash-sidebar {
+    ul.dokan-dashboard-menu {
+      li {
+        border-color: #fff !important;
+        margin-bottom: 5px !important;
+        border-radius: 20px;
+        overflow: hidden;
+        background: transparent !important;
+
+        a {
+          color: #666 !important;
+          background: #fff !important;
+          border: none !important;
+          font-weight: 300 !important;
+          font-size: 14px !important;
+          border-radius: 20px;
+          padding: 8px 16px !important;
+          transition: .2s;
+
+          &:not(.tips) {
+            i {
+              padding: 0 !important;
+              margin: 0 0 0 5px !important;
+            }
+          }
+
+          i.pull-right {
+            padding-left: 0 !important;
+            text-align: left !important;
+            margin-left: 0 !important;
+            margin-top: 5px !important;
+          }
+
+          &:hover {
+            background: #eee !important;
+            color: #464646 !important;
+          }
+        }
+      }
+
+      li.active {
+        &>a {
+          background: rgba(255, 2, 102, .1) !important;
+          color: $primaryColor !important;
+        }
+
+        &::after {
+          display: none;
+        }
+      }
+
+      li.dokan-common-links {
+        a {
+          text-align: center;
+          padding: 0 !important;
+
+          i {
+            margin-right: 0 !important;
+            padding-right: 0 !important;
+          }
+        }
+      }
+
+      background: transparent !important;
+    }
+
+    background: transparent !important;
+    width: 220px !important;
+    overflow: visible !important;
+  }
+
+  .dokan-dashboard-content {
+    width: calc(100% - 220px) !important;
+  }
+}
+
+.dokan-settings-content {
+  .dokan-settings-area {
+    .dokan-banner {
+      width: 100% !important;
+    }
+  }
+}
+
+.dokan-single-store {
+  .dokan-store-tabs {
+    ul {
+      li {
+        border-right: none !important;
+        border-left: 1px solid #EDEDED;
+        margin-right: 0 !important;
+        margin-left: -4px;
+      }
+    }
+  }
+}
+
+.dokan-seller-search-form {
+  .dokan-w4 {
+    input[type="search"] {
+      height: 40px !important;
+      border: 1px solid #e2e2e2 !important;
+      box-shadow: none !important;
+      border-radius: 20px !important;
+      padding: 0 15px !important;
+    }
+
+    select.dokan-form-control {
+      height: 40px !important;
+      border: 1px solid #e2e2e2 !important;
+      box-shadow: none !important;
+      border-radius: 20px !important;
+      padding: 0 15px !important;
+    }
+  }
+}
+
+.dokan-alert {
+  border: none !important;
+  border-radius: 20px !important;
+}
+
+#dokan-form-contact-seller {
+  label {
+    &:empty {
+      display: none !important;
+    }
+  }
+}
+
+body .store-cat-stack-dokan.cat-drop-stack ul {
+  overflow-y: auto;
+}
+.dokan-widget-area aside.widget {
+  ul li a {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2rem;
+  }
+
+  li ul {
+    padding: 0 1rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.profile-info-summery::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.dokan-pagination-container .dokan-pagination{
+  direction: rtl;
+  text-align: right;
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li ul.navigation-submenu{
+  background-color: transparent !important;
+}
+
+.dokan-withdraw-content .dokan-withdraw-area .dokan-panel-body .dokan-panel-inner-container .dokan-w5{
+  position: static !important;
+  transform: none !important;
+}

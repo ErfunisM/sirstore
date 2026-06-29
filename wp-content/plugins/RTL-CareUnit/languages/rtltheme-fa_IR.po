@@ -1,0 +1,418 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RTL license management\n"
+"POT-Creation-Date: 2023-09-20 13:08+0330\n"
+"PO-Revision-Date: 2023-12-20 12:53+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: RTL-CareUnit.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/ajax.php:25
+msgid ""
+"There was a problem synchronizing with the server, please try again in a few "
+"minutes."
+msgstr ""
+"مشکلی هنگام همگام سازی با سرور به وجود آمده است، لطفا پس از چند دقیقه مجددا "
+"تلاش نمایید."
+
+#: includes/admin/ajax.php:30
+msgid "Synchronization with the server was successful."
+msgstr "همگام سازی با سرور با موفقیت انجام شد."
+
+#: includes/admin/ajax.php:61
+msgid ""
+"Successful connection, but the received response is invalid, selecting a new "
+"server..."
+msgstr ""
+"اتصال موفق ولی پاسخ دریافتی نامعتبر می باشد، در حال انتخاب سرور جدید..."
+
+#: includes/admin/ajax.php:69 includes/admin/ajax.php:97
+#: includes/admin/ajax.php:125
+msgid "Test connection to the server successfully and within "
+msgstr "اتصال به سرور با موفقیت بود و در بازه زمانی "
+
+#: includes/admin/ajax.php:69 includes/admin/ajax.php:97
+#: includes/admin/ajax.php:125
+msgid " seconds have been done."
+msgstr " ثانیه انجام شد."
+
+#: includes/admin/ajax.php:160
+msgid "The plugin file access test was done successfully."
+msgstr "تست دسترسی به فایل افزونه با موفقیت انجام شد."
+
+#: includes/admin/ajax.php:163
+msgid "File Type: "
+msgstr "نوع فایل: "
+
+#: includes/admin/ajax.php:169
+msgid "File Size: "
+msgstr "سایز فایل: "
+
+#: includes/admin/ajax.php:169
+msgid " megabyte"
+msgstr " مگابایت"
+
+#: includes/admin/ajax.php:173
+msgid "Latest Edit: "
+msgstr "آخرین ویرایش: "
+
+#: includes/admin/ajax.php:192
+msgid "The notification ID is invalid"
+msgstr "شناسه اعلان نامعتبر می باشد"
+
+#: includes/admin/ajax.php:199
+msgid "There was a problem ignoring the notification"
+msgstr "مشکلی هنگام نادیده گرفتن اعلان به وجود آمده است"
+
+#: includes/admin/ajax.php:202
+msgid "The desired notification was successfully ignored"
+msgstr "اعلان مورد نظر با موفقیت نادیده گرفته شد"
+
+#: includes/admin/assets.php:40
+msgid "Synchronizing with server"
+msgstr "در حال همگام سازی با سرور"
+
+#: includes/admin/assets.php:41
+msgid "please wait"
+msgstr "لطفا منتظر بمانید"
+
+#: includes/admin/assets.php:42
+msgid "Applying settings"
+msgstr "در حال اعمال تنظیمات"
+
+#: includes/admin/assets.php:43 includes/admin/content/pages/debug.php:42
+#: includes/admin/content/pages/debug.php:54
+#: includes/admin/content/pages/debug.php:66
+#: includes/admin/content/pages/debug.php:78
+msgid "not tested"
+msgstr "تست نشده"
+
+#: includes/admin/assets.php:44
+msgid "error"
+msgstr "خطا"
+
+#: includes/admin/assets.php:45 includes/admin/content/pages/info.php:28
+msgid "success"
+msgstr "موفق"
+
+#: includes/admin/assets.php:46
+msgid "warning"
+msgstr "هشدار"
+
+#: includes/admin/assets.php:47
+msgid ""
+"• By disabling or removing this plugin, the performance of products "
+"purchased from RTL will be disrupted."
+msgstr ""
+"• با غیرفعال کردن یا حذف این افزونه، عملکرد محصولات خریداری شده از راستچین "
+"مختل می شود."
+
+#: includes/admin/assets.php:48
+msgid "to deactivate"
+msgstr "غیرفعال کردن"
+
+#: includes/admin/assets.php:49
+msgid "dismiss"
+msgstr "انصراف"
+
+#: includes/admin/assets.php:50
+msgid "setting"
+msgstr "تنظیمات"
+
+#: includes/admin/assets.php:51
+msgid ""
+"• you can deactivate this plugin from <a target=\"_blank\" class=\"RCUG-PDA-"
+"Settings-Link\">settings</a>"
+msgstr ""
+"• شما میتوانید این افزونه را از بخش <a target=\"_blank\" class=\"RCUG-PDA-"
+"Settings-Link\">تنظیمات</a> مخفی نمایید تا در این قسمت چیزی دیده نشود"
+
+#: includes/admin/content/pages/debug.php:21
+msgid "Check the situation"
+msgstr "بررسی وضعیت"
+
+#: includes/admin/content/pages/debug.php:25
+msgid ""
+"You can check the status of your connection with the RTL license server by "
+"clicking on the button below and see the errors that have occurred if there "
+"is a problem. If any of the steps encountered an error,\n"
+"Troubleshooting guide will be displayed below the related accordion."
+msgstr ""
+"شما می توانید با کلیک کردن روی دکمه زیر وضعیت ارتباط خود با سرور لایسنس راست "
+"چین را بررسی کرده و در صورت بروز مشکل خطاهای رخ داده را مشاهده نمایید. در "
+"صورتی که هر کدام از مراحل با خطا مواجه شد، \n"
+"راهنمای حل مشکل در زیر آکاردیون مرتبط به شما نمایش داده خواهد شد."
+
+#: includes/admin/content/pages/debug.php:34
+msgid "Start Troubleshooting"
+msgstr "شروع اشکال زدایی"
+
+#: includes/admin/content/pages/debug.php:41
+msgid "Connection Test"
+msgstr "تست اتصال به سرور (Connection Test)"
+
+#: includes/admin/content/pages/debug.php:53
+msgid "Handshake Test"
+msgstr "تست ارتباط اولیه با سرور (Handshake Test)"
+
+#: includes/admin/content/pages/debug.php:65
+msgid "Ping Test"
+msgstr "تست همگام سازی با سرور (Ping Test)"
+
+#: includes/admin/content/pages/debug.php:77
+msgid "File Access Test"
+msgstr "تست دسترسی به فایل افزونه"
+
+#: includes/admin/content/pages/info.php:28
+msgid "unsuccessful"
+msgstr "ناموفق"
+
+#: includes/admin/content/pages/info.php:32
+msgid "never"
+msgstr "هرگز"
+
+#: includes/admin/content/pages/info.php:40
+msgid "current version of the plugin"
+msgstr "نسخه فعلی افزونه"
+
+#: includes/admin/content/pages/info.php:45
+msgid "latest version of the plugin"
+msgstr "آخرین نسخه افزونه"
+
+#: includes/admin/content/pages/info.php:50
+msgid "Initial communication"
+msgstr "ارتباط اولیه"
+
+#: includes/admin/content/pages/info.php:56
+msgid "Last sync"
+msgstr "آخرین همگام سازی"
+
+#: includes/admin/content/pages/info.php:65
+msgid "Synchronization with the server"
+msgstr "همگام سازی با سرور"
+
+#: includes/admin/content/pages/products.php:31
+msgid "waiting"
+msgstr "در انتظار"
+
+#: includes/admin/content/pages/products.php:32
+msgid "What is the reason for waiting for the product?"
+msgstr "دلیل در انتظار بودن محصول چیست؟"
+
+#: includes/admin/content/pages/products.php:37
+msgid "Active"
+msgstr "فعال"
+
+#: includes/admin/content/pages/products.php:41
+msgid "Blocked"
+msgstr "مسدود"
+
+#: includes/admin/content/pages/products.php:42
+msgid "Reasons for blocking the product"
+msgstr "دلایل مسدود کردن محصول"
+
+#: includes/admin/content/pages/products.php:47
+msgid "User blocking"
+msgstr "مسدود کردن کاربر"
+
+#: includes/admin/content/pages/products.php:48
+msgid "Reasons for blocking a user"
+msgstr "دلایل مسدود کردن کاربر"
+
+#: includes/admin/content/pages/products.php:53
+msgid "return"
+msgstr "بازگشت"
+
+#: includes/admin/content/pages/products.php:54
+msgid "What does return product mean?"
+msgstr "معنی محصول بازگشتی چیست؟"
+
+#: includes/admin/content/pages/products.php:59
+msgid "deactive"
+msgstr "غیرفعال"
+
+#: includes/admin/content/pages/products.php:60
+msgid "product activation tutorial"
+msgstr "آموزش فعال سازی محصول"
+
+#: includes/admin/content/pages/products.php:65
+msgid "not installed"
+msgstr "نصب نشده"
+
+#: includes/admin/content/pages/products.php:66
+msgid "product install tutorial"
+msgstr "آموزش نصب محصول"
+
+#: includes/admin/content/pages/products.php:71
+msgid "unknown"
+msgstr "نامشخص"
+
+#: includes/admin/content/pages/products.php:98
+msgid "product link"
+msgstr "لینک محصول"
+
+#: includes/admin/content/pages/products.php:101
+msgid "view product in RTL"
+msgstr "مشاهده محصول در راستچین"
+
+#: includes/admin/content/pages/products.php:110
+msgid "minimum version of the plugin"
+msgstr "حداقل نسخه افزونه"
+
+#: includes/admin/content/pages/products.php:117
+msgid "license version"
+msgstr "نسخه لایسنس"
+
+#: includes/admin/content/pages/products.php:124
+msgid "status"
+msgstr "وضعیت"
+
+#: includes/admin/content/pages/settings.php:46
+msgid "Hide RTL license management plugin"
+msgstr "مخفی کردن افزونه مدیریت لایسنس راستچین"
+
+#: includes/admin/content/pages/settings.php:52
+msgid ""
+"Through this section, you can hide/show the RTL license management plugin "
+"from the list of plugins and the settings menu."
+msgstr ""
+"از طریق این قسمت میتوانید افزونه مدیریت لایسنس راستچین را از لیست افزونه ها "
+"و منوی تنظیمات مخفی/نمایان نمایید."
+
+#: includes/admin/content/pages/settings.php:56
+msgid ""
+"If you hide the plugin, you can access this page again through the link "
+"below."
+msgstr ""
+"در صورت مخفی کردن افزونه، میتوانید از طریق لینک زیر مجددا به این صفحه دسترسی "
+"داشته باشید."
+
+#: includes/admin/content/pages/settings.php:67
+msgid "show plugin"
+msgstr "نمایش افزونه"
+
+#: includes/admin/content/pages/settings.php:67
+msgid "hide plugin"
+msgstr "مخفی شدن افزونه"
+
+#: includes/admin/content/pages/settings.php:76
+msgid "change server"
+msgstr "تغییر سرور"
+
+#: includes/admin/content/pages/settings.php:82
+msgid "From this section, you can manually change the server."
+msgstr "از این قسمت میتوانید به صورت دستی سرور را تغییر دهید."
+
+#: includes/admin/content/pages/settings.php:86
+msgid ""
+"* If there is a problem with the server, the products are not activated or "
+"synchronized"
+msgstr "* در صورت بروز مشکل در سرور، محصولات فعال یا همگام نمی شوند"
+
+#: includes/admin/content/pages/settings.php:90
+msgid ""
+"* This setting is temporary and will be changed automatically if there is a "
+"problem in communication"
+msgstr ""
+"* این تنظیم به صورت موقت می باشد و در صورت بروز مشکل در ارتباط، به صورت "
+"خودکار تغییر خواهد کرد"
+
+#: includes/admin/content/pages/settings.php:105
+msgid "Save and change server"
+msgstr "ذخیره و تغییر سرور"
+
+#: includes/admin/page.php:19
+msgid "General information"
+msgstr "اطلاعات کلی"
+
+#: includes/admin/page.php:20
+msgid "Products"
+msgstr "محصولات"
+
+#: includes/admin/page.php:21
+msgid "Setting"
+msgstr "تنظیمات"
+
+#: includes/admin/page.php:22
+msgid "Notifications"
+msgstr "اعلان ها"
+
+#: includes/admin/page.php:23
+msgid "Troubleshooting"
+msgstr "اشکال زدایی"
+
+#: includes/admin/page.php:62
+msgid "please wait..."
+msgstr "لطفا منتظر بمانید..."
+
+#: includes/classes/Helper.php:633
+msgid "ago"
+msgstr "قبل"
+
+#: includes/classes/Helper.php:652
+msgid "Year"
+msgstr "سال"
+
+#: includes/classes/Helper.php:653
+msgid "Month"
+msgstr "ماه"
+
+#: includes/classes/Helper.php:654
+msgid "Week"
+msgstr "هفته"
+
+#: includes/classes/Helper.php:655
+msgid "Day"
+msgstr "روز"
+
+#: includes/classes/Helper.php:656
+msgid "Hour"
+msgstr "ساعت"
+
+#: includes/classes/Helper.php:657
+msgid "Minute"
+msgstr "دقیقه"
+
+#: includes/classes/Helper.php:658
+msgid "Second"
+msgstr "ثانیه"
+
+#: includes/classes/Helper.php:675
+msgid "right now"
+msgstr "الان"
+
+#: includes/general.php:359
+msgid "RTL License Management"
+msgstr "مدیریت لایسنس راستچین"
+
+#. Plugin Name of the plugin/theme
+msgid "RTL license management"
+msgstr "مدیریت لایسنس راستچین"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.rtl-theme.com/"
+msgstr "https://www.rtl-theme.com/"
+
+#. Description of the plugin/theme
+msgid "A plugin to activate, update and take care of RTL WordPress products"
+msgstr ""
+"افزونه ای برای فعال سازی، به روز رسانی و مراقبت از محصولات وردپرس راستچین"
+
+#. Author of the plugin/theme
+msgid "RTL-Theme"
+msgstr "راستچین"

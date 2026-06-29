@@ -1,0 +1,56 @@
+<?php return array(
+    'root' => array(
+        'name' => 'richtabor/merlin-wp',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'df995bd766e55be3e14ea96acb4f551433a2899a',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'monolog/monolog' => array(
+            'pretty_version' => '1.23.0',
+            'version' => '1.23.0.0',
+            'reference' => 'fd8c787753b3a2ad11bc60c063cff1358a32a3b4',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../monolog/monolog',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'proteusthemes/wp-content-importer-v2' => array(
+            'pretty_version' => 'v2.1.0',
+            'version' => '2.1.0.0',
+            'reference' => '7414ce1bfb56a8be780c520ed63e99cac7ac403b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../proteusthemes/wp-content-importer-v2',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'psr/log' => array(
+            'pretty_version' => '1.0.2',
+            'version' => '1.0.2.0',
+            'reference' => '4ebe3a8bf773a19edfe0a84b6585ba3d401b724d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/log',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'psr/log-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '1.0.0',
+            ),
+        ),
+        'richtabor/merlin-wp' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'df995bd766e55be3e14ea96acb4f551433a2899a',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

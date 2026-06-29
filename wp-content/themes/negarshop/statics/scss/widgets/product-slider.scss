@@ -1,0 +1,147 @@
+.products-carousel {
+  .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    right: 20px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    z-index: 3;
+    pointer-events: none;
+    transition: 0.2s;
+
+    .owl-next {
+      float: left;
+      box-shadow: rgba(0, 0, 0, .2) 10px 0 20px;
+    }
+
+    > button.disabled {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    > button {
+      pointer-events: all;
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      line-height: 60px !important;
+      text-align: center;
+      background: #fff !important;
+      font-size: 36px !important;
+      border-radius: 30px;
+      box-shadow: rgba(0, 0, 0, .2) -10px 0 20px;
+      padding: 0 !important;
+      transition: .2s;
+      color: #666 !important;
+      opacity: .9;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &:active {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+      }
+    }
+  }
+
+  &:not(:hover) {
+    .owl-nav {
+      opacity: 0.5;
+      transition-delay: 0.4s;
+    }
+  }
+
+  .carousel-content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+    .loading {
+      visibility: hidden;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(255, 255, 255, .8);
+      z-index: 3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: .2s;
+      opacity: 0;
+      border-radius: 20px;
+    }
+
+    .loading.visible {
+      opacity: 1;
+    }
+  }
+
+
+  .tabs {
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex: 1;
+    text-align: right;
+
+    li {
+      display: inline-block;
+      list-style: none;
+
+      a {
+        display: block;
+        padding: 10px 20px;
+        text-align: center;
+        transition: 0.2s;
+        border-bottom: 2px solid transparent;
+      }
+
+    }
+
+    li.active {
+      a {
+        color: $primaryColor;
+        font-weight: 700;
+        pointer-events: none;
+        border-bottom-color: $primaryColor;
+      }
+    }
+
+
+    &--side {
+      li {
+        display: block;
+      }
+
+      @media (max-width: 992px) {
+        white-space: nowrap;
+        overflow: auto;
+
+        li {
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  &.brand {
+    .item {
+      padding: 0 20px;
+    }
+
+    .owl-item {
+      img {
+        width: auto;
+        margin: auto;
+      }
+    }
+  }
+}

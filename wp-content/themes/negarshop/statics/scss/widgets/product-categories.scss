@@ -1,0 +1,109 @@
+.category-card {
+  background: #fff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  transition: 0.2s;
+
+  .card-inner {
+    text-align: center;
+    flex: 1;
+
+    &.inline-content {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .card-subtitle {
+        margin-top: 0;
+      }
+    }
+  }
+
+  img {
+    width: 60px;
+    margin-left: 15px;
+    border-radius: 20px !important;
+
+    & + .card-inner {
+      text-align: right;
+    }
+  }
+
+  .card-title {
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #444;
+    transition: 0.2s;
+    white-space: nowrap;
+  }
+
+  .card-subtitle {
+    margin-top: 5px;
+    font-size: 13px;
+    color: #666;
+    transition: 0.2s;
+    white-space: nowrap;
+  }
+
+  &--vertical {
+    flex-direction: column;
+
+    img {
+      margin: 0 0 15px 0;
+    }
+
+    .card-inner {
+      text-align: center !important;
+    }
+  }
+
+  &--tile {
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.3);
+      transition: 0.2s;
+      z-index: 1;
+    }
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 0;
+      width: auto;
+      height: auto !important;
+      max-width: inherit !important;
+    }
+
+    .card-inner {
+      position: relative;
+      z-index: 2;
+      justify-content: center;
+      text-align: center !important;
+    }
+  }
+
+  &:hover {
+    background-color: $primaryColor;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 3px 6px;
+
+
+    .card-title, .card-subtitle {
+      color: #fff;
+    }
+  }
+}

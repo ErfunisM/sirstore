@@ -1,0 +1,21 @@
+
+@font-face {
+	font-family:"parastoo";
+	font-weight:normal;
+	src: url( "eot/Parastoo-persian-digits-overwrite.eot" );
+	src: local( "☺" ),
+	url( "woff/Parastoo-persian-digits-overwrite.woff" )
+	format( "woff" ),
+	url( "ttf/Parastoo-persian-digits-overwrite.ttf" )
+	format( "truetype" );
+}
+@font-face {
+	font-family:"parastoo";
+	font-weight:500;
+	src: url( "eot/Parastoo-Bold-persian-digits-overwrite.eot" );
+	src: local( "☺" ),
+	url( "woff/Parastoo-Bold-persian-digits-overwrite.woff" )
+	format( "woff" ),
+	url( "ttf/Parastoo-Bold-persian-digits-overwrite.ttf" )
+	format( "truetype" );
+}

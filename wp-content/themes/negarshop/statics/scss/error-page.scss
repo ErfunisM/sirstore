@@ -1,0 +1,32 @@
+.page-error {
+  background: #fff;
+  padding: 30px;
+  border-radius: var(--ns-radius);
+
+  .error-image {
+    text-align: center;
+    padding: 60px;
+
+    img {
+      width: 300px;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+
+  .error-code {
+    direction: ltr;
+    font-family: tahoma;
+    color: #777;
+    font-size: 14px;
+  }
+
+  .error-title {
+    font-size: 24px;
+  }
+
+  .error-description {
+    color: #444;
+    font-size: 14px;
+  }
+}

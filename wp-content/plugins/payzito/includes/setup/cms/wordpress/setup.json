@@ -1,0 +1,35 @@
+{
+  "version": "1.1.24",
+  "type": "biz",
+  "actions": [
+    {
+      "data": [
+        {
+          "PAAction": "execute",
+          "PAFile": "wp-content/plugins/payzito/includes/cms/wordpress/installer/install.php"
+        }
+      ],
+      "label": "اقدامات اولیه پلاگین"
+    },
+    {
+      "data": [
+        {
+          "PAAction": "finalTasks",
+          "PAElement": "pkg_payzito"
+        }
+      ],
+      "label": "اقدامات نهایی"
+    }
+  ],
+  "changelogs": [
+    {
+      "version": "1.1.24",
+      "changelogs": [
+        {
+          "type": "fixed",
+          "text": "مشکل در ارسال پترن سامانه پیامک مدیانا"
+        }
+      ]
+    }
+  ]
+}

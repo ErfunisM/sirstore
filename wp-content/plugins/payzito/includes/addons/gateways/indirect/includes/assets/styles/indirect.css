@@ -1,0 +1,237 @@
+.pa-indirect-gateway .pa-indirect-gateway-header,
+.pa-indirect-gateway .pa-dp-no-method-selected{
+    background: #F5F5F5;
+    padding: 7px;
+    margin: 15px 0;
+    text-align: center;
+
+    -webkit-box-shadow: 0 0 2px #ccc;
+    -o-box-shadow: 0 0 2px #ccc;
+    -moz-box-shadow: 0 0 2px #ccc;
+    box-shadow: 0 0 2px #ccc;
+}
+.pa-indirect-gateway .pa-indirect-gateway-header p:first-child {
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+}
+.pa-indirect-gateway .pa-indirect-gateway-header p {
+    text-align: center;
+    margin: 7px 0;
+}
+.pa-indirect-gateway .pa-indirect-gateway-options > div.pa-right,
+.pa-indirect-gateway .pa-indirect-gateway-options > div.pa-left{
+    width: 48%;
+}
+.pa-indirect-gateway .pa-indirect-gateway-options > div.pa-right,
+.pa-indirect-gateway .pa-indirect-gateway-options > div.pa-left{
+    background-color: #f5f5f5;
+
+    -webkit-box-shadow: 0 0 2px #ccc;
+    -o-box-shadow: 0 0 2px #ccc;
+    -moz-box-shadow: 0 0 2px #ccc;
+    box-shadow: 0 0 2px #ccc;
+
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+.pa-indirect-gateway .pa-dp-option-header{
+    text-align: center;
+    width: 100%;
+    padding: 3px 5px;
+    background: #eee;
+    cursor: pointer;
+    border-bottom: 1px solid #D5D5D5;
+}
+.pa-indirect-gateway .pa-dp-option-header > label{
+    width: 100%;
+    margin: 0 !important;
+    text-align: center;
+    display: block;
+}
+.pa-indirect-gateway .pa-dp-option-header .pa-dp-option-title{
+    text-align: center;
+    display: inline-block !important;
+}
+.pa-indirect-gateway .pa-dp-option-header .roundedThree{
+    margin: 7px 0 !important;
+}
+.pa-indirect-gateway .pa-dp-option-body{
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.pa-indirect-gateway .pa-dp-option-body .pa-dp-field .pa-dp-field-label label{
+    display: block;
+    width: 100%;
+    margin: 6px 0 4px;
+    font-size: 13px;
+}
+.pa-indirect-gateway .pa-dp-option-body .pa-dp-field  .pa-dpr-field-box .pa-input{
+    width: 100% !important;
+}
+.pa-indirect-gateway .pa-dp-option-body .pa-dp-option-fields{
+    text-align: center;
+    padding: 33px 0;
+}
+.pa-indirect-gateway .pa-dp-option-body .pa-dp-option-fields img{
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.pa-indirect-gateway .pa-dp-option-body .pa-dp-option-fields .pa-dp-receipt-desc{
+    font-size: 13px;
+    margin: 15px 0;
+    text-align: center;
+}
+.pa-indirect-gateway .pa-dp-option-body .pa-dp-receipt-form{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+    background-color: #f5f5f5;
+    padding: 10px;
+
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+.pa-rtl.pa-indirect-gateway .pa-dp-option-body .pa-dp-receipt-form{
+    left: -100%;
+}
+.pa-indirect-gateway .pa-indirect-payment-form{
+    background: #f5f5f5;
+    margin: 15px 0;
+    padding: 0;
+
+    -webkit-box-shadow: 0 0 2px #ccc;
+    -o-box-shadow: 0 0 2px #ccc;
+    -moz-box-shadow: 0 0 2px #ccc;
+    box-shadow: 0 0 2px #ccc;
+
+
+}
+.pa-indirect-gateway .pa-indirect-payment-form .pa-dp-receipt-form,
+.pa-indirect-gateway .pa-indirect-payment-form .pa-dp-card-form{
+    display: none;
+}
+.pa-indirect-gateway .pa-indirect-payment-form .pa-dp-form-header{
+    line-height: 34px;
+    background: #ececec;
+    width: 100%;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 0 10px;
+}
+.pa-indirect-gateway .pa-indirect-payment-form .pa-dp-form-body{
+    padding: 10px 15px;
+}
+.pa-indirect-gateway .pa-indirect-payment-form .pa-dp-form-body .pa-dp-field{
+    width: 47%;
+    margin: 6px 1.5% 0;
+}
+.pa-indirect-gateway .pa-indirect-payment-form .pa-dp-form-body .pa-dp-field .pa-input,
+.pa-indirect-gateway .pa-indirect-payment-form .pa-dp-form-body .pa-dp-field .pa-textarea{
+    width: 100% !important;
+}
+.pa-indirect-gateway .pa-indirect-payment-form .pa-dp-form-body .pa-dp-field .pa-calendar,
+.pa-indirect-gateway .pa-indirect-payment-form .pa-dp-form-body .pa-dp-field .pa-timepicker{
+    width: 49% !important;
+}
+.pa-indirect-gateway .pa-indirect-payment-form .pa-dp-form-send{
+    padding: 0 15px 10px;
+}
+.pa-indirect-gateway .pa-indirect-payment-form .pa-dp-form-body .pa-dp-field .pa-dp-field-label label{
+    font-size: 13px;
+    width: 100%;
+    display: block;
+    margin: 2px 0 4px;
+}
+.pa-ip-mandatory{
+    line-height: 100%;
+}
+.pa-ip-mandatory i{
+    display: inline-block;
+    font-size: 10px;
+    color: #d85858;
+}
+
+.pa-indirect-gateway .pa-dp-receipt-msg,
+.pa-indirect-gateway .pa-dp-card-msg{
+    padding: 15px 4% 0;
+}
+.pa-log-loading i{
+    -webkit-animation: pa-spin 1s infinite linear;
+    animation: pa-spin 1s infinite linear;
+}
+
+.pa-indirect-gateway .pa-indirect-gateway-options[count="1"] > div.pa-right,
+.pa-indirect-gateway .pa-indirect-gateway-options[count="1"] > div.pa-left{
+    width: 100%;
+}
+.pa-indirect-gateway .pa-indirect-gateway-options[count="1"] .pa-dp-option-body .pa-dp-option-fields img{
+    width: 65px;
+}
+.pa-indirect-gateway .pa-indirect-gateway-options[count="1"] .pa-dp-option-body .pa-dp-option-fields p{
+    font-size: 15px;
+}
+.pa-indirect-gateway .pa-indirect-gateway-options[count="1"] .pa-dp-option-body .pa-dp-option-fields .pa-dp-send-data{
+    display: none;
+}
+.pa-rtl.pa-indirect-gateway .pa-indirect-gateway-options[count="1"] .pa-dp-option-body .pa-dp-option-fields img{
+    float: left;
+}
+.pa-ltr.pa-indirect-gateway .pa-indirect-gateway-options[count="1"] .pa-dp-option-body .pa-dp-option-fields img{
+    float: right;
+}
+.pa-rtl.pa-indirect-gateway .pa-indirect-gateway-options[count="1"] .pa-dp-option-body .pa-dp-option-fields p{
+    float: right;
+}
+.pa-ltr.pa-indirect-gateway .pa-indirect-gateway-options[count="1"] .pa-dp-option-body .pa-dp-option-fields p{
+    float: left;
+}
+.pa-indirect-gateway .pa-indirect-gateway-options[count="1"] .pa-dp-option-fields{
+    padding: 0 !important;
+}
+.pa-indirect-gateway .pa-indirect-gateway-options[count="1"] .pa-dp-option-body{
+    padding: 5px 20px;
+}
+.pa-indirect-payment-final-head{
+    line-height: 25px;
+    font-size: 15px !important;
+    background: #d5e8cc;
+    padding: 10px;
+    margin: 0 20px;
+}
+.pa-indirect-payment-final{
+    text-align: center;
+    background: #dff0d8;
+    -webkit-box-shadow: 0 0 2px #ccc;
+    -o-box-shadow: 0 0 2px #ccc;
+    -moz-box-shadow: 0 0 2px #ccc;
+    box-shadow: 0 0 2px #83c169;
+    color: #3c763d;
+    padding: 15px 0;
+}
+.pa-indirect-payment-final-desc{
+    color: #3c763d !important;
+    font-size: 14px !important;
+    line-height: 30px;
+}
+.pa-indirect-payment-final-img{
+    margin: 25px auto;
+}
+.pa-indirect-payment-final{
+    display: none;
+}
+@media only screen and (max-width: 570px) {
+    .pa-indirect-gateway .pa-indirect-payment-form .pa-dp-form-body .pa-dp-field {
+        width: 97%;
+        margin: 6px 1.5% 0;
+    }
+}

@@ -1,0 +1,167 @@
+
+.products-archive-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .product-filters-toggle {
+    margin-right: 15px;
+  }
+
+  .products-archive-tabs-wrapper {
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+    h6 {
+      display: inline-block;
+      font-size: 14px;
+      color: #999;
+      margin-left: 20px;
+      margin-bottom: 0;
+    }
+
+    .products-archive-tabs {
+      display: inline-block;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
+
+        button {
+          padding: 0 15px;
+          height: 32px;
+          font-size: 14px;
+          background: transparent;
+          color: #333;
+          border: none;
+          outline: none !important;
+        }
+      }
+
+      &--classic {
+        li {
+          button {
+            box-shadow: none !important;
+
+            &.active {
+              color: #fff;
+              background: $primaryColor;
+            }
+          }
+        }
+      }
+
+      &--underline {
+        li {
+          button {
+            &:hover {
+              color: $primaryColor;
+            }
+
+            &.active {
+              color: $primaryColor;
+              font-weight: 700;
+              box-shadow: $primaryColor 0 3px 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.woocommerce-products-header {
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+
+  h1 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #666;
+    margin-bottom: 0;
+
+    + {
+      .term-description {
+        color: #999;
+        font-size: 13px;
+      }
+    }
+  }
+
+  .woocommerce-products-header__title {
+    margin-bottom: 15px;
+  }
+
+  &--transparent {
+    background: transparent;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.products-archive-active-filters {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  max-width: 100%;
+
+  .filters-title {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    overflow: auto;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin-left: 10px;
+
+      a {
+        display: flex;
+        align-items: center;
+        padding: 5px 10px;
+        background: rgba(234, 0, 35, 0.1);
+        color: #ea0023;
+        white-space: nowrap;
+        transition: 0.2s;
+
+        &:hover {
+          background: #ea0023;
+          color: #fff;
+        }
+
+        &:after {
+          content: "\f00d";
+          font-family: "Font Awesome 5 Pro", sans-serif;
+          font-weight: 900;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+.orderby.custom-select {
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 3px;
+  color: #999;
+  font-size: 14px;
+}
+
+.products {
+  .product-category:last-of-type{
+    clear: both;
+    float: none;
+  }
+}

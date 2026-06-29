@@ -1,0 +1,222 @@
+.amazing-product-widget {
+  padding: 30px;
+  background: #fff;
+  border-radius: 20px;
+  position: relative;
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: $primaryColor;
+    width: 90%;
+    height: 98%;
+    top: 10px;
+    right: -3px;
+    border-radius: 20px;
+    opacity: 20%;
+    z-index: -1;
+    transform: rotate(3deg);
+  }
+
+
+  .amazing-product-item {
+    transition: 0.2s;
+
+    .item-header {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 35px;
+
+      .item-figure {
+        width: 115px;
+        height: 115px;
+        background: #eee;
+        border-radius: 20px;
+        position: relative;
+        padding: 0;
+        overflow: hidden;
+
+        img {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 100%;
+        }
+      }
+
+      .item-title {
+        flex: 1;
+
+        .title {
+          font-size: 14px;
+          margin-bottom: 8px;
+          line-height: 25px;
+
+          a:not(:hover) {
+            color: #333;
+          }
+        }
+      }
+    }
+
+    .countdown-outer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+
+      .countdown-title {
+        font-size: 22px;
+
+        b {
+          display: block;
+          color: $primaryColor;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .stock-bar {
+      margin-bottom: 20px;
+
+      .stock-bar-title {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 13px;
+        color: #666666;
+
+        b {
+          color: #333;
+        }
+      }
+
+      .progress-bar {
+        background-color: $primaryColor;
+      }
+    }
+
+    .item-pricing {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .stock-bar {
+        min-width: 100%;
+      }
+
+      .item-price {
+        font-size: 14px;
+        color: #666;
+
+        del {
+          display: block;
+          font-size: 14px;
+          color: #666;
+          margin-bottom: -5px;
+
+          .woocommerce-Price-currencySymbol {
+            display: none;
+          }
+        }
+
+        ins {
+          font-size: 28px;
+          font-weight: 700;
+          color: $primaryColor;
+          text-decoration: none;
+
+          .woocommerce-Price-currencySymbol {
+            font-size: 14px;
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+
+  .owl-item {
+    transition: padding 0.2s;
+
+    &:not(.active) {
+      .amazing-product-item {
+        transform: scale(0.9);
+      }
+    }
+  }
+
+  .owl-dots {
+    position: absolute;
+    top: -14px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    .owl-dot {
+      display: block;
+      width: 7px;
+      height: 7px;
+      background-color: #D9D9D9;
+      border-radius: 10px;
+      transition: 0.2s;
+
+      &.active {
+        background-color: #AAAAAA;
+      }
+    }
+  }
+
+
+  &--horizontal {
+    @media (min-width: 992px) {
+      &:before {
+        display: none !important;
+      }
+
+      .amazing-product-item {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+
+        .item-header, .countdown-outer {
+          margin-bottom: 0;
+        }
+
+        .item-header {
+          flex: 1;
+          max-width: calc(35% - 30px);
+          min-width: calc(35% - 30px);
+        }
+
+        .item-footer {
+          flex: 1;
+          display: flex;
+          gap: 30px;
+          max-width: 65%;
+          min-width: 65%;
+          align-items: center;
+          justify-content: flex-end;
+
+          .countdown-outer {
+            gap: 60px;
+          }
+        }
+      }
+
+      .owl-dots {
+        flex-direction: column;
+        top: 0;
+        right: -14px;
+        bottom: 0;
+        left: auto;
+      }
+
+    }
+  }
+}

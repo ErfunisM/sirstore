@@ -1,0 +1,23 @@
+@font-face {
+	font-family:"shabnam";
+	font-weight:normal;
+	font-display: swap;
+	src: url( "eot/Shabnam-persian-digits-overwrite.eot" );
+	src: local( "☺" ),
+	url( "woff/Shabnam-persian-digits-overwrite.woff" )
+	format( "woff" ),
+	url( "ttf/Shabnam-persian-digits-overwrite.ttf" )
+	format( "truetype" );
+}
+
+@font-face {
+	font-family:"shabnam";
+	font-weight:500;
+	font-display: swap;
+	src: url( "eot/Shabnam-Bold-persian-digits-overwrite.eot" );
+	src: local( "☺" ),
+	url( "woff/Shabnam-Bold-persian-digits-overwrite.woff" )
+	format( "woff" ),
+	url( "ttf/Shabnam-Bold-persian-digits-overwrite.ttf" )
+	format( "truetype" );
+}

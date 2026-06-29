@@ -1,0 +1,34 @@
+@import "../fonts/iransans/iransans.css";
+@import "../fonts/fontawesome/fa-all.min.css";
+body{
+    direction: rtl;
+    font-family:tahoma;
+    font-size: 11px;
+}
+a{
+    color: #444;
+    text-decoration: none;
+}
+table{
+    width: 100%;
+    border-collapse:collapse;
+}
+table td, table th{
+    border: #eee 1px solid;
+    padding: 5px;
+    text-align: center;
+}
+table thead, table th{
+    background-color: #f5f5f5;
+    font-weight: normal;
+}
+img.wp-post-image{width: 50px; height: 50px;}
+.show-price *{
+    unicode-bidi: plaintext;
+}
+.prices-table i.increase{
+    color: #00bfd6;
+}
+.prices-table i.decrease{
+    color: #e22;
+}

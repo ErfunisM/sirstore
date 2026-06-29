@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS `#__payzito_psw_logs`;
+DROP TABLE IF EXISTS `#__payzito_coupons_apply`;
+DROP TABLE IF EXISTS `#__payzito_coupons_usage`;
+DROP TABLE IF EXISTS `#__payzito_discounts`;
+DROP TABLE IF EXISTS `#__payzito_extensions`;
+DROP TABLE IF EXISTS `#__payzito_keywords`;
+DROP TABLE IF EXISTS `#__payzito_messages`;
+DROP TABLE IF EXISTS `#__payzito_notify`;
+DROP TABLE IF EXISTS `#__payzito_gateways`;
+DROP TABLE IF EXISTS `#__payzito_ideposit`;
+DROP TABLE IF EXISTS `#__payzito_setting`;
+DROP TABLE IF EXISTS `#__payzito_transactions`;
+DROP TABLE IF EXISTS `#__payzito_users`;
+DROP TABLE IF EXISTS `#__payzito_users_coupon`;

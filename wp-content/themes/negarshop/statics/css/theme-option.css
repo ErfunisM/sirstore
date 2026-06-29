@@ -1,0 +1,113 @@
+
+/* Negarshop theme options styles */
+
+form.fw-settings-form.fw-backend-side-tabs{
+  font-family: IRANYekan;
+  padding: 20px !important;
+  border-radius: 20px !important;
+}
+.fw-backend-side-tabs .fw-settings-form-header{
+  margin-top: 0 !important;
+}
+.fw-backend-side-tabs .fw-settings-form-header{
+  background: transparent !important;
+  margin-bottom: 20px !important;
+}
+.fw-backend-side-tabs .fw-settings-form-header h2{
+  color: #333 !important
+}
+.fw-backend-side-tabs .fw-settings-form-header h2 small{
+  color: #666 !important;
+}
+.fw-backend-side-tabs .fw-settings-form-header .form-header-buttons .submit-button-reset{
+  color: #666 !important;
+  padding: 0 20px !important;
+  height: 50px !important;
+  border-radius: 20px !important;
+}
+.fw-backend-side-tabs .fw-settings-form-header .form-header-buttons .submit-button-reset:hover{
+  color: #fff !important;
+  background-color: indianred !important;
+  text-decoration: none !important;
+}
+.fw-backend-side-tabs .fw-settings-form-header .form-header-buttons .submit-button-separator{
+  font-size: 0 !important;
+}
+.fw-backend-side-tabs .fw-settings-form-header .form-header-buttons .submit-button-save,.fw-backend-side-tabs .fw-settings-form-header .form-header-buttons .submit-button-save:hover{
+  color: #fff !important;
+  border-radius: 20px !important;
+  background-color: #7942fa !important;
+  padding: 0 40px !important;
+  height: 50px !important;
+}
+.fw-backend-side-tabs .fw-options-tabs-first-level>.fw-options-tabs-list ul li a.nav-tab{
+  border-radius: 20px !important;
+  margin-bottom: 5px !important;
+  background: transparent !important;
+  text-align: center !important;
+  transition: 0.2s !important;
+}
+.fw-backend-side-tabs .fw-options-tabs-first-level>.fw-options-tabs-list ul li a.nav-tab:hover{
+  background: #f5f5f5 !important;
+}
+.fw-backend-side-tabs .fw-options-tabs-first-level>.fw-options-tabs-list ul li.ui-state-active a.nav-tab, .fw-backend-side-tabs .fw-options-tabs-first-level>.fw-options-tabs-list ul li.ui-state-active a.nav-tab:hover{
+  background-color: #7942fa !important;
+  margin-bottom: 5px !important;
+}
+body.rtl .fw-backend-side-tabs .fw-options-tabs-first-level>.fw-options-tabs-contents{
+  padding-right: 20px !important;
+}
+.fw-backend-side-tabs .fw-options-tabs-first-level>.fw-options-tabs-contents>.fw-inner{
+  border: none !important;
+  background: #f5f5f5 !important;
+  border-radius: 20px !important;
+  padding: 10px !important;
+  min-height: 500px !important;
+}
+.fw-backend-side-tabs .fw-options-tabs-first-level>.fw-options-tabs-contents>.fw-inner>.fw-options-tab>.fw-options-tabs-wrapper>.fw-options-tabs-list ul{
+  border: none !important;
+  background: #666 !important;
+  border-radius: 20px !important;
+  padding: 10px !important;
+}
+.fw-backend-side-tabs .fw-options-tabs-first-level>.fw-options-tabs-contents>.fw-inner>.fw-options-tab>.fw-options-tabs-wrapper>.fw-options-tabs-list ul li{
+  border: none !important;
+}
+.fw-backend-side-tabs .fw-options-tabs-first-level>.fw-options-tabs-contents>.fw-inner>.fw-options-tab>.fw-options-tabs-wrapper>.fw-options-tabs-list ul li a.nav-tab{
+  color: #fff !important;
+  border-radius: 20px !important;
+}
+.fw-backend-side-tabs .fw-options-tabs-first-level>.fw-options-tabs-contents>.fw-inner>.fw-options-tab>.fw-options-tabs-wrapper>.fw-options-tabs-list ul li a.nav-tab:hover{
+  background: rgba(255,255,255,0.1) !important;
+}
+.fw-backend-side-tabs .fw-options-tabs-first-level>.fw-options-tabs-contents>.fw-inner>.fw-options-tab>.fw-options-tabs-wrapper>.fw-options-tabs-list ul li.ui-state-active:after{
+  display: none !important;
+}
+.fw-backend-side-tabs .fw-options-tabs-first-level>.fw-options-tabs-contents>.fw-inner>.fw-options-tab>.fw-options-tabs-wrapper>.fw-options-tabs-list ul li.ui-state-active a.nav-tab{
+  color: #666 !important;
+  background: rgba(255,255,255,1) !important;
+}
+.fw-backend-side-tabs .fw-options-tabs-first-level>.fw-options-tabs-contents>.fw-inner {
+  width: calc(100% - 20px) !important;
+}
+.fw-backend-side-tabs .form-footer-buttons{
+  border: none !important;
+  height: auto !important;
+  padding: 0 0 15px 0 !important;
+  background: transparent !important;
+  margin-top: 0 !important;
+}
+.fw-backend-side-tabs .form-footer-buttons::after{
+  content: "" !important;
+  display: block !important;
+  clear: both !important;
+}
+.fw-backend-side-tabs .form-footer-buttons input[type="submit"]{
+  height: 45px !important;
+  border-radius: 20px !important;
+  padding: 0 20px !important;
+}
+.media-modal-content {
+  font-family: IRANYekan;
+  border-radius: 20px !important;
+}

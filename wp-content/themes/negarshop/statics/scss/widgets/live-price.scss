@@ -1,0 +1,15 @@
+.widget-negarshop-live-price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .reload {
+    cursor: pointer;
+  }
+
+  &.loading {
+    pointer-events: none;
+    user-select: none;
+    opacity: 0.5;
+  }
+}

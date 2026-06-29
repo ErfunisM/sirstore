@@ -1,0 +1,47 @@
+.pa-test-gateway .pa-test-gateway-header{
+    background: #F5F5F5;
+    padding: 7px;
+    margin: 15px 0;
+
+    -webkit-box-shadow: 0 0 2px #ccc;
+    -o-box-shadow: 0 0 2px #ccc;
+    -moz-box-shadow: 0 0 2px #ccc;
+    box-shadow: 0 0 2px #ccc;
+}
+.pa-test-gateway .pa-test-gateway-header div:first-child{
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+}
+.pa-test-gateway .pa-test-gateway-header div{
+    text-align: center;
+    margin: 7px 0;
+}
+.pa-test-gateway .pa-test-gateway-header .pa-tp-warning{
+    color: #d62424;
+    font-weight: bold;
+}
+.pa-test-gateway .pa-test-gateway-buttons > .pa-right,
+.pa-test-gateway .pa-test-gateway-buttons > .pa-left{
+    background: #F5F5F5;
+    padding: 40px 0;
+    margin: 0;
+    width: 48%;
+    text-align: center;
+
+    -webkit-box-shadow: 0 0 2px #ccc;
+    -o-box-shadow: 0 0 2px #ccc;
+    -moz-box-shadow: 0 0 2px #ccc;
+    box-shadow: 0 0 2px #ccc;
+}
+.pa-test-gateway .pa-test-gateway-buttons > .pa-right > img,
+.pa-test-gateway .pa-test-gateway-buttons > .pa-left > img{
+    text-align: center;
+    margin: 0 auto;
+    width: 150px;
+}
+.pa-test-gateway .pa-test-gateway-buttons > .pa-right > div,
+.pa-test-gateway .pa-test-gateway-buttons > .pa-left > div{
+    margin: 15px 0;
+}

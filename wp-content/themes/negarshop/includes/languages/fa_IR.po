@@ -1,0 +1,4687 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Unyson\n"
+"POT-Creation-Date: 2018-03-10 12:31+0330\n"
+"PO-Revision-Date: 2018-07-05 08:14+0430\n"
+"Last-Translator: \n"
+"Language-Team: Parviz-Turk <Parviz@Engineer.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../core/Fw.php:61
+msgid "Framework requirements not met:"
+msgstr ""
+
+#: ../core/class-fw-manifest.php:326
+msgid "minimum required version is"
+msgstr "حداقل نسخه مورد نیاز"
+
+#: ../core/class-fw-manifest.php:329
+msgid "maximum required version is"
+msgstr "حداکثر نسخه مورد نیاز"
+
+#: ../core/class-fw-manifest.php:334
+msgid "and"
+msgstr "و"
+
+#: ../core/class-fw-manifest.php:343
+#, php-format
+msgid "Current PHP version is %s, %s"
+msgstr "نسخه جاری پی اچ پی %s, %s"
+
+#: ../core/class-fw-manifest.php:351
+#, php-format
+msgid "Current WordPress version is %s, %s"
+msgstr "نسخه جاری وردپرس %s, %s"
+
+#: ../core/class-fw-manifest.php:357
+#, php-format
+msgid "Current Framework version is %s, %s"
+msgstr "نسخه جاری فریم ورک %s, %s"
+
+#: ../core/class-fw-manifest.php:366
+#, php-format
+msgid "Current version of the %s extension is %s, %s"
+msgstr "نسخه جاری افزونه %s عبارت است از %s, %s"
+
+#: ../core/class-fw-manifest.php:372
+#, php-format
+msgid "%s extension is required"
+msgstr "افزونه %s  مورد نیاز است"
+
+#: ../core/class-fw-manifest.php:377
+#, php-format
+msgid "%s extension is required (%s)"
+msgstr "افزونه %s  مورد نیاز است (%s)"
+
+#: ../core/class-fw-manifest.php:396
+#: ../extensions/update/class-fw-extension-update.php:728
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:360
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:374
+#: ../extensions/update/views/updates-list.php:10
+msgid "Framework"
+msgstr "فریم وورک"
+
+#: ../core/components/backend.php:392
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2347
+#: ../extensions/builder/includes/option-types/builder/extends/class-fw-option-type-builder.php:447
+#: ../extensions/forms/views/backend/submit-box-edit.php:30
+msgid "Save"
+msgstr "ذخیره"
+
+#: ../core/components/backend.php:393
+msgid "Done"
+msgstr "انجام شد"
+
+#: ../core/components/backend.php:394
+msgid "Ah, Sorry"
+msgstr "آه، ببخشید"
+
+#: ../core/components/backend.php:395
+#: ../includes/option-types/color-picker/class-fw-option-type-color-picker.php:39
+#: ../includes/option-types/color-picker/class-fw-option-type-color-picker.php:40
+#: ../includes/option-types/rgba-color-picker/class-fw-option-type-rgba-color-picker.php:41
+#: ../includes/option-types/rgba-color-picker/class-fw-option-type-rgba-color-picker.php:42
+msgid "Reset"
+msgstr "پیش فرض"
+
+#: ../core/components/backend.php:396 ../helpers/class-fw-wp-list-table.php:319
+msgid "Apply"
+msgstr "اعمال کردن"
+
+#: ../core/components/backend.php:397
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2352
+msgid "Cancel"
+msgstr "لغو"
+
+#: ../core/components/backend.php:398
+msgid "Ok"
+msgstr "باشه"
+
+#: ../core/components/backend.php:581
+msgid "leave a review"
+msgstr "ارسال یک نظر"
+
+#: ../core/components/backend.php:588
+msgid "Facebook"
+msgstr "فیسبوک"
+
+#: ../core/components/backend.php:592
+msgid ""
+"Unyson WordPress Framework is the fastest and easiest way to develop a "
+"premium theme. I highly recommend it"
+msgstr ""
+"Unyson چارچوب وردپرس سریعترین و ساده ترین راه برای توسعه یک تم فوق العاده "
+"است. من به شدت آن را توصیه میکنم"
+
+#: ../core/components/backend.php:596
+msgid "Twitter"
+msgstr "تویتر"
+
+#: ../core/components/backend.php:598
+msgid ""
+"If you like Unyson, {wp_review_link}, share on {facebook_share_link} or "
+"{twitter_share_link}."
+msgstr ""
+
+#: ../core/components/backend.php:952
+msgid "Info about fw-storage"
+msgstr "اطلاعات در مورد ذخیره سازی فریم ورک"
+
+#: ../core/components/backend.php:1393
+msgid "Unknown collected group"
+msgstr ""
+
+#: ../core/components/backend.php:1727
+#, php-format
+msgid "Undefined option type: %s"
+msgstr ""
+
+#: ../core/components/backend.php:1786
+#, php-format
+msgid "Undefined container type: %s"
+msgstr ""
+
+#: ../core/components/backend/class-fw-settings-form-theme.php:12
+#: ../core/components/backend/class-fw-settings-form-theme.php:162
+#: ../core/components/backend/class-fw-settings-form-theme.php:163
+msgid "Theme Settings"
+msgstr "تنظیمات قالب"
+
+#: ../core/components/backend/class-fw-settings-form-theme.php:56
+msgid "by"
+msgstr "از"
+
+#: ../core/components/extensions.php:469 ../core/components/extensions.php:549
+#, php-format
+msgid "Extension %s is invalid."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:12
+#: ../extensions/shortcodes/extensions/page-builder/manifest.php:7
+msgid "Page Builder"
+msgstr "صفحه ساز"
+
+#: ../core/components/extensions/manager/available-extensions.php:13
+msgid ""
+"Let's you easily build countless pages with the help of the drag and drop "
+"visual page builder that comes with a lot of already created shortcodes."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:26
+msgid "WordPress Shortcodes"
+msgstr "کدهای میانبر وردپرس"
+
+#: ../core/components/extensions/manager/available-extensions.php:28
+msgid "Lets you insert Unyson shortcodes inside any wp-editor"
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:43
+#: ../extensions/backups/manifest.php:7
+msgid "Backup & Demo Content"
+msgstr "پشتیبان گیری و محتوای دمو"
+
+#: ../core/components/extensions/manager/available-extensions.php:44
+#: ../extensions/backups/manifest.php:9
+msgid ""
+"This extension lets you create an automated backup schedule, import demo "
+"content or even create a demo content archive for migration purposes."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:57
+msgid "Sidebars"
+msgstr "ساید بارها"
+
+#: ../core/components/extensions/manager/available-extensions.php:58
+msgid ""
+"Brings a new layer of customization freedom to your website by letting you "
+"add more than one sidebar to a page, or different sidebars on different "
+"pages."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:71
+msgid "Sliders"
+msgstr "اسلایدرها"
+
+#: ../core/components/extensions/manager/available-extensions.php:72
+msgid ""
+"Adds a sliders module to your website from where you'll be able to create "
+"different built in jQuery sliders for your homepage and rest of the pages."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:85
+msgid "Portfolio"
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:86
+msgid ""
+"This extension will add a fully fledged portfolio module that will let you "
+"display your projects using the built in portfolio pages."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:99
+msgid "Mega Menu"
+msgstr "مگامنو"
+
+#: ../core/components/extensions/manager/available-extensions.php:100
+msgid ""
+"The Mega Menu extension adds a user-friendly drop down menu that will let "
+"you easily create highly customized menu configurations."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:113
+msgid "Breadcrumbs"
+msgstr "مسیرها"
+
+#: ../core/components/extensions/manager/available-extensions.php:114
+msgid ""
+"Creates a simplified navigation menu for the pages that can be placed "
+"anywhere in the theme. This will make navigating the website much easier."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:127
+msgid "SEO"
+msgstr "سئو"
+
+#: ../core/components/extensions/manager/available-extensions.php:128
+msgid ""
+"This extension will enable you to have a fully optimized WordPress website "
+"by adding optimized meta titles, keywords and descriptions."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:141
+msgid "Events"
+msgstr "رویدادها"
+
+#: ../core/components/extensions/manager/available-extensions.php:142
+msgid ""
+"This extension adds a fully fledged Events module to your theme. It comes "
+"with built in pages that contain a calendar where events can be added."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:155
+msgid "Analytics"
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:156
+msgid ""
+"Enables the possibility to add the Google Analytics tracking code that will "
+"let you get all the analytics about visitors, page views and more."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:169
+msgid "Feedback"
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:170
+msgid ""
+"Adds the possibility to leave feedback (comments, reviews and rating) about "
+"your products, articles, etc. This replaces the default comments system."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:183
+msgid "Learning"
+msgstr "آموزش"
+
+#: ../core/components/extensions/manager/available-extensions.php:184
+msgid ""
+"This extension adds a Learning module to your theme. Using this extension "
+"you can add courses, lessons and tests for your users to take."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:197
+msgid "Shortcodes"
+msgstr "کد میانبر"
+
+#: ../core/components/extensions/manager/available-extensions.php:211
+#: ../extensions/builder/manifest.php:5
+msgid "Builder"
+msgstr "سازنده"
+
+#: ../core/components/extensions/manager/available-extensions.php:225
+#: ../extensions/forms/manifest.php:5
+msgid "Forms"
+msgstr "فرم ها"
+
+#: ../core/components/extensions/manager/available-extensions.php:226
+#: ../extensions/forms/manifest.php:7
+msgid ""
+"This extension adds the possibility to create a contact form. Use the drag & "
+"drop form builder to create any contact form you'll ever want or need."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:239
+#: ../extensions/forms/extensions/contact-forms/class-fw-extension-contact-forms.php:208
+#: ../extensions/forms/extensions/contact-forms/class-fw-extension-contact-forms.php:209
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:105
+#: ../extensions/mailer/manifest.php:5
+msgid "Mailer"
+msgstr "ایمیل"
+
+#: ../core/components/extensions/manager/available-extensions.php:240
+#: ../extensions/mailer/manifest.php:6
+msgid ""
+"This extension will let you set some global email options and it is used by "
+"other extensions (like Forms) to send emails."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:253
+msgid "Social"
+msgstr "اجتماعی"
+
+#: ../core/components/extensions/manager/available-extensions.php:254
+msgid ""
+"Use this extension to configure all your social related APIs. Other "
+"extensions will use the Social extension to connect to your social accounts."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:267
+#: ../extensions/backups/class-fw-extension-backups.php:469
+#: ../extensions/backups/class-fw-extension-backups.php:470
+#: ../extensions/backups/views/page.php:11
+msgid "Backup"
+msgstr "پشتیبان گیری"
+
+#: ../core/components/extensions/manager/available-extensions.php:268
+msgid ""
+"This extension lets you set up daily, weekly or monthly backup schedule. You "
+"can choose between a full backup or a data base only backup."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:281
+msgid "Media"
+msgstr "چندرسانه"
+
+#: ../core/components/extensions/manager/available-extensions.php:295
+msgid "Population method"
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:309
+msgid "Styling"
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:310
+msgid ""
+"This extension lets you control the website visual style. Starting from "
+"predefined styles to changing specific fonts and colors across the website."
+msgstr ""
+
+#: ../core/components/extensions/manager/available-extensions.php:323
+msgid "Translations"
+msgstr "ترجمه ها"
+
+#: ../core/components/extensions/manager/available-extensions.php:324
+msgid ""
+"This extension lets you translate your website in any language or even add "
+"multiple languages for your users to change at their will from the front-end."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:403
+msgid "Cannot remove the old extensions backup dir"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:409
+msgid "Cannot create the extensions backup dir"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:414
+msgid "Cannot backup the extensions"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:460
+msgid "Cannot clear the extensions directory"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:465
+msgid "Cannot recreate the extensions directory"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:471
+msgid "Cannot recover the extensions"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:699
+#, php-format
+msgid "Cannot activate hidden standalone extension %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:906
+#: ../extensions/update/views/updates-list.php:60
+#, php-format
+msgid "%s Extensions"
+msgstr "%s افزونه ها"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:936
+msgid "You are not allowed to install extensions."
+msgstr "شنا اجازه نصب افزونه ندارید."
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:953
+msgid "All supported extensions are already installed."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:974
+msgid "Install Compatible Extension"
+msgid_plural "Install Compatible Extensions"
+msgstr[0] "نصب افزونه های هماهنگ"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:975
+msgid "Install Extension"
+msgid_plural "Install Extensions"
+msgstr[0] "نصب افزونه"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:986
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1496
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1907
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2124
+#: ../extensions/update/class-fw-extension-update.php:684
+#: ../extensions/update/class-fw-extension-update.php:752
+#: ../extensions/update/class-fw-extension-update.php:820
+msgid "Invalid nonce."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1024
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2455
+#, php-format
+msgid "Cannot remove temporary directory: %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1102
+msgid "You have no permissions to install extensions"
+msgstr "شما درسترسی لازم را برای نصب افزونه ندارید"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1109
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1587
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1971
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2186
+msgid "No extensions provided"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1118
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1597
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3241
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3331
+msgid "WP Filesystem is not initialized"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1144
+#, php-format
+msgid "Extension \"%s\" is already installed."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1159
+#, php-format
+msgid "Extension \"%s\" is not available for install."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1187
+#, php-format
+msgid "Parent extension \"%s\" not available."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1229
+#, php-format
+msgid "Downloading the \"%s\" extension..."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1273
+#, php-format
+msgid "Installing the \"%s\" extension..."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1313
+#, php-format
+msgid "The %s extension has been successfully installed."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1382
+msgid "Activating extension..."
+msgid_plural "Activating extensions..."
+msgstr[0] "فعال کردن افزونه ..."
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1422
+msgid "Extension has been successfully activated."
+msgid_plural "Extensions has been successfully activated."
+msgstr[0] "افزونه(ها) با موفقیت فعال شدند."
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1455
+msgid "Cannot install extension"
+msgid_plural "Cannot install extensions"
+msgstr[0] "نمیتوان افزونه را نصب کرد"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1474
+msgid "You are not allowed to delete extensions."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1485
+msgid "Delete Extension"
+msgid_plural "Delete Extensions"
+msgstr[0] "حذف افزونه"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1580
+msgid "You have no permissions to uninstall extensions"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1648
+#, php-format
+msgid "Deleting the \"%s\" extension..."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1660
+#, php-format
+msgid "Cannot delete the \"%s\" extension."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1672
+#, php-format
+msgid "The %s extension has been successfully deleted."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1732
+msgid "Cannot uninstall extension"
+msgid_plural "Cannot uninstall extensions"
+msgstr[0] "نمیتوان افزونه را حذف کرد"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1773
+msgid "Extension not specified."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1778
+#, php-format
+msgid "Extension \"%s\" is not installed."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1846
+#, php-format
+msgid "Extension \"%s\" does not exist or is not active."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1855
+#, php-format
+msgid "%s extension does not have settings."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1876
+msgid "Extension has no documentation. Maybe ask its developer to write some?"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1900
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2117
+msgid "Invalid request method."
+msgstr "متد درخواست نادرست."
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1912
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2129
+msgid "No extension specified."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1964
+msgid "You have no permissions to activate extensions"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:1984
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2202
+#, php-format
+msgid "Extension \"%s\" does not exist."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2028
+msgid "Cannot activate extension"
+msgid_plural "Cannot activate extensions"
+msgstr[0] "نمیتوان افزونه را فعال کرد"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2179
+msgid "You have no permissions to deactivate extensions"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2250
+#, fuzzy
+#| msgid "Active Extensions"
+msgid "Cannot deactivate extension"
+msgid_plural "Cannot activate extensions"
+msgstr[0] "افزونه های فعال"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2367
+msgid "You are not allowed to save extensions settings."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2374
+msgid "Invalid extension."
+msgstr "افزونه نادرست."
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2379
+msgid "Extension does not have settings options."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2411
+msgid "Extensions settings successfully saved."
+msgstr "تنظیمات افزونه ها با موفقیت بروزرسانی شدند."
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2439
+#, php-format
+msgid "Extension \"%s\" has no download sources."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2463
+#, php-format
+msgid "Cannot create temporary directory: %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2488
+#, php-format
+msgid "Invalid download source: %s"
+msgstr "نمیتوان %s را دانلود کرد"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2535
+#, php-format
+msgid "Cannot remove the \"%s\" extension downloaded zip."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2544
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:325
+msgid "Cannot access the unzipped directory files."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2560
+#, php-format
+msgid "The unzipped \"%s\" extension directory not found."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2586
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2605
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2694
+#, php-format
+msgid "Cannot read directory \"%s\"."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2641
+#, php-format
+msgid "Cannot delete \"%s\"."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2655
+#, php-format
+msgid "Cannot create the \"%s\" directory."
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:2674
+#, php-format
+msgid "Cannot move \"%s\" to \"%s\"."
+msgstr "خطای جابجایی \" %s \" به \" %s \"."
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3119
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3166
+#, php-format
+msgid "Cannot activate the %s extension because it is not installed. %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3123
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3170
+#: ../extensions/backups/extensions/backups-demo/views/page.php:62
+msgid "Install"
+msgstr "نصب"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3223
+msgid "Install theme compatible extensions"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3258
+#, php-format
+msgid "Temporary directory cannot be removed: %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3265
+#, php-format
+msgid "Temporary directory cannot be created: %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3288
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3295
+#, fuzzy, php-format
+#| msgid "Failed to remove dir: %s"
+msgid "Failed to extract relative directory from: %s"
+msgstr "مشکل در حذف پوشه مقابل : %s"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3304
+#, php-format
+msgid "Failed to create directory %s"
+msgstr "مشکلی هنگام ایجاد پوشه مقابل رخ داده است : %s"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3312
+#, fuzzy, php-format
+#| msgid "Failed to open file"
+msgid "Failed to copy extension to %s"
+msgstr "خطا در بازکردن فایل"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3342
+#, php-format
+msgid "Temporary directory does not exist: %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3362
+#, php-format
+msgid "Cannot obtain WP Filesystem dir for %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3499
+#, php-format
+msgid "PHP needs to be updated to %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3508
+#, php-format
+msgid "Maximum supported PHP version is %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3527
+#, php-format
+msgid "You need to update WordPress to %s: %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3529
+msgid "Update WordPress"
+msgstr "ورپرس را آپدیت کن"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3533
+#, php-format
+msgid "WordPress needs to be updated to %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3543
+#, php-format
+msgid "Maximum supported WordPress version is %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3560
+#, php-format
+msgid "You need to update %s to %s: %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3564
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3604
+#, php-format
+msgid "Update %s"
+msgstr "بروزرسانی %s"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3569
+#, php-format
+msgid "%s needs to be updated to %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3580
+#, php-format
+msgid "Maximum supported %s version is %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3600
+#, php-format
+msgid "You need to update the %s extension to %s: %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3609
+#, php-format
+msgid "The %s extension needs to be updated to %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3620
+#, php-format
+msgid "Maximum supported %s extension version is %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3635
+#, php-format
+msgid "The %s extension is disabled"
+msgstr "افزونه %s غیر فعال است"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3636
+#, php-format
+msgid "Activate %s"
+msgstr "فعال کردن %s"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3645
+#, php-format
+msgid "The %s extension is not installed: %s"
+msgstr "افزونه %s نصب نشده است : %s"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3648
+#, php-format
+msgid "Install %s"
+msgstr "نصب %s"
+
+#: ../core/components/extensions/manager/class--fw-extensions-manager.php:3653
+#, php-format
+msgid "The %s extension is not installed"
+msgstr ""
+
+#: ../core/components/extensions/manager/includes/class--fw-extensions-delete-upgrader-skin.php:14
+#: ../core/components/extensions/manager/includes/class--fw-extensions-install-upgrader-skin.php:14
+msgid "Go to extensions page"
+msgstr ""
+
+#: ../core/components/extensions/manager/includes/class--fw-extensions-delete-upgrader-skin.php:17
+#: ../core/components/extensions/manager/includes/class--fw-extensions-install-upgrader-skin.php:17
+msgid "Return to Extensions page"
+msgstr "بازگشت به صفحه افزونه ها"
+
+#: ../core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:30
+#, php-format
+msgid "\"%s\" extension github source \"user_repo\" parameter is required"
+msgstr ""
+
+#: ../core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:74
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:91
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:232
+msgid "Github error:"
+msgstr ""
+
+#: ../core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:80
+#: ../core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:89
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:100
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:241
+#, php-format
+msgid "Failed to access Github repository \"%s\" releases. (Response code: %d)"
+msgstr ""
+
+#: ../core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:97
+#, php-format
+msgid "Failed to access Github repository \"%s\" releases. (%s)"
+msgstr ""
+
+#: ../core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:105
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:108
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:249
+#, php-format
+msgid "Failed to access Github repository \"%s\" releases."
+msgstr ""
+
+#: ../core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:120
+#, php-format
+msgid "\"%s\" extension github repository \"%s\" has no releases."
+msgstr ""
+
+#: ../core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:154
+#, php-format
+msgid "Cannot download the \"%s\" extension zip. (Response code: %d)"
+msgstr ""
+
+#: ../core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:161
+#, php-format
+msgid "Cannot download the \"%s\" extension zip. %s"
+msgstr ""
+
+#: ../core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:169
+#, php-format
+msgid "Cannot download the \"%s\" extension zip."
+msgstr ""
+
+#: ../core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:180
+#, php-format
+msgid "Cannot save the \"%s\" extension zip."
+msgstr ""
+
+#: ../core/components/extensions/manager/views/delete-form.php:12
+msgid "You are about to remove the following extension:"
+msgid_plural "You are about to remove the following extensions:"
+msgstr[0] ""
+
+#: ../core/components/extensions/manager/views/delete-form.php:26
+msgid "Are you sure you wish to delete this extension?"
+msgid_plural "Are you sure you wish to delete these extensions?"
+msgstr[0] ""
+
+#: ../core/components/extensions/manager/views/delete-form.php:35
+msgid "Yes, Delete this extension"
+msgid_plural "Yes, Delete these extensions"
+msgstr[0] ""
+
+#: ../core/components/extensions/manager/views/delete-form.php:42
+#: ../core/components/extensions/manager/views/install-form.php:51
+msgid "No, Return me to the extension list"
+msgstr ""
+
+#: ../core/components/extensions/manager/views/delete-form.php:45
+msgid "Click to view entire list of directories which will be deleted"
+msgstr ""
+
+#: ../core/components/extensions/manager/views/extension-page-header.php:25
+#: ../core/components/extensions/manager/views/extension.php:101
+msgid "Install Instructions"
+msgstr "دستورالعمل‌ نصب"
+
+#: ../core/components/extensions/manager/views/extension-page-header.php:31
+#: ../core/components/extensions/manager/views/extension.php:94
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:41
+#: ../helpers/class-fw-settings-form.php:73
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: ../core/components/extensions/manager/views/extension-page-header.php:40
+#, php-format
+msgid "%s Settings"
+msgstr ""
+
+#: ../core/components/extensions/manager/views/extension-page-header.php:43
+#, php-format
+msgid "%s Install Instructions"
+msgstr ""
+
+#: ../core/components/extensions/manager/views/extension-page-header.php:46
+msgid "Unknown tab:"
+msgstr "زبانه ناشناس:"
+
+#: ../core/components/extensions/manager/views/extension.php:114
+msgid "Compatible"
+msgstr "سازگار"
+
+#: ../core/components/extensions/manager/views/extension.php:114
+msgid "with your current theme"
+msgstr "با قالب فعلی شما"
+
+#: ../core/components/extensions/manager/views/extension.php:121
+msgid "Deactivate"
+msgstr "غیر فعال کردن"
+
+#: ../core/components/extensions/manager/views/extension.php:130
+msgid "Activate"
+msgstr "فعال کردن"
+
+#: ../core/components/extensions/manager/views/extension.php:143
+msgid "Are you sure you want to remove this extension?"
+msgstr ""
+
+#: ../core/components/extensions/manager/views/extension.php:152
+#: ../core/components/extensions/manager/views/extension.php:153
+#: ../core/components/extensions/manager/views/extension.php:214
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/class-fw-shortcode-contact-form.php:108
+#: ../extensions/shortcodes/class-fw-extension-shortcodes.php:435
+#: ../extensions/shortcodes/shortcodes/column/class-fw-shortcode-column.php:72
+#: ../extensions/shortcodes/shortcodes/section/class-fw-shortcode-section.php:78
+#: ../includes/option-types/addable-box/class-fw-option-type-addable-box.php:88
+msgid "Remove"
+msgstr "حذف کردن"
+
+#: ../core/components/extensions/manager/views/extension.php:165
+#: ../extensions/backups/includes/list-table/class--fw-ext-backups-list-table.php:80
+#: ../extensions/backups/includes/module/tasks/type/download/class-fw-ext-backups-task-type-download.php:18
+msgid "Download"
+msgstr "دانلود"
+
+#: ../core/components/extensions/manager/views/extension.php:186
+#, php-format
+msgid "Parent extension \"%s\" is disabled"
+msgstr ""
+
+#: ../core/components/extensions/manager/views/extension.php:192
+#: ../extensions/backups/includes/module/schedule/settings-options.php:20
+msgid "Disabled"
+msgstr "غیرفعای"
+
+#: ../core/components/extensions/manager/views/extension.php:211
+msgid "View Requirements"
+msgstr "نمایش موارد ضروری"
+
+#: ../core/components/extensions/manager/views/extensions-page.php:41
+msgid "Active Extensions"
+msgstr "افزونه های فعال"
+
+#: ../core/components/extensions/manager/views/extensions-page.php:57
+msgid "No extensions activated yet"
+msgstr "هیچ افزونه ای تا کنون فعال نشده است"
+
+#: ../core/components/extensions/manager/views/extensions-page.php:57
+msgid "Check the available extensions below"
+msgstr ""
+
+#: ../core/components/extensions/manager/views/extensions-page.php:83
+msgid "Available Extensions"
+msgstr "افزونه های قابل دسترس"
+
+#: ../core/components/extensions/manager/views/extensions-page.php:208
+msgid "Show other extensions"
+msgstr "نمایش افزونه های دیگر"
+
+#: ../core/components/extensions/manager/views/extensions-page.php:209
+msgid "Hide other extensions"
+msgstr "مخفی کردن افزونه های دیگر"
+
+#: ../core/components/extensions/manager/views/install-form.php:13
+msgid ""
+"We've detected that your current theme is compatible with the following "
+"extension and it is recommended that you install it to fully benefit from "
+"your theme."
+msgid_plural ""
+"We've detected that your current theme is compatible with the following "
+"extensions and it is recommended that you install them to fully benefit from "
+"your theme."
+msgstr[0] ""
+
+#: ../core/components/extensions/manager/views/install-form.php:20
+msgid "You are about to install the following extension:"
+msgid_plural "You are about to install the following extensions:"
+msgstr[0] "شما در حال نصب افزونه مقابل هستید : "
+
+#: ../core/components/extensions/manager/views/install-form.php:35
+msgid "Are you sure you wish to install this extension?"
+msgid_plural "Are you sure you wish to install these extensions?"
+msgstr[0] "واقعاً می‌خواهید ‌این افزونه را نصب کنید?"
+
+#: ../core/components/extensions/manager/views/install-form.php:44
+msgid "Yes, Install this extension"
+msgid_plural "Yes, Install these extensions"
+msgstr[0] "بله، نصب شود"
+
+#: ../core/components/theme.php:202
+msgid "Theme requirements not met:"
+msgstr ""
+
+#: ../core/extends/class-fw-option-type.php:317
+#, php-format
+msgid "Option type %s has no default value"
+msgstr ""
+
+#: ../extensions/backups/class-fw-extension-backups.php:127
+#, php-format
+msgid ""
+"Oops, %s requires %s but it is not enabled on your server. If you are not "
+"familiar with PHP Zip module, please contact your hosting provider."
+msgstr ""
+
+#: ../extensions/backups/class-fw-extension-backups.php:132
+msgid "Unyson Backup"
+msgstr "پشتیبان گیری"
+
+#: ../extensions/backups/class-fw-extension-backups.php:136
+#, fuzzy
+#| msgid "Zip Code"
+msgid "PHP Zip module"
+msgstr "کد پستی"
+
+#: ../extensions/backups/class-fw-extension-backups.php:190
+#, php-format
+msgid ""
+"Your website is hosted using the LiteSpeed web server. Please consult this "
+"%sarticle%s if you have problems backing up."
+msgstr ""
+"وبسایت شما توسط وب سرور LiteSpeed میزبانی شده است. لطفا در صورت بروز مشکل "
+"هنگام پشتیبان گیری از %sاین مطلب%s راهنمایی بگیرید."
+
+#: ../extensions/backups/class-fw-extension-backups.php:277
+#: ../extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:253
+msgid "Are you sure?"
+msgstr "آیا مطمئن هستید؟"
+
+#: ../extensions/backups/class-fw-extension-backups.php:369
+#: ../extensions/backups/class-fw-extension-backups.php:436
+msgid "File not specified"
+msgstr ""
+
+#: ../extensions/backups/class-fw-extension-backups.php:378
+msgid "Filesystem access required"
+msgstr ""
+
+#: ../extensions/backups/class-fw-extension-backups.php:400
+#: ../extensions/backups/class-fw-extension-backups.php:405
+msgid "Invalid filesystem credentials"
+msgstr ""
+
+#: ../extensions/backups/class-fw-extension-backups.php:614
+#: ../helpers/general.php:1828
+msgid "Unknown error"
+msgstr "خطای ناشناس"
+
+#: ../extensions/backups/class-fw-extension-backups.php:618
+#: ../extensions/backups/class-fw-extension-backups.php:632
+msgid "Access Denied"
+msgstr "دسترسی ممکن نیست"
+
+#: ../extensions/backups/class-fw-extension-backups.php:625
+msgid "Archive not found"
+msgstr "آرشیو یافت نشد"
+
+#: ../extensions/backups/class-fw-extension-backups.php:639
+#: ../extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:197
+msgid "Failed to open file"
+msgstr "خطا در بازکردن فایل"
+
+#: ../extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:103
+#: ../extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:104
+#: ../extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:417
+#: ../extensions/backups/extensions/backups-demo/views/page.php:22
+msgid "Demo Content Install"
+msgstr "نصب محتوای دمو"
+
+#: ../extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:120
+#, fuzzy, php-format
+#| msgid "Demo Content Install"
+msgid "Demo Content Install works only in %s."
+msgstr "نصب محتوای دمو"
+
+#: ../extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:122
+msgid "Staging"
+msgstr ""
+
+#: ../extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:303
+#: ../extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:359
+#: ../extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:392
+#: ../extensions/mailer/includes/option-type-mailer/class-fw-option-type-mailer.php:189
+msgid "Forbidden"
+msgstr ""
+
+#: ../extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:372
+msgid "Invalid demo"
+msgstr ""
+
+#: ../extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:379
+msgid "A content install is currently running"
+msgstr ""
+
+#: ../extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:475
+#: ../extensions/shortcodes/shortcodes/notification/options.php:20
+msgid "Error"
+msgstr "خطا"
+
+#: ../extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:491
+msgid "Demo Install has been aborted"
+msgstr ""
+
+#: ../extensions/backups/extensions/backups-demo/views/page.php:15
+msgid ""
+"IMPORTANT: Installing this demo content will delete the content you "
+"currently have on your website. However, we create a backup of your current "
+"content in (Tools > Backup). You can restore the backup from there at any "
+"time in the future."
+msgstr ""
+"مهم : نصب این محتوای دمو، اطلاعات جاری وب سایت شما را پاک خواهد کرد. با این "
+"وجود، ما از اطلاعات جاری شما یک نسخه پشتیبان تهیه خواهیم کرد که از قسمت "
+"\"ابزارها > پشتیبان گیری\" قابل دسترس و بازگردانی در آینده خواهد بود."
+
+#: ../extensions/backups/extensions/backups-demo/views/page.php:28
+#: ../extensions/backups/extensions/backups-demo/views/page.php:39
+#: ../extensions/backups/views/page.php:17
+#: ../extensions/backups/views/page.php:28
+msgid "Important"
+msgstr "مهم"
+
+#: ../extensions/backups/extensions/backups-demo/views/page.php:30
+#: ../extensions/backups/views/page.php:19
+#, php-format
+msgid "You need to activate %s."
+msgstr ""
+
+#: ../extensions/backups/extensions/backups-demo/views/page.php:31
+#: ../extensions/backups/views/page.php:20
+msgid "zip extension"
+msgstr ""
+
+#: ../extensions/backups/extensions/backups-demo/views/page.php:54
+msgid "Live Preview"
+msgstr "نمایش زنده"
+
+#: ../extensions/backups/extensions/backups-demo/views/status.php:16
+msgid "Installing"
+msgstr "در حال نصب"
+
+#: ../extensions/backups/extensions/backups-demo/views/status.php:18
+msgid "We are currently installing your content."
+msgstr "ما در حال نصب محتوای شما هستیم."
+
+#: ../extensions/backups/extensions/backups-demo/views/status.php:47
+msgid "Pending"
+msgstr "در انتظار"
+
+#: ../extensions/backups/extensions/backups-demo/views/status.php:52
+#: ../extensions/backups/views/tasks-status.php:38
+msgid "Abort"
+msgstr "لغو"
+
+#: ../extensions/backups/helpers.php:25
+#, php-format
+msgid "Response code: %d"
+msgstr ""
+
+#: ../extensions/backups/helpers.php:37
+msgid "Invalid JSON response"
+msgstr ""
+
+#: ../extensions/backups/helpers.php:44
+msgid ""
+"HTTP Loopback Connections are not enabled on this server. If you need to "
+"contact your web host, tell them that when PHP tries to connect back to the "
+"site at the URL `{url}` and it gets the error `{error}`. There may be a "
+"problem with the server configuration (eg local DNS problems, mod_security, "
+"etc) preventing connections from working properly."
+msgstr ""
+"اتصال HTTP Loopback در این سرور فعال نیست. اگر لازم بود که با پشتیبانی هاست "
+"خود در تماس باشید، به آن ها بگویید زمانی که PHP سعی میکند به خود سایت با "
+"آدرس `{url}` وصل شود خطای `{error}` رخ میدهد. احتمالا مشکلی در تنظیمات سرور "
+"(مانند مشکلات دی ان اس محلی، mod_security و...) مانع اتصال و درست کارکردن آن "
+"می شود."
+
+#: ../extensions/backups/helpers.php:121 ../extensions/backups/helpers.php:143
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:361
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:417
+#, php-format
+msgid "Failed to create dir: %s"
+msgstr ""
+
+#: ../extensions/backups/helpers.php:150
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-export.php:145
+#, php-format
+msgid "Failed to copy: %s"
+msgstr ""
+
+#: ../extensions/backups/helpers.php:196
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-zip.php:73
+#: ../extensions/backups/includes/module/tasks/type/download/type/class-fw-ext-backups-task-type-download-local.php:50
+msgid "Zip extension missing"
+msgstr ""
+
+#: ../extensions/backups/helpers.php:202
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-zip.php:81
+#, php-format
+msgid "Cannot open zip (Error code: %s)"
+msgstr ""
+
+#: ../extensions/backups/helpers.php:223
+#, fuzzy, php-format
+#| msgid "Cannot create directory: "
+msgid "Cannot restore previous zip entry: %s"
+msgstr "نمیتوان پوشه را ایجاد کرد: "
+
+#: ../extensions/backups/helpers.php:258
+#, php-format
+msgid "Cannot create directory: %s"
+msgstr "نمیتوان پوشه %s را ایجاد کرد"
+
+#: ../extensions/backups/helpers.php:266
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-dir-clean.php:55
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-dir-clean.php:70
+#, php-format
+msgid "Cannot create file: %s"
+msgstr ""
+
+#: ../extensions/backups/helpers.php:281
+#, php-format
+msgid "Cannot read chunk from zip entry: %s"
+msgstr ""
+
+#: ../extensions/backups/helpers.php:292
+#, fuzzy, php-format
+#| msgid "Cannot create: "
+msgid "Cannot close file: %s"
+msgstr "خطای ایجاد : "
+
+#: ../extensions/backups/includes/list-table/class--fw-ext-backups-list-table.php:69
+#: ../extensions/backups/includes/module/schedule/settings-options.php:76
+#: ../extensions/backups/views/page.php:39
+msgid "Full Backup"
+msgstr "پشتیبان گیری کامل"
+
+#: ../extensions/backups/includes/list-table/class--fw-ext-backups-list-table.php:69
+#: ../extensions/backups/includes/module/schedule/settings-options.php:85
+#: ../extensions/backups/views/page.php:46
+msgid "Content Backup"
+msgstr "پشتیبان گیری محتوا"
+
+#: ../extensions/backups/includes/list-table/class--fw-ext-backups-list-table.php:88
+msgid ""
+"Warning! \n"
+"You are about to delete a backup, it will be lost forever. \n"
+"Are you sure?"
+msgstr ""
+"اخطار \n"
+"شما در حال حذف فایل پشتیبان هستید.\n"
+"آیا مطمئن هستید؟"
+
+#: ../extensions/backups/includes/list-table/class--fw-ext-backups-list-table.php:93
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:62
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:61
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:63
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:62
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/class-fw-option-type-form-builder-item-recaptcha.php:66
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:61
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:56
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:59
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:61
+msgid "Delete"
+msgstr "حذف"
+
+#: ../extensions/backups/includes/list-table/class--fw-ext-backups-list-table.php:144
+msgid "No archives found"
+msgstr "پشتیبانی پیدا نشد"
+
+#: ../extensions/backups/includes/list-table/class--fw-ext-backups-list-table.php:153
+msgid ""
+"Warning! \n"
+"The restore will replace all of your content."
+msgstr ""
+
+#: ../extensions/backups/includes/list-table/class--fw-ext-backups-list-table.php:154
+msgid "Restore Backup"
+msgstr "بازیابی پشتیبان"
+
+#: ../extensions/backups/includes/log/view.php:9
+msgid "View Activity Log"
+msgstr "نمایش گزارش فعالیت"
+
+#: ../extensions/backups/includes/log/view.php:10
+msgid "Hide Activity Log"
+msgstr ""
+
+#: ../extensions/backups/includes/log/view.php:25
+#, php-format
+msgid "%s ago"
+msgstr "%s قبل"
+
+#: ../extensions/backups/includes/module/schedule/class--fw-ext-backups-module-schedule.php:186
+msgid "Backup Schedule"
+msgstr "زمان بندی پشتیبان گیری"
+
+#: ../extensions/backups/includes/module/schedule/class--fw-ext-backups-module-schedule.php:288
+msgid "Once Weekly"
+msgstr ""
+
+#: ../extensions/backups/includes/module/schedule/class--fw-ext-backups-module-schedule.php:292
+msgid "Once a month"
+msgstr ""
+
+#: ../extensions/backups/includes/module/schedule/class--fw-ext-backups-module-schedule.php:342
+msgid "Full"
+msgstr ""
+
+#: ../extensions/backups/includes/module/schedule/class--fw-ext-backups-module-schedule.php:343
+#: ../extensions/shortcodes/shortcodes/tabs/options.php:19
+#: ../extensions/shortcodes/shortcodes/text-block/options.php:8
+msgid "Content"
+msgstr "محتوا"
+
+#: ../extensions/backups/includes/module/schedule/class--fw-ext-backups-module-schedule.php:352
+#: ../extensions/backups/includes/module/schedule/settings-options.php:21
+msgid "Monthly"
+msgstr "ماهانه"
+
+#: ../extensions/backups/includes/module/schedule/class--fw-ext-backups-module-schedule.php:353
+#: ../extensions/backups/includes/module/schedule/settings-options.php:22
+msgid "Weekly"
+msgstr "هفتگی"
+
+#: ../extensions/backups/includes/module/schedule/class--fw-ext-backups-module-schedule.php:354
+#: ../extensions/backups/includes/module/schedule/settings-options.php:23
+msgid "Daily"
+msgstr "روزانه"
+
+#: ../extensions/backups/includes/module/schedule/class--fw-ext-backups-module-schedule.php:365
+msgid "Backup Schedule Active"
+msgstr "زمان بندی پشتیبان گیری"
+
+#: ../extensions/backups/includes/module/schedule/class--fw-ext-backups-module-schedule.php:366
+msgid "Next backup on"
+msgstr ""
+
+#: ../extensions/backups/includes/module/schedule/class--fw-ext-backups-module-schedule.php:373
+msgid "No backup schedule created yet! We advise you to do it asap!"
+msgstr ""
+"تا به حال هیچ زمانبندی برای پشتیبان گیری ایجاد نشده است! پیشنهاد میکنیم هرچه "
+"سریعتر این کار را انجام دهید!"
+
+#: ../extensions/backups/includes/module/schedule/settings-options.php:16
+msgid "Interval"
+msgstr "بازه زمانی"
+
+#: ../extensions/backups/includes/module/schedule/settings-options.php:25
+msgid "Select how often do you want to backup your website."
+msgstr ""
+
+#: ../extensions/backups/includes/module/schedule/settings-options.php:32
+#: ../extensions/backups/includes/module/schedule/settings-options.php:45
+#: ../extensions/backups/includes/module/schedule/settings-options.php:58
+msgid "Age Limit"
+msgstr "محدودیت سنی"
+
+#: ../extensions/backups/includes/module/schedule/settings-options.php:33
+msgid "Age limit of backups in months"
+msgstr ""
+
+#: ../extensions/backups/includes/module/schedule/settings-options.php:46
+msgid "Age limit of backups in weeks"
+msgstr ""
+
+#: ../extensions/backups/includes/module/schedule/settings-options.php:59
+msgid "Age limit of backups in days"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/class--fw-ext-backups-module-tasks.php:142
+msgid "undefined"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/class--fw-ext-backups-module-tasks.php:282
+msgid "Task type not registered"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/class--fw-ext-backups-module-tasks.php:289
+msgid "Execution stopped (next step did not started)"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/class--fw-ext-backups-module-tasks.php:309
+msgid "The execution failed. Please check error.log"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/class--fw-ext-backups-module-tasks.php:379
+msgid "Invalid execution end time"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/class--fw-ext-backups-module-tasks.php:602
+msgid "Invalid execution result"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/class--fw-ext-backups-module-tasks.php:721
+msgid "Invalid token"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/class--fw-ext-backups-module-tasks.php:740
+msgid "Invalid tasks hash"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-export.php:38
+msgid "Database export"
+msgstr "خروجی پایگاه داده"
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-export.php:50
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-unzip.php:37
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-zip.php:51
+#: ../extensions/backups/includes/module/tasks/type/download/class-fw-ext-backups-task-type-download.php:114
+msgid "Destination dir not specified"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-export.php:71
+msgid "Database table disappeared"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-export.php:90
+msgid "Cannot create file"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-export.php:96
+msgid "Cannot reopen file"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-export.php:141
+#, php-format
+msgid "Cannot export CREATE TABLE sql for %s"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-export.php:212
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-export.php:268
+msgid "Cannot get next database table"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:12
+msgid "Database restore"
+msgstr "بازگردانی پایگاه داده"
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:83
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:37
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-zip.php:41
+msgid "Source dir not specified"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:101
+msgid "Database file not found"
+msgstr "پایگاه داده یافت نشد"
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:135
+msgid ""
+"PHP class SplFileObject is required but not available. Please contact your "
+"hosting"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:152
+#, php-format
+msgid "Invalid sub task %s"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:260
+#, php-format
+msgid "Cannot drop temporary table: %s"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:287
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:451
+msgid "Cannot open db file"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:296
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:460
+msgid "Cannot move cursor in db file"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:311
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:672
+#, php-format
+msgid "Failed to decode line %d from db file."
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:346
+#, php-format
+msgid "Cannot read line %d from db file"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:355
+msgid "Required params not found"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:392
+msgid "Cannot do full db restore because backup is missing some tables"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:522
+#, php-format
+msgid "Imported url \"%s\" is prefix of current url"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:689
+#, php-format
+msgid "Table name is more than 64 characters: %s"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:698
+#, php-format
+msgid "Failed to drop tmp table %s"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:744
+#, php-format
+msgid "Failed to create tmp table %s"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:757
+#, php-format
+msgid "Tried to insert data in table that was not imported %s"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:963
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:990
+#, php-format
+msgid "Failed to insert row from line %d into table %s"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:1007
+#, php-format
+msgid "Invalid json type %s in db file"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:1014
+msgid "Cannot read line from db file"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:1058
+msgid "Failed to restore options keeping step"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:1093
+#, php-format
+msgid "Failed to keep option: %s"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:1154
+msgid "Tables drop failed"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:1168
+msgid "Tables rename failed."
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-dir-clean.php:12
+msgid "Directory Cleanup"
+msgstr "پاکسازی دایرکتوری"
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-dir-clean.php:21
+msgid "Dir not specified"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-dir-clean.php:30
+msgid "Cannot remove directory"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-dir-clean.php:37
+msgid "Cannot create directory"
+msgstr "نمیتوان پوشه ایجاد کرد"
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-export.php:9
+msgid "Files Export"
+msgstr "برون ریزی فایل ها"
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-export.php:25
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:52
+msgid "Source dirs not specified"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-export.php:33
+msgid "Destination not specified"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-export.php:82
+#, php-format
+msgid "Source dir %s is empty"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-export.php:124
+msgid "Failed to get dir chmod"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-export.php:131
+msgid "Failed to create destination dir"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-export.php:219
+#, php-format
+msgid "Failed to restore dir listing from: %s"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:9
+msgid "Files Restore"
+msgstr "بازگردانی فایل ها"
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:45
+#, fuzzy, php-format
+#| msgid "Failed to remove dir: %s"
+msgid "Invalid source dir: %s"
+msgstr "مشکل در حذف پوشه مقابل : %s"
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:135
+msgid "No filesystem access, credentials required"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:139
+msgid "No filesystem access, invalid credentials"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:145
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:154
+msgid "Filesystem init failed"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:202
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:315
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:339
+#, php-format
+msgid "Cannot convert Filesystem path: %s"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:207
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:320
+#, php-format
+msgid "Failed to list dir: %s"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:237
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:279
+#, php-format
+msgid "Failed to remove dir: %s"
+msgstr "مشکل در حذف پوشه مقابل : %s"
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:244
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:286
+#, php-format
+msgid "Failed to remove file: %s"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:374
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:430
+#, php-format
+msgid "Failed to copy file: %s"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-remove.php:9
+msgid "Image Sizes Remove"
+msgstr "حذف سایزهای تصاویر"
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-remove.php:23
+msgid "Uploads dir not specified"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php:9
+msgid "Image Sizes Restore"
+msgstr "بازگردانی سایزهای تصاویر"
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php:12
+#, php-format
+msgid "(%d of %d)"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php:66
+msgid "Cannot get total images count"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-unzip.php:12
+msgid "Archive Unzip"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-unzip.php:15
+#, php-format
+msgid "(%d files extracted)"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-unzip.php:29
+msgid "Zip file not specified"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-unzip.php:47
+msgid "Destination dir is not empty"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-zip.php:12
+msgid "Archive Zip"
+msgstr "فشرده سازی فایل"
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-zip.php:45
+msgid "Source dir does not exist"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-zip.php:138
+msgid "Cannot close the zip file"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-zip.php:159
+msgid "Cannot move zip in destination dir"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/class-fw-ext-backups-task-type-download.php:119
+msgid "Invalid destination dir"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/class-fw-ext-backups-task-type-download.php:132
+#, php-format
+msgid "Invalid type: %s"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/class-fw-ext-backups-task-type-download.php:141
+#, php-format
+msgid "Args not specified for type: %s"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/class-fw-ext-backups-task-type-download-local.php:9
+msgid "Local Download"
+msgstr "دانلود محلی"
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/class-fw-ext-backups-task-type-download-local.php:24
+msgid "Source not specified"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/class-fw-ext-backups-task-type-download-local.php:29
+msgid "Invalid source"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/class-fw-ext-backups-task-type-download-local.php:38
+msgid "Invalid source type"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/class-fw-ext-backups-task-type-download-local.php:59
+#, php-format
+msgid "Cannot open zip: %s"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/class-fw-ext-backups-task-type-download-local.php:70
+msgid "Unhandled type"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:13
+#: ../extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:21
+msgid "Downloading"
+msgstr "در حال دانلود"
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:17
+#, php-format
+msgid "Downloading (%s of %s)"
+msgstr "دانلود (%s of %s)"
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:25
+#, php-format
+msgid "Archive Unzip (%d files extracted)"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:27
+msgid "Download finished. Doing unzip"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:30
+msgid "Downloading (invalid state)"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:56
+msgid "Url not specified"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:61
+msgid "Invalid url"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:68
+msgid "File id not specified"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:73
+msgid "Invalid file id"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:104
+msgid "Partial download invalid state"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:147
+#, php-format
+msgid "Request failed. Error code: %d"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:158
+msgid "Invalid byte position"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:163
+msgid "Empty response body"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:183
+msgid "File ended without content"
+msgstr ""
+
+#: ../extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:216
+msgid "Failed to write data to file"
+msgstr ""
+
+#: ../extensions/backups/views/page.php:34
+msgid "Here you can create a backup schedule for your website."
+msgstr ""
+"در این قسمت میتوانید یک زمان بندی برای پشتیبان گیری از وبسایت خود ایجاد "
+"نمایید."
+
+#: ../extensions/backups/views/page.php:40
+msgid "will save your themes, plugins, uploads and full database."
+msgstr ""
+"پوسته ها، افزونه ها، آپلود ها و پایگاه داده شما را به صورت کامل ذخیره خواهد "
+"کرد."
+
+#: ../extensions/backups/views/page.php:47
+msgid ""
+"will save your uploads and database without private data like users, admin "
+"email, etc."
+msgstr ""
+"آپلودها و پایگاه داده شما را بدون اطلاعات محرمانه مانند کاربران، ایمیل مدیر "
+"و... ذخیره خواهد کرد."
+
+#: ../extensions/backups/views/page.php:57
+msgid "Edit Backup Schedule"
+msgstr "ویرایش زمان بندی پشتیبان گیری"
+
+#: ../extensions/backups/views/page.php:61
+msgid "Create Full Backup Now"
+msgstr "ایجاد پشتیبان کامل"
+
+#: ../extensions/backups/views/page.php:65
+msgid "Create Content Backup Now"
+msgstr "ایجاد پشتیبان محتوا"
+
+#: ../extensions/backups/views/page.php:70
+msgid "Archives"
+msgstr "همه آرشیوها"
+
+#: ../extensions/backups/views/tasks-status.php:29
+msgid "Unknown task"
+msgstr "درخواست ناشناحته"
+
+#: ../extensions/backups/views/tasks-status.php:33
+msgid "Nothing running in background"
+msgstr ""
+
+#: ../extensions/blog/class-fw-extension-blog.php:36
+#: ../extensions/blog/class-fw-extension-blog.php:37
+msgid "Blog"
+msgstr "بلاگ"
+
+#: ../extensions/blog/class-fw-extension-blog.php:38
+msgid "Add blog post"
+msgstr ""
+
+#: ../extensions/blog/class-fw-extension-blog.php:39
+msgid "Add new blog post"
+msgstr "افزودن نوشته جدید"
+
+#: ../extensions/blog/class-fw-extension-blog.php:40
+msgid "All blog posts"
+msgstr "همه نوشته ها"
+
+#: ../extensions/blog/class-fw-extension-blog.php:41
+msgid "Edit blog post"
+msgstr "ویرایش نوشته"
+
+#: ../extensions/blog/class-fw-extension-blog.php:42
+#: ../extensions/blog/class-fw-extension-blog.php:43
+msgid "Blog Post"
+msgstr "پست بلاگ"
+
+#: ../extensions/blog/class-fw-extension-blog.php:44
+msgid "New blog post"
+msgstr "افزودن نوشته جدید"
+
+#: ../extensions/blog/class-fw-extension-blog.php:45
+msgid "No blog posts found"
+msgstr ""
+
+#: ../extensions/blog/class-fw-extension-blog.php:46
+msgid "No blog posts found in trash"
+msgstr ""
+
+#: ../extensions/blog/class-fw-extension-blog.php:47
+msgid "Search blog posts"
+msgstr ""
+
+#: ../extensions/blog/class-fw-extension-blog.php:48
+msgid "View blog post"
+msgstr ""
+
+#: ../extensions/blog/class-fw-extension-blog.php:67
+#: ../extensions/blog/manifest.php:7 ../extensions/blog/manifest.php:8
+msgid "Blog Posts"
+msgstr "پست های بلاگ"
+
+#: ../extensions/blog/class-fw-extension-blog.php:76
+msgid "Blog Categories"
+msgstr "دسته بندی های بلاگ"
+
+#: ../extensions/builder/class-fw-extension-builder.php:41
+msgid "Please register builder types on 'fw_option_types_init' action"
+msgstr ""
+
+#: ../extensions/builder/class-fw-extension-builder.php:54
+msgid ""
+"Please register builder item-types on 'fw_option_type_builder:{builder-type}:"
+"register_items' action"
+msgstr ""
+
+#: ../extensions/builder/includes/option-types/builder/extends/class-fw-option-type-builder.php:475
+msgid "Full Screen"
+msgstr "تمام صفحه"
+
+#: ../extensions/builder/includes/option-types/builder/extends/class-fw-option-type-builder.php:476
+msgid "Exit Full Screen"
+msgstr "خرووج از تمام صفحه"
+
+#: ../extensions/builder/includes/option-types/builder/extends/class-fw-option-type-builder.php:503
+msgid "Undo"
+msgstr "بازگشت"
+
+#: ../extensions/builder/includes/option-types/builder/extends/class-fw-option-type-builder.php:504
+msgid "Redo"
+msgstr "مجدد"
+
+#: ../extensions/builder/includes/option-types/builder/includes/fullscreen.php:81
+msgid "Preview Changes"
+msgstr ""
+
+#: ../extensions/builder/includes/option-types/builder/includes/fullscreen.php:82
+#: ../extensions/forms/views/backend/submit-box-edit.php:28
+#: ../extensions/update/manifest.php:5
+msgid "Update"
+msgstr "بروزرسانی"
+
+#: ../extensions/builder/includes/option-types/builder/includes/templates/class-fw-ext-builder-templates.php:119
+msgid "Templates"
+msgstr "الگو ها"
+
+#: ../extensions/builder/includes/option-types/builder/includes/templates/components/full/class-fw-ext-builder-templates-component-full.php:12
+msgid "Full Templates"
+msgstr "الگوهای کامل"
+
+#: ../extensions/builder/includes/option-types/builder/includes/templates/components/full/class-fw-ext-builder-templates-component-full.php:51
+#: ../extensions/shortcodes/shortcodes/column/includes/template-component/class-fw-ext-builder-templates-component-column.php:60
+#: ../extensions/shortcodes/shortcodes/section/includes/template-component/class-fw-ext-builder-templates-component-section.php:60
+msgid "No Templates Saved"
+msgstr "الگویی ذخیره نشده است"
+
+#: ../extensions/builder/includes/option-types/builder/includes/templates/components/full/class-fw-ext-builder-templates-component-full.php:54
+#: ../extensions/shortcodes/shortcodes/column/includes/template-component/class-fw-ext-builder-templates-component-column.php:63
+#: ../extensions/shortcodes/shortcodes/section/includes/template-component/class-fw-ext-builder-templates-component-section.php:63
+msgid "Load Template"
+msgstr "بارگیری الگو"
+
+#: ../extensions/builder/includes/option-types/builder/includes/templates/components/full/class-fw-ext-builder-templates-component-full.php:61
+msgid "Save Full Template"
+msgstr "ذخیره الگوی کامل"
+
+#: ../extensions/builder/includes/option-types/builder/includes/templates/components/full/class-fw-ext-builder-templates-component-full.php:94
+#: ../extensions/shortcodes/shortcodes/column/includes/template-component/class-fw-ext-builder-templates-component-column.php:104
+#: ../extensions/shortcodes/shortcodes/section/includes/template-component/class-fw-ext-builder-templates-component-section.php:104
+msgid "Template Name"
+msgstr ""
+
+#: ../extensions/builder/includes/option-types/builder/includes/templates/components/full/class-fw-ext-builder-templates-component-full.php:95
+msgid "Save Builder Template"
+msgstr ""
+
+#: ../extensions/builder/includes/option-types/builder/includes/templates/components/full/class-fw-ext-builder-templates-component-full.php:206
+#: ../extensions/shortcodes/shortcodes/column/includes/template-component/class-fw-ext-builder-templates-component-column.php:188
+#: ../extensions/shortcodes/shortcodes/section/includes/template-component/class-fw-ext-builder-templates-component-section.php:188
+msgid "No Title"
+msgstr "بدون عنوان"
+
+#: ../extensions/forms/class-fw-extension-forms.php:114
+#: ../extensions/forms/class-fw-extension-forms.php:125
+#: ../extensions/forms/class-fw-extension-forms.php:133
+#: ../extensions/forms/class-fw-extension-forms.php:144
+#: ../extensions/forms/extensions/contact-forms/class-fw-extension-contact-forms.php:102
+#: ../extensions/forms/extensions/contact-forms/class-fw-extension-contact-forms.php:114
+#: ../extensions/forms/extensions/contact-forms/class-fw-extension-contact-forms.php:124
+msgid "Unable to process the form"
+msgstr ""
+
+#: ../extensions/forms/extensions/contact-forms/class-fw-extension-contact-forms.php:66
+#: ../helpers/class-fw-form.php:271
+msgid "Submit"
+msgstr "ثبت"
+
+#: ../extensions/forms/extensions/contact-forms/class-fw-extension-contact-forms.php:138
+msgid "Invalid destination email (please contact the site administrator)"
+msgstr ""
+
+#: ../extensions/forms/extensions/contact-forms/class-fw-extension-contact-forms.php:180
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:90
+msgid "Message sent!"
+msgstr "پیام ارسال شد!"
+
+#: ../extensions/forms/extensions/contact-forms/class-fw-extension-contact-forms.php:186
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:98
+msgid "Oops something went wrong."
+msgstr ""
+
+#: ../extensions/forms/extensions/contact-forms/class-fw-extension-contact-forms.php:211
+msgid "Please configure the {mailer_link} extension."
+msgstr ""
+
+#: ../extensions/forms/extensions/contact-forms/manifest.php:5
+msgid "Contact Forms"
+msgstr "فرم های تماس"
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/class-fw-shortcode-contact-form.php:97
+msgid "Contact Formsss"
+msgstr "فرم های تماس"
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/class-fw-shortcode-contact-form.php:105
+msgid "Configure Mailer"
+msgstr ""
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/class-fw-shortcode-contact-form.php:106
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:61
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:60
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:62
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:61
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/class-fw-option-type-form-builder-item-recaptcha.php:65
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:60
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:55
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:58
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:60
+#: ../extensions/shortcodes/class-fw-extension-shortcodes.php:434
+#: ../extensions/shortcodes/shortcodes/column/class-fw-shortcode-column.php:70
+#: ../extensions/shortcodes/shortcodes/section/class-fw-shortcode-section.php:76
+#: ../includes/option-types/multi-upload/class-fw-option-type-multi-upload.php:165
+#: ../includes/option-types/multi-upload/class-fw-option-type-multi-upload.php:193
+#: ../includes/option-types/popup/class-fw-option-type-popup.php:173
+#: ../includes/option-types/upload/class-fw-option-type-upload.php:155
+#: ../includes/option-types/upload/class-fw-option-type-upload.php:183
+msgid "Edit"
+msgstr "ویرایش"
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/class-fw-shortcode-contact-form.php:107
+#: ../extensions/shortcodes/class-fw-extension-shortcodes.php:436
+#: ../extensions/shortcodes/shortcodes/column/class-fw-shortcode-column.php:71
+#: ../extensions/shortcodes/shortcodes/section/class-fw-shortcode-section.php:77
+msgid "Duplicate"
+msgstr "کپی کردن"
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/config.php:8
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/includes/item/class-page-builder-contact-form-item.php:46
+msgid "Contact form"
+msgstr "فرم تماس"
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/config.php:9
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/includes/item/class-page-builder-contact-form-item.php:47
+msgid "Add a Contact Form"
+msgstr "افزودن یک فرم تماس"
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/config.php:10
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/includes/item/class-page-builder-contact-form-item.php:45
+#: ../extensions/shortcodes/shortcodes/button/config.php:10
+#: ../extensions/shortcodes/shortcodes/divider/config.php:8
+#: ../extensions/shortcodes/shortcodes/icon/config.php:8
+#: ../extensions/shortcodes/shortcodes/map/config.php:10
+#: ../extensions/shortcodes/shortcodes/notification/config.php:10
+#: ../extensions/shortcodes/shortcodes/special-heading/config.php:8
+#: ../extensions/shortcodes/shortcodes/tabs/config.php:10
+#: ../extensions/shortcodes/shortcodes/text-block/config.php:10
+#: ../extensions/shortcodes/shortcodes/widget-area/config.php:10
+msgid "Content Elements"
+msgstr "محتوای صفحه"
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:15
+msgid "Form Fields"
+msgstr ""
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:44
+msgid "Options"
+msgstr ""
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:52
+msgid "Email To"
+msgstr "ایمیل به"
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:53
+msgid "We recommend you to use an email that you verify often"
+msgstr ""
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:54
+msgid "The form will be sent to this email address."
+msgstr ""
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:66
+msgid "Subject Message"
+msgstr ""
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:67
+msgid "This text will be used as subject message for the email"
+msgstr ""
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:68
+msgid "Contact Form"
+msgstr "فرم تماس"
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:77
+msgid "Submit Button"
+msgstr "دکمه ثبت"
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:78
+msgid "This text will appear in submit button"
+msgstr ""
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:79
+msgid "Send"
+msgstr "ارسال"
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:88
+msgid "Success Message"
+msgstr ""
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:89
+msgid "This text will be displayed when the form will successfully send"
+msgstr ""
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:96
+msgid "Failure Message"
+msgstr "پیام شکست"
+
+#: ../extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:97
+msgid "This text will be displayed when the form will fail to be sent"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:22
+msgid "Add a Multiple Choices field"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:27
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:58
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:87
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:186
+msgid "Multiple Choice"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:59
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:85
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:58
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:82
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:59
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:82
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:59
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:85
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/class-fw-option-type-form-builder-item-recaptcha.php:63
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/class-fw-option-type-form-builder-item-recaptcha.php:81
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:58
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:82
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:53
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:77
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:57
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:80
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:58
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:82
+msgid "Label"
+msgstr "عنوان"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:60
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:59
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:61
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:60
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:59
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:54
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:61
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:59
+msgid "Toggle mandatory field"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:63
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:62
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:60
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:63
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/class-fw-option-type-form-builder-item-recaptcha.php:64
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:62
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:57
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:60
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:62
+msgid "Edit Label"
+msgstr "ویرایش عنوان"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:64
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:64
+msgid "{x} More"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:65
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:65
+msgid "Close"
+msgstr "بستن"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:86
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:83
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:83
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:86
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/class-fw-option-type-form-builder-item-recaptcha.php:82
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:83
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:78
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:81
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:83
+msgid "Enter field label (it will be displayed on the web site)"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:93
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:90
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:90
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:93
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:90
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:85
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:88
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:90
+msgid "Mandatory Field"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:94
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:91
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:91
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:94
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:91
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:86
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:89
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:91
+msgid "Make this field mandatory?"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:108
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:108
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:105
+msgid "Choices"
+msgstr "انتخاب ها"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:109
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:109
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:106
+msgid "Add choice"
+msgstr "افزودن انتخاب"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:118
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:115
+msgid "Randomize"
+msgstr "تصادفی"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:119
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:119
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:116
+msgid "Do you want choices to be displayed in random order?"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:129
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:129
+msgid "Field Layout"
+msgstr "حالت فیلد"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:130
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:130
+msgid "Select choice display layout"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:132
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:132
+msgid "One column"
+msgstr "یک ستون"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:133
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:133
+msgid "Two columns"
+msgstr "دو ستون"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:134
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:134
+msgid "Three columns"
+msgstr "سه ستون"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:135
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:135
+msgid "Side by side"
+msgstr "کنار هم"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:142
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:119
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:185
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:142
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:126
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:180
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:183
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:126
+msgid "Instructions for Users"
+msgstr "دستورالعمل برای کاربران"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:143
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:120
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:186
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:143
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:127
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:181
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:184
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:127
+msgid "The users will see these instructions in the tooltip near the field"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:250
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:216
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:374
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:250
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:236
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:335
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:337
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:223
+msgid "The {label} field is required"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/checkboxes/class-fw-option-type-form-builder-item-checkboxes.php:255
+msgid "{label}: Submitted data contains not existing choices"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:22
+msgid "Add an Email field"
+msgstr "افزودن یک ورودی فیلد"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:26
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:57
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:84
+msgid "Email"
+msgstr "ایمیل"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:105
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:105
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:100
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:103
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:105
+msgid "Placeholder"
+msgstr "متن نگهدارنده"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:106
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:106
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:101
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:104
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:106
+msgid "This text will be used as field placeholder"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/email/class-fw-option-type-form-builder-item-email.php:221
+msgid "The {label} field must contain a valid email"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/form-header-title/class-fw-option-type-form-builder-item-form-header-title.php:46
+msgid "Edit Title"
+msgstr "ویرایش عنوان"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/form-header-title/class-fw-option-type-form-builder-item-form-header-title.php:47
+msgid "Edit Subtitle"
+msgstr "ویرایش زیرنویس"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/form-header-title/class-fw-option-type-form-builder-item-form-header-title.php:61
+#: ../extensions/shortcodes/shortcodes/icon/options.php:12
+#: ../extensions/shortcodes/shortcodes/tabs/options.php:15
+msgid "Title"
+msgstr "عنوان"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/form-header-title/class-fw-option-type-form-builder-item-form-header-title.php:62
+msgid "The title will be displayed on contact form header"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/form-header-title/class-fw-option-type-form-builder-item-form-header-title.php:67
+msgid "Subtitle"
+msgstr "زیرنویس"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/form-header-title/class-fw-option-type-form-builder-item-form-header-title.php:68
+msgid "The form header subtitle text"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:24
+msgid "Add a Number field"
+msgstr "افزودن یک ورودی عدد"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:26
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:58
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:84
+msgid "Number"
+msgstr "عدد"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:112
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:107
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:110
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:112
+msgid "Default Value"
+msgstr "مقدار پیش فرض"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:113
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:108
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:111
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:113
+msgid "This text will be used as field default value"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:133
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:128
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:131
+msgid "Restrictions"
+msgstr "محدودیت ها"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:134
+msgid "Set digits or values restrictions of this field"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:138
+msgid "Digits"
+msgstr "اعداد"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:139
+msgid "Value"
+msgstr "مقدار"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:147
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:161
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:142
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:156
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:145
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:159
+msgid "Min"
+msgstr "حداقل"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:148
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:162
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:143
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:157
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:146
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:160
+msgid "Minim value"
+msgstr "مقدار حداقل"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:153
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:167
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:148
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:162
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:151
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:165
+msgid "Max"
+msgstr "حداکثر"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:154
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:168
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:149
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:163
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:152
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:166
+msgid "Maxim value"
+msgstr "مقدار حداکثر"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:369
+msgid "The {label} field must be a valid number"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:379
+#, php-format
+msgid "The {label} field must have minimum %d digit"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:384
+#, php-format
+msgid "The {label} field must have minimum %d digits"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:389
+#, php-format
+msgid "The {label} field must have maximum %d digit"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:394
+#, php-format
+msgid "The {label} field must have maximum %d digits"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:399
+#, php-format
+msgid "The {label} field minimum value must be %s"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/number/class-fw-option-type-form-builder-item-number.php:404
+#, php-format
+msgid "The {label} field maximum value must be %s"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:22
+msgid "Add a Single Choice field"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:27
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:58
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:87
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:186
+msgid "Single Choice"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:118
+msgid "Randomize?"
+msgstr "تصادفی؟"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/radio/class-fw-option-type-form-builder-item-radio.php:255
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:241
+msgid "{label}: Submitted data contains not existing choice"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/class-fw-option-type-form-builder-item-recaptcha.php:28
+msgid "Add a Recaptcha field"
+msgstr "افزودن فیلد ریکپچا"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/class-fw-option-type-form-builder-item-recaptcha.php:30
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/class-fw-option-type-form-builder-item-recaptcha.php:62
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/class-fw-option-type-form-builder-item-recaptcha.php:83
+msgid "Recaptcha"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/class-fw-option-type-form-builder-item-recaptcha.php:67
+msgid "Set site key"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/class-fw-option-type-form-builder-item-recaptcha.php:68
+msgid "Set secret key"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/class-fw-option-type-form-builder-item-recaptcha.php:138
+msgid "Security Code"
+msgstr "کد امنیتی"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/class-fw-option-type-form-builder-item-recaptcha.php:152
+msgid "Could not validate the form"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/class-fw-option-type-form-builder-item-recaptcha.php:153
+msgid "Please fill the recaptcha"
+msgstr "ریکپچا"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/includes/option-type-recaptcha/class-fw-option-type-recaptcha.php:37
+msgid "Site key"
+msgstr "کلید سایت"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/includes/option-type-recaptcha/class-fw-option-type-recaptcha.php:38
+msgid "Your website key. More on how to configure ReCaptcha"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/includes/option-type-recaptcha/class-fw-option-type-recaptcha.php:42
+msgid "Secret key"
+msgstr "کلید رمز"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/recaptcha/includes/option-type-recaptcha/class-fw-option-type-recaptcha.php:43
+msgid "Your secret key. More on how to configure ReCaptcha"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:22
+msgid "Add a Dropdown"
+msgstr "افزودن یک لیست بازشو"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:26
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:57
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:84
+#: ../extensions/forms/includes/option-types/form-builder/items/select/class-fw-option-type-form-builder-item-select.php:170
+msgid "Dropdown"
+msgstr "لیست بازشو"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:22
+msgid "Add a Single Line Text"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:24
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:52
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:79
+msgid "Single Line Text"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:129
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:132
+msgid "Set characters or words restrictions for this field"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:133
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:136
+msgid "Characters"
+msgstr "کاراکترها"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:134
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:137
+msgid "Words"
+msgstr "کلمه ها"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:340
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:342
+#, php-format
+msgid "The {label} field must contain minimum %d character"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:345
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:347
+#, php-format
+msgid "The {label} field must contain minimum %d characters"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:350
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:352
+#, php-format
+msgid "The {label} field must contain maximum %d character"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:355
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:357
+#, php-format
+msgid "The {label} field must contain maximum %d characters"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:360
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:362
+#, php-format
+msgid "The {label} field must contain minimum %d word"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:365
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:367
+#, php-format
+msgid "The {label} field must contain minimum %d words"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:370
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:372
+#, php-format
+msgid "The {label} field must contain maximum %d word"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/text/class-fw-option-type-form-builder-item-text.php:375
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:377
+#, php-format
+msgid "The {label} field must contain maximum %d words"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:22
+msgid "Add a Paragraph Text"
+msgstr "افزودن یک ورودی پاراگراف"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:24
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:56
+#: ../extensions/forms/includes/option-types/form-builder/items/textarea/class-fw-option-type-form-builder-item-textarea.php:82
+msgid "Paragraph Text"
+msgstr "متن پاراگراف"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:22
+msgid "Add a Website field"
+msgstr "افزودن یک ورودی وب سایت"
+
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:26
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:57
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:84
+msgid "Website"
+msgstr ""
+
+#: ../extensions/forms/includes/option-types/form-builder/items/website/class-fw-option-type-form-builder-item-website.php:228
+msgid "The {label} field must be a valid website name"
+msgstr ""
+
+#: ../extensions/forms/views/backend/submit-box-add.php:9
+msgid "Note that the type can't be changed later."
+msgstr ""
+
+#: ../extensions/forms/views/backend/submit-box-add.php:11
+msgid ""
+"You will need to create a new form in order to have a different form type."
+msgstr ""
+
+#: ../extensions/forms/views/backend/submit-box-add.php:20
+#: ../extensions/forms/views/backend/submit-box-edit.php:16
+msgid "Delete Permanently"
+msgstr "پاک کردن‌ برای همیشه"
+
+#: ../extensions/forms/views/backend/submit-box-add.php:22
+#: ../extensions/forms/views/backend/submit-box-edit.php:18
+msgid "Move to Trash"
+msgstr "انتقال به زباله دان"
+
+#: ../extensions/forms/views/backend/submit-box-add.php:32
+msgid "Publish"
+msgstr "انتشار"
+
+#: ../extensions/forms/views/backend/submit-box-add.php:33
+msgid "Create"
+msgstr "ایجاد"
+
+#: ../extensions/mailer/class-fw-extension-mailer.php:58
+msgid "Invalid send method"
+msgstr ""
+
+#: ../extensions/mailer/class-fw-extension-mailer.php:108
+msgid "The message has been successfully sent!"
+msgstr ""
+
+#: ../extensions/mailer/includes/class-mailer-sender.php:27
+msgid "Invalid email configuration"
+msgstr ""
+
+#: ../extensions/mailer/includes/class-mailer-sender.php:145
+#: ../extensions/mailer/includes/class-mailer-sender.php:161
+msgid "Email sent"
+msgstr "ایمیل ارسال شد"
+
+#: ../extensions/mailer/includes/class-mailer-sender.php:146
+msgid "Could not send via smtp"
+msgstr ""
+
+#: ../extensions/mailer/includes/class-mailer-sender.php:162
+msgid "Could not send via wp_mail"
+msgstr ""
+
+#: ../extensions/mailer/includes/option-type-mailer/class-fw-option-type-mailer.php:73
+msgid "Send Method"
+msgstr "متود ارسال"
+
+#: ../extensions/mailer/includes/option-type-mailer/class-fw-option-type-mailer.php:74
+msgid "Select the send form method"
+msgstr ""
+
+#: ../extensions/mailer/includes/option-type-mailer/class-fw-option-type-mailer.php:91
+msgid "From Name"
+msgstr "از نام"
+
+#: ../extensions/mailer/includes/option-type-mailer/class-fw-option-type-mailer.php:92
+msgid "The name you'll see in the From filed in your email client."
+msgstr ""
+
+#: ../extensions/mailer/includes/option-type-mailer/class-fw-option-type-mailer.php:99
+msgid "From Address"
+msgstr "از آدرس"
+
+#: ../extensions/mailer/includes/option-type-mailer/class-fw-option-type-mailer.php:100
+msgid "The form will look like was sent from this email address."
+msgstr ""
+
+#: ../extensions/mailer/includes/option-type-mailer/class-fw-option-type-mailer.php:120
+msgid "Test email destination"
+msgstr "مقصد ایمیل تست"
+
+#: ../extensions/mailer/includes/option-type-mailer/class-fw-option-type-mailer.php:123
+msgid "Send a test email"
+msgstr "ارسال یک ایمیل تست"
+
+#: ../extensions/mailer/includes/option-type-mailer/class-fw-option-type-mailer.php:191
+msgid "Invalid email"
+msgstr "ایمیل نامعتبر است"
+
+#: ../extensions/mailer/includes/option-type-mailer/class-fw-option-type-mailer.php:193
+msgid "Invalid settings"
+msgstr "تنظیمات نادرست"
+
+#: ../extensions/mailer/includes/option-type-mailer/class-fw-option-type-mailer.php:201
+msgid "Test Subject"
+msgstr ""
+
+#: ../extensions/mailer/includes/option-type-mailer/class-fw-option-type-mailer.php:202
+msgid "Test Message"
+msgstr "پیام تست"
+
+#: ../extensions/mailer/includes/send-methods/class-fw-ext-mailer-send-method-smtp.php:25
+msgid "Server Address"
+msgstr "آدرس سرور"
+
+#: ../extensions/mailer/includes/send-methods/class-fw-ext-mailer-send-method-smtp.php:26
+msgid "Enter your email server"
+msgstr ""
+
+#: ../extensions/mailer/includes/send-methods/class-fw-ext-mailer-send-method-smtp.php:31
+msgid "Username"
+msgstr "نام کاربری"
+
+#: ../extensions/mailer/includes/send-methods/class-fw-ext-mailer-send-method-smtp.php:32
+msgid "Enter your username"
+msgstr "نام کاربری خود را وارد کنید"
+
+#: ../extensions/mailer/includes/send-methods/class-fw-ext-mailer-send-method-smtp.php:37
+msgid "Password"
+msgstr "رمز عبور"
+
+#: ../extensions/mailer/includes/send-methods/class-fw-ext-mailer-send-method-smtp.php:38
+msgid "Enter your password"
+msgstr "رمز خود را وارد کنید"
+
+#: ../extensions/mailer/includes/send-methods/class-fw-ext-mailer-send-method-smtp.php:43
+msgid "Secure Connection"
+msgstr "اتصال امن"
+
+#: ../extensions/mailer/includes/send-methods/class-fw-ext-mailer-send-method-smtp.php:54
+msgid "Custom Port"
+msgstr "پورت دلخواه"
+
+#: ../extensions/mailer/includes/send-methods/class-fw-ext-mailer-send-method-smtp.php:55
+msgid "Optional - SMTP port number to use."
+msgstr ""
+
+#: ../extensions/mailer/includes/send-methods/class-fw-ext-mailer-send-method-smtp.php:56
+msgid "Leave blank for default (SMTP - 25, SMTPS - 465)"
+msgstr ""
+
+#: ../extensions/mailer/includes/send-methods/class-fw-ext-mailer-send-method-smtp.php:82
+msgid "Username cannot be empty"
+msgstr ""
+
+#: ../extensions/mailer/includes/send-methods/class-fw-ext-mailer-send-method-smtp.php:89
+msgid "Password cannot be empty"
+msgstr ""
+
+#: ../extensions/mailer/includes/send-methods/class-fw-ext-mailer-send-method-smtp.php:96
+msgid "Invalid host"
+msgstr "هاست نامعتبر"
+
+#: ../extensions/mailer/includes/send-methods/class-fw-ext-mailer-send-method-smtp.php:192
+#: ../extensions/mailer/includes/send-methods/class-fw-ext-mailer-send-method-wpmail.php:84
+msgid "Could not send the email"
+msgstr ""
+
+#: ../extensions/shortcodes/class-fw-extension-shortcodes.php:422
+#, php-format
+msgid "No Page Builder tab specified for shortcode: %s"
+msgstr ""
+
+#: ../extensions/shortcodes/extensions/page-builder/includes/page-builder/class-fw-option-type-page-builder.php:56
+msgid ""
+"There must not be more than one page Editor integrated with the wp post "
+"editor per page"
+msgstr ""
+
+#: ../extensions/shortcodes/extensions/page-builder/includes/page-builder/class-fw-option-type-page-builder.php:127
+msgid "Visual Page Builder"
+msgstr "صفحه ساز"
+
+#: ../extensions/shortcodes/extensions/page-builder/includes/page-builder/class-fw-option-type-page-builder.php:128
+msgid "Default Editor"
+msgstr "ویرایشگر پیش فرض"
+
+#: ../extensions/shortcodes/extensions/page-builder/includes/page-builder/class-fw-option-type-page-builder.php:129
+msgid "Hide / Show"
+msgstr "نمایش / مخفی"
+
+#: ../extensions/shortcodes/extensions/page-builder/includes/page-builder/class-fw-option-type-page-builder.php:130
+msgid "Display Controls"
+msgstr ""
+
+#: ../extensions/shortcodes/extensions/page-builder/includes/page-builder/class-fw-option-type-page-builder.php:154
+msgid " All"
+msgstr " همه"
+
+#: ../extensions/shortcodes/extensions/page-builder/includes/page-builder/class-fw-option-type-page-builder.php:189
+#: ../extensions/shortcodes/shortcodes/column/includes/page-builder-column-item/class-page-builder-column-item.php:61
+#: ../extensions/shortcodes/shortcodes/section/class-fw-shortcode-section.php:34
+#: ../extensions/shortcodes/shortcodes/section/config.php:5
+#: ../extensions/shortcodes/shortcodes/section/includes/page-builder-section-item/class-page-builder-section-item.php:22
+msgid "Layout Elements"
+msgstr "طرح بندی صفحه"
+
+#: ../extensions/shortcodes/extensions/page-builder/manifest.php:9
+msgid ""
+"Lets you easily build countless pages with the help of the drag and drop "
+"visual page builder that comes with a lot of already created shortcodes."
+msgstr ""
+
+#: ../extensions/shortcodes/extensions/page-builder/settings-options.php:11
+msgid "Activate for"
+msgstr "فعال شده برای"
+
+#: ../extensions/shortcodes/extensions/page-builder/settings-options.php:18
+msgid ""
+"Select the posts you want the Page Builder extension to be activated for"
+msgstr ""
+
+#: ../extensions/shortcodes/includes/class-fw-shortcode.php:205
+#, php-format
+msgid "No default view (views/view.php) found for shortcode: %s"
+msgstr ""
+
+#: ../extensions/shortcodes/includes/class-fw-shortcodes-loader.php:203
+#, php-format
+msgid "Shortcode \"%s\" from %s was already defined at %s"
+msgstr ""
+
+#: ../extensions/shortcodes/includes/class-fw-shortcodes-loader.php:264
+#, php-format
+msgid "Class file found for shortcode %s but no class %s found"
+msgstr ""
+
+#: ../extensions/shortcodes/includes/class-fw-shortcodes-loader.php:269
+#, php-format
+msgid "The class %s must extend from FW_Shortcode"
+msgstr ""
+
+#: ../extensions/shortcodes/shortcodes/button/config.php:8
+msgid "Button"
+msgstr "دکمه"
+
+#: ../extensions/shortcodes/shortcodes/button/config.php:9
+msgid "Add a Button"
+msgstr "افزودن یک دکمه"
+
+#: ../extensions/shortcodes/shortcodes/button/options.php:7
+msgid "Button Label"
+msgstr "عنوان دکمه"
+
+#: ../extensions/shortcodes/shortcodes/button/options.php:8
+msgid "This is the text that appears on your button"
+msgstr "این متن روی دکمه شما نمایش داده خواهد شد"
+
+#: ../extensions/shortcodes/shortcodes/button/options.php:13
+msgid "Button Link"
+msgstr "لینک دکمه"
+
+#: ../extensions/shortcodes/shortcodes/button/options.php:14
+msgid "Where should your button link to"
+msgstr "لینک دکمه مورد نظر را وارد نمایید"
+
+#: ../extensions/shortcodes/shortcodes/button/options.php:20
+#: ../extensions/shortcodes/shortcodes/media-image/options.php:38
+msgid "Open Link in New Window"
+msgstr "باز کردن در پنجره جدید"
+
+#: ../extensions/shortcodes/shortcodes/button/options.php:21
+#: ../extensions/shortcodes/shortcodes/media-image/options.php:39
+msgid "Select here if you want to open the linked page in a new window"
+msgstr ""
+"اگر میخواهد هنگام کلیک روی دکمه لینک در پنجره جدیدی باز شود این گزینه را "
+"انتخاب نمایید"
+
+#: ../extensions/shortcodes/shortcodes/button/options.php:24
+#: ../extensions/shortcodes/shortcodes/map/options.php:67
+#: ../extensions/shortcodes/shortcodes/media-image/options.php:42
+#: ../includes/option-types/simple.php:467
+#: ../includes/option-types/switch/class-fw-option-type-switch.php:170
+msgid "Yes"
+msgstr "بله"
+
+#: ../extensions/shortcodes/shortcodes/button/options.php:28
+#: ../extensions/shortcodes/shortcodes/map/options.php:71
+#: ../extensions/shortcodes/shortcodes/media-image/options.php:46
+#: ../includes/option-types/switch/class-fw-option-type-switch.php:165
+msgid "No"
+msgstr "خیر"
+
+#: ../extensions/shortcodes/shortcodes/button/options.php:32
+msgid "Button Color"
+msgstr "رنگ دکمه"
+
+#: ../extensions/shortcodes/shortcodes/button/options.php:33
+msgid "Choose a color for your button"
+msgstr "انتخاب یک رنگ برا دکمه شما"
+
+#: ../extensions/shortcodes/shortcodes/button/options.php:36
+msgid "Default"
+msgstr "پیش فرض"
+
+#: ../extensions/shortcodes/shortcodes/button/options.php:37
+msgid "Black"
+msgstr "سیاه"
+
+#: ../extensions/shortcodes/shortcodes/button/options.php:38
+msgid "Blue"
+msgstr "آبی"
+
+#: ../extensions/shortcodes/shortcodes/button/options.php:39
+msgid "Green"
+msgstr "سبز"
+
+#: ../extensions/shortcodes/shortcodes/button/options.php:40
+msgid "Red"
+msgstr "قرمز"
+
+#: ../extensions/shortcodes/shortcodes/column/class-fw-shortcode-column.php:73
+#: ../extensions/shortcodes/shortcodes/section/class-fw-shortcode-section.php:79
+msgid "Collapse"
+msgstr ""
+
+#: ../extensions/shortcodes/shortcodes/column/class-fw-shortcode-column.php:74
+msgid "Column"
+msgstr "ستون"
+
+#: ../extensions/shortcodes/shortcodes/column/includes/page-builder-column-item/class-page-builder-column-item.php:64
+#, php-format
+msgid "Add a %s column"
+msgstr "افزودن یک ستون %s"
+
+#: ../extensions/shortcodes/shortcodes/column/includes/template-component/class-fw-ext-builder-templates-component-column.php:12
+msgid "Columns"
+msgstr "ستون ها"
+
+#: ../extensions/shortcodes/shortcodes/column/includes/template-component/class-fw-ext-builder-templates-component-column.php:105
+msgid "Save Column"
+msgstr "ذخیره ستون"
+
+#: ../extensions/shortcodes/shortcodes/column/includes/template-component/class-fw-ext-builder-templates-component-column.php:106
+#: ../extensions/shortcodes/shortcodes/section/includes/template-component/class-fw-ext-builder-templates-component-section.php:106
+msgid "Save as Template"
+msgstr "ذخیره به عنوان الگو"
+
+#: ../extensions/shortcodes/shortcodes/divider/config.php:6
+msgid "Divider"
+msgstr "جداکننده"
+
+#: ../extensions/shortcodes/shortcodes/divider/config.php:7
+msgid "Add a Divider"
+msgstr "افزودن یک جدا کننده"
+
+#: ../extensions/shortcodes/shortcodes/divider/options.php:13
+msgid "Ruler Type"
+msgstr "نوع جدا کننده"
+
+#: ../extensions/shortcodes/shortcodes/divider/options.php:14
+msgid "Here you can set the styling and size of the HR element"
+msgstr "در اینجا میتوانید استایل و اندازه جدا کننده را مشخص نمایید"
+
+#: ../extensions/shortcodes/shortcodes/divider/options.php:16
+msgid "Line"
+msgstr "خط"
+
+#: ../extensions/shortcodes/shortcodes/divider/options.php:17
+msgid "Whitespace"
+msgstr "فضای خالی"
+
+#: ../extensions/shortcodes/shortcodes/divider/options.php:24
+#: ../extensions/shortcodes/shortcodes/media-image/options.php:22
+msgid "Height"
+msgstr "طول"
+
+#: ../extensions/shortcodes/shortcodes/divider/options.php:25
+msgid ""
+"How much whitespace do you need? Enter a pixel value. Positive value will "
+"increase the whitespace, negative value will reduce it. eg: '50', '-25', "
+"'200'"
+msgstr ""
+
+#: ../extensions/shortcodes/shortcodes/icon/config.php:6
+#: ../extensions/shortcodes/shortcodes/icon/options.php:8
+msgid "Icon"
+msgstr "آیکن"
+
+#: ../extensions/shortcodes/shortcodes/icon/config.php:7
+msgid "Add an Icon"
+msgstr "افزودن یک آیکن"
+
+#: ../extensions/shortcodes/shortcodes/icon/options.php:13
+msgid "Icon title"
+msgstr "عنوان آیکن"
+
+#: ../extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:24
+msgid "Custom"
+msgstr "دلخواه"
+
+#: ../extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:27
+msgid "Locations"
+msgstr "مکان ها"
+
+#: ../extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:28
+msgid "Add/Edit Location"
+msgstr "افزودن/ویرایش محل"
+
+#: ../extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:31
+msgid "Note: Please set location"
+msgstr ""
+
+#: ../extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:35
+msgid "Location"
+msgstr "مکان"
+
+#: ../extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:39
+msgid "Location Title"
+msgstr "عنوان مکان"
+
+#: ../extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:40
+msgid "Set location title"
+msgstr "لطفا عنوان مکان را وارد نمایید"
+
+#: ../extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:44
+msgid "Location Description"
+msgstr "توضیحات مکان"
+
+#: ../extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:45
+msgid "Set location description"
+msgstr "توضیحاتی درباره مکان"
+
+#: ../extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:49
+msgid "Location Url"
+msgstr "آدرس مکان"
+
+#: ../extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:50
+msgid "Set page url (Ex: http://example.com)"
+msgstr "آدرس صفحه مکان مانند (http://example.com)"
+
+#: ../extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:53
+msgid "Location Image"
+msgstr "تصویر مکان"
+
+#: ../extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:54
+msgid "Add location image"
+msgstr "افزودن تصویر محل"
+
+#: ../extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:113
+msgid "No location provider specified for map shortcode"
+msgstr ""
+
+#: ../extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:115
+msgid "Map Placeholder"
+msgstr "عنوان نقشه"
+
+#: ../extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:122
+#, php-format
+msgid "Unknown location provider \"%s\" specified for map shortcode"
+msgstr ""
+
+#: ../extensions/shortcodes/shortcodes/map/config.php:8
+msgid "Map"
+msgstr "نقشه"
+
+#: ../extensions/shortcodes/shortcodes/map/config.php:9
+msgid "Add a Map"
+msgstr "افزودن یک نقشه"
+
+#: ../extensions/shortcodes/shortcodes/map/options.php:13
+msgid "Population Method"
+msgstr ""
+
+#: ../extensions/shortcodes/shortcodes/map/options.php:14
+msgid "Select map population method (Ex: events, custom)"
+msgstr ""
+
+#: ../extensions/shortcodes/shortcodes/map/options.php:25
+msgid "Google Maps API Key"
+msgstr ""
+
+#: ../extensions/shortcodes/shortcodes/map/options.php:27
+#, php-format
+msgid "Create an application in %sGoogle Console%s and add the Key here."
+msgstr ""
+
+#: ../extensions/shortcodes/shortcodes/map/options.php:46
+msgid "Map Type"
+msgstr "نوع نقشه"
+
+#: ../extensions/shortcodes/shortcodes/map/options.php:47
+msgid "Select map type"
+msgstr "انتخاب نوع نقشه"
+
+#: ../extensions/shortcodes/shortcodes/map/options.php:49
+msgid "Roadmap"
+msgstr "خیابان ها"
+
+#: ../extensions/shortcodes/shortcodes/map/options.php:50
+msgid "Terrain"
+msgstr ""
+
+#: ../extensions/shortcodes/shortcodes/map/options.php:51
+msgid "Satellite"
+msgstr "ماهواره"
+
+#: ../extensions/shortcodes/shortcodes/map/options.php:52
+msgid "Hybrid"
+msgstr "هیبرید"
+
+#: ../extensions/shortcodes/shortcodes/map/options.php:56
+msgid "Map Height"
+msgstr "طول نقشه"
+
+#: ../extensions/shortcodes/shortcodes/map/options.php:57
+msgid "Set map height (Ex: 300)"
+msgstr "تنظیم طول نقشه (مثال: 300)"
+
+#: ../extensions/shortcodes/shortcodes/map/options.php:63
+msgid "Disable zoom on scroll"
+msgstr "غیر فعال کردن زوم با اسکرول"
+
+#: ../extensions/shortcodes/shortcodes/map/options.php:64
+msgid "Prevent the map from zooming when scrolling until clicking on the map"
+msgstr "جلوگیری از زوم روی نقشه با اسکرول ماوس تا زمانی که روی نقشه کلیک شود"
+
+#: ../extensions/shortcodes/shortcodes/media-image/config.php:6
+msgid "Image"
+msgstr "تصویر"
+
+#: ../extensions/shortcodes/shortcodes/media-image/config.php:7
+msgid "Add an Image"
+msgstr "افزودن یک تصویر"
+
+#: ../extensions/shortcodes/shortcodes/media-image/config.php:8
+#: ../extensions/shortcodes/shortcodes/media-video/config.php:8
+msgid "Media Elements"
+msgstr "محتوای چند رسانه ای"
+
+#: ../extensions/shortcodes/shortcodes/media-image/options.php:8
+msgid "Choose Image"
+msgstr "انتخاب عکس"
+
+#: ../extensions/shortcodes/shortcodes/media-image/options.php:9
+msgid ""
+"Either upload a new, or choose an existing image from your media library"
+msgstr "آپلود تصویر جدید یا انتخاب از بین رسانه ها"
+
+#: ../extensions/shortcodes/shortcodes/media-image/options.php:16
+msgid "Width"
+msgstr "عرض"
+
+#: ../extensions/shortcodes/shortcodes/media-image/options.php:17
+msgid "Set image width"
+msgstr "تنظیم عرض تصویر"
+
+#: ../extensions/shortcodes/shortcodes/media-image/options.php:23
+msgid "Set image height"
+msgstr "تنظیم طوی تصویر"
+
+#: ../extensions/shortcodes/shortcodes/media-image/options.php:33
+msgid "Image Link"
+msgstr "لینک تصویر"
+
+#: ../extensions/shortcodes/shortcodes/media-image/options.php:34
+msgid "Where should your image link to?"
+msgstr "مقصد پیوند تصویر شما کجاست؟"
+
+#: ../extensions/shortcodes/shortcodes/media-video/config.php:6
+msgid "Video"
+msgstr "ویدئو"
+
+#: ../extensions/shortcodes/shortcodes/media-video/config.php:7
+msgid "Add a Video"
+msgstr "افزودن یک ویدئو"
+
+#: ../extensions/shortcodes/shortcodes/media-video/options.php:8
+msgid "Insert Video URL"
+msgstr "ورود آدرس ویدئو"
+
+#: ../extensions/shortcodes/shortcodes/media-video/options.php:9
+#: ../extensions/shortcodes/shortcodes/section/options.php:24
+msgid "Insert Video URL to embed this video"
+msgstr "ورود آدرس ویدئو برای جاسازی در این قسمت"
+
+#: ../extensions/shortcodes/shortcodes/media-video/options.php:13
+msgid "Video Width"
+msgstr "عرض ویدئو"
+
+#: ../extensions/shortcodes/shortcodes/media-video/options.php:14
+msgid "Enter a value for the width"
+msgstr "لطفا یک اندازه برای عرض مشخص نمایید"
+
+#: ../extensions/shortcodes/shortcodes/media-video/options.php:19
+msgid "Video Height"
+msgstr "طول ویدئو"
+
+#: ../extensions/shortcodes/shortcodes/media-video/options.php:20
+msgid "Enter a value for the height"
+msgstr ""
+
+#: ../extensions/shortcodes/shortcodes/notification/config.php:8
+msgid "Notification"
+msgstr "اعلان ها"
+
+#: ../extensions/shortcodes/shortcodes/notification/config.php:9
+msgid "Add a Notification Box"
+msgstr "افزودن یک جعبه اعلان"
+
+#: ../extensions/shortcodes/shortcodes/notification/options.php:7
+msgid "Message"
+msgstr "پیام"
+
+#: ../extensions/shortcodes/shortcodes/notification/options.php:8
+msgid "Notification message"
+msgstr "متن اعلان"
+
+#: ../extensions/shortcodes/shortcodes/notification/options.php:10
+msgid "Message!"
+msgstr "پیام!"
+
+#: ../extensions/shortcodes/shortcodes/notification/options.php:13
+msgid "Type"
+msgstr "نوع"
+
+#: ../extensions/shortcodes/shortcodes/notification/options.php:14
+msgid "Notification type"
+msgstr "نوع اعلان"
+
+#: ../extensions/shortcodes/shortcodes/notification/options.php:17
+msgid "Congratulations"
+msgstr "تبریک"
+
+#: ../extensions/shortcodes/shortcodes/notification/options.php:18
+msgid "Information"
+msgstr "اطلاعات"
+
+#: ../extensions/shortcodes/shortcodes/notification/options.php:19
+msgid "Alert"
+msgstr "اخطار"
+
+#: ../extensions/shortcodes/shortcodes/notification/views/view.php:9
+msgid "Congratulations!"
+msgstr "تبریک!"
+
+#: ../extensions/shortcodes/shortcodes/notification/views/view.php:13
+msgid "Information!"
+msgstr "اطلاعات!"
+
+#: ../extensions/shortcodes/shortcodes/notification/views/view.php:17
+msgid "Alert!"
+msgstr "اخطار!"
+
+#: ../extensions/shortcodes/shortcodes/notification/views/view.php:21
+msgid "Error!"
+msgstr "خطا!"
+
+#: ../extensions/shortcodes/shortcodes/section/class-fw-shortcode-section.php:35
+#: ../extensions/shortcodes/shortcodes/section/config.php:6
+#: ../extensions/shortcodes/shortcodes/section/includes/page-builder-section-item/class-page-builder-section-item.php:23
+msgid "Section"
+msgstr "قسمت"
+
+#: ../extensions/shortcodes/shortcodes/section/class-fw-shortcode-section.php:36
+#: ../extensions/shortcodes/shortcodes/section/includes/page-builder-section-item/class-page-builder-section-item.php:24
+msgid "Creates a section"
+msgstr "ایجاد یک قسمت"
+
+#: ../extensions/shortcodes/shortcodes/section/config.php:7
+msgid "Add a Section"
+msgstr "افزودن یک قسمت"
+
+#: ../extensions/shortcodes/shortcodes/section/includes/template-component/class-fw-ext-builder-templates-component-section.php:12
+msgid "Sections"
+msgstr "بخش"
+
+#: ../extensions/shortcodes/shortcodes/section/includes/template-component/class-fw-ext-builder-templates-component-section.php:105
+msgid "Save Section"
+msgstr "ذخیره بخش"
+
+#: ../extensions/shortcodes/shortcodes/section/options.php:7
+msgid "Full Width"
+msgstr "تمام عرض"
+
+#: ../extensions/shortcodes/shortcodes/section/options.php:11
+msgid "Background Color"
+msgstr "رنگ پس زمینه"
+
+#: ../extensions/shortcodes/shortcodes/section/options.php:12
+msgid "Please select the background color"
+msgstr ""
+
+#: ../extensions/shortcodes/shortcodes/section/options.php:16
+msgid "Background Image"
+msgstr "تصویر پس زمینه"
+
+#: ../extensions/shortcodes/shortcodes/section/options.php:17
+msgid "Please select the background image"
+msgstr ""
+
+#: ../extensions/shortcodes/shortcodes/section/options.php:23
+msgid "Background Video"
+msgstr "ویدئو پس زمینه"
+
+#: ../extensions/shortcodes/shortcodes/special-heading/config.php:6
+msgid "Special Heading"
+msgstr "بلوک متن پیشرفته"
+
+#: ../extensions/shortcodes/shortcodes/special-heading/config.php:7
+msgid "Add a Special Heading"
+msgstr "افزودن یک بلوک متن پیشرفتهت"
+
+#: ../extensions/shortcodes/shortcodes/special-heading/options.php:8
+msgid "Heading Title"
+msgstr "عنوان بلوک"
+
+#: ../extensions/shortcodes/shortcodes/special-heading/options.php:9
+msgid "Write the heading title content"
+msgstr "عنوان بلوک را وارد نمایید"
+
+#: ../extensions/shortcodes/shortcodes/special-heading/options.php:13
+msgid "Heading Subtitle"
+msgstr "متن بلوک"
+
+#: ../extensions/shortcodes/shortcodes/special-heading/options.php:14
+msgid "Write the heading subtitle content"
+msgstr "محتوای بلوک را وارد نمایید"
+
+#: ../extensions/shortcodes/shortcodes/special-heading/options.php:18
+msgid "Heading Size"
+msgstr "سایز متن"
+
+#: ../extensions/shortcodes/shortcodes/special-heading/options.php:30
+msgid "Centered"
+msgstr "وسط چین"
+
+#: ../extensions/shortcodes/shortcodes/tabs/config.php:8
+#: ../extensions/shortcodes/shortcodes/tabs/options.php:8
+msgid "Tabs"
+msgstr "زبانه"
+
+#: ../extensions/shortcodes/shortcodes/tabs/config.php:9
+msgid "Add some Tabs"
+msgstr "افزودن چند زبانه"
+
+#: ../extensions/shortcodes/shortcodes/tabs/options.php:9
+msgid "Add/Edit Tab"
+msgstr "افزودن/ویرایش سربرگ"
+
+#: ../extensions/shortcodes/shortcodes/tabs/options.php:10
+msgid "Create your tabs"
+msgstr "ایجاد تب های شما"
+
+#: ../extensions/shortcodes/shortcodes/text-block/config.php:8
+msgid "Text Block"
+msgstr "بلوک متن"
+
+#: ../extensions/shortcodes/shortcodes/text-block/config.php:9
+msgid "Add a Text Block"
+msgstr "افزودن یک بلوک متن"
+
+#: ../extensions/shortcodes/shortcodes/text-block/options.php:9
+msgid "Enter some content for this texblock"
+msgstr "محتوایی برای این بلوک متن وارد نمایید"
+
+#: ../extensions/shortcodes/shortcodes/widget-area/config.php:8
+msgid "Widget Area"
+msgstr "محل ابزارک"
+
+#: ../extensions/shortcodes/shortcodes/widget-area/config.php:9
+msgid "Add a Widget Area"
+msgstr "افزودن یک محل ابزارک"
+
+#: ../extensions/shortcodes/shortcodes/widget-area/options.php:5
+msgid "Sidebar"
+msgstr "محل ابزاک"
+
+#: ../extensions/update/class-fw-extension-update.php:297
+#: ../extensions/update/class-fw-extension-update.php:614
+msgid "Cannot delete: "
+msgstr "خطای حذف : "
+
+#: ../extensions/update/class-fw-extension-update.php:304
+msgid "Cannot create: "
+msgstr "خطای ایجاد : "
+
+#: ../extensions/update/class-fw-extension-update.php:382
+msgid "Cannot remove old temporary directory: "
+msgstr ""
+
+#: ../extensions/update/class-fw-extension-update.php:388
+#: ../extensions/update/class-fw-extension-update.php:584
+msgid "Cannot create directory: "
+msgstr "نمیتوان پوشه را ایجاد کرد: "
+
+#: ../extensions/update/class-fw-extension-update.php:393
+#, php-format
+msgid "Downloading the %s..."
+msgstr "در حال دانلود %s ..."
+
+#: ../extensions/update/class-fw-extension-update.php:398
+#, php-format
+msgid "Cannot download the %s."
+msgstr "نمیتوان %s را دانلود کرد."
+
+#: ../extensions/update/class-fw-extension-update.php:408
+#, php-format
+msgid "Installing the %s..."
+msgstr "در حال فعال کردن %s ..."
+
+#: ../extensions/update/class-fw-extension-update.php:414
+#: ../extensions/update/class-fw-extension-update.php:443
+#: ../extensions/update/class-fw-extension-update.php:543
+#: ../extensions/update/class-fw-extension-update.php:564
+#: ../extensions/update/class-fw-extension-update.php:594
+msgid "Cannot access directory: "
+msgstr "امکان دسترسی به این پوشه نیست : "
+
+#: ../extensions/update/class-fw-extension-update.php:433
+msgid "Cannot remove: "
+msgstr "خطای پاک کردن : "
+
+#: ../extensions/update/class-fw-extension-update.php:468
+#: ../extensions/update/class-fw-extension-update.php:534
+#: ../extensions/update/class-fw-extension-update.php:640
+#: ../extensions/update/class-fw-extension-update.php:664
+#, php-format
+msgid "Cannot move \"%s\" to \"%s\""
+msgstr "خطای جابجایی \" %s \" به \" %s \""
+
+#: ../extensions/update/class-fw-extension-update.php:484
+#, php-format
+msgid "Cannot merge \"%s\" with \"%s\""
+msgstr "خطای ادغام \" %s \" با \" %s \""
+
+#: ../extensions/update/class-fw-extension-update.php:497
+#, php-format
+msgid "The %s has been successfully updated."
+msgstr "%s با موفقیت به روز شد."
+
+#: ../extensions/update/class-fw-extension-update.php:504
+#, php-format
+msgid "Cannot remove temporary directory \"%s\"."
+msgstr ""
+
+#: ../extensions/update/class-fw-extension-update.php:695
+msgid "Framework Update"
+msgstr ""
+
+#: ../extensions/update/class-fw-extension-update.php:711
+msgid "Failed to get framework latest version."
+msgstr ""
+
+#: ../extensions/update/class-fw-extension-update.php:763
+msgid "Theme Update"
+msgstr "آپدیت پوسته"
+
+#: ../extensions/update/class-fw-extension-update.php:779
+msgid "Failed to get theme latest version."
+msgstr ""
+
+#: ../extensions/update/class-fw-extension-update.php:796
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:393
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:407
+msgid "Theme"
+msgstr "قالب"
+
+#: ../extensions/update/class-fw-extension-update.php:829
+msgid "Please check the extensions you want to update."
+msgstr ""
+
+#: ../extensions/update/class-fw-extension-update.php:853
+msgid "Extensions Update"
+msgstr ""
+
+#: ../extensions/update/class-fw-extension-update.php:891
+msgid "No extensions updates found."
+msgstr ""
+
+#: ../extensions/update/class-fw-extension-update.php:898
+#, php-format
+msgid "Extension \"%s\" does not exist or is disabled."
+msgstr ""
+
+#: ../extensions/update/class-fw-extension-update.php:905
+#, php-format
+msgid "No update found for the \"%s\" extension."
+msgstr ""
+
+#: ../extensions/update/class-fw-extension-update.php:927
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:426
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:440
+#, php-format
+msgid "%s extension"
+msgstr ""
+
+#: ../extensions/update/class-fw-extension-update.php:975
+#, php-format
+msgid "New extensions updates available. %s"
+msgstr "بروزرسانی جدیدی برای افزونه موجود است. %s"
+
+#: ../extensions/update/class-fw-extension-update.php:978
+msgid "Go to Updates page"
+msgstr ""
+
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:122
+#, php-format
+msgid "No releases found in repository \"%s\"."
+msgstr ""
+
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:143
+#, php-format
+msgid ""
+"%s manifest has invalid \"github_update\" parameter. Please use \"user/repo"
+"\" format."
+msgstr ""
+
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:171
+#, php-format
+msgid "Failed to fetch %s latest version from github \"%s\"."
+msgstr ""
+
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:264
+#, php-format
+msgid "%s github repository \"%s\" does not have the \"%s\" release."
+msgstr ""
+
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:284
+#, php-format
+msgid "Cannot download %s zip."
+msgstr ""
+
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:297
+#, php-format
+msgid "Cannot save %s zip."
+msgstr ""
+
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:316
+#, php-format
+msgid "Cannot remove %s zip."
+msgstr ""
+
+#: ../extensions/update/extensions/github-update/class-fw-extension-github-update.php:341
+#, php-format
+msgid "The unzipped %s directory not found."
+msgstr ""
+
+#: ../extensions/update/includes/classes/class--fw-ext-update-extensions-list-table.php:33
+#: ../helpers/class-fw-wp-list-table.php:714
+msgid "Select All"
+msgstr "انتخاب همه"
+
+#: ../extensions/update/includes/classes/class--fw-ext-update-extensions-list-table.php:84
+#, php-format
+msgid "You have version %s installed. Update to %s."
+msgstr ""
+
+#: ../extensions/update/includes/classes/class--fw-ext-update-extensions-list-table.php:126
+msgid "No Extensions for update."
+msgstr ""
+
+#: ../extensions/update/includes/classes/class--fw-ext-update-extensions-upgrader-skin.php:14
+#: ../extensions/update/includes/classes/class--fw-ext-update-framework-upgrader-skin.php:16
+#: ../extensions/update/includes/classes/class--fw-ext-update-theme-upgrader-skin.php:16
+msgid "Go to updates page"
+msgstr ""
+
+#: ../extensions/update/includes/classes/class--fw-ext-update-extensions-upgrader-skin.php:17
+#: ../extensions/update/includes/classes/class--fw-ext-update-framework-upgrader-skin.php:19
+#: ../extensions/update/includes/classes/class--fw-ext-update-theme-upgrader-skin.php:19
+msgid "Return to Updates page"
+msgstr ""
+
+#: ../extensions/update/manifest.php:6
+msgid "Keep you framework, extensions and theme up to date."
+msgstr ""
+
+#: ../extensions/update/views/updates-list.php:12
+#, php-format
+msgid "You have the latest version of %s."
+msgstr ""
+
+#: ../extensions/update/views/updates-list.php:25
+msgid "Update Framework"
+msgstr ""
+
+#: ../extensions/update/views/updates-list.php:37
+msgid "Your theme is up to date."
+msgstr ""
+
+#: ../extensions/update/views/updates-list.php:50
+msgid "Update Theme"
+msgstr "آپدیت پوسته"
+
+#: ../extensions/update/views/updates-list.php:62
+#, php-format
+msgid "You have the latest version of %s Extensions."
+msgstr "شما از آخرین نسخه افزونه های %s استفاده میکنید."
+
+#: ../extensions/update/views/updates-list.php:80
+#: ../extensions/update/views/updates-list.php:95
+#: ../extensions/update/views/updates-list.php:100
+msgid "Update Extensions"
+msgstr "بروزرسانی افزونه ها"
+
+#: ../extensions/update/views/updates-list.php:99
+msgid "New extensions updates available."
+msgstr ""
+
+#: ../helpers/class-fw-flash-messages.php:95
+#, php-format
+msgid "Invalid flash message type: %s"
+msgstr ""
+
+#: ../helpers/class-fw-form.php:102
+#, php-format
+msgid "Form with id \"%s\" was already defined"
+msgstr ""
+
+#: ../helpers/class-fw-form.php:465
+msgid "Nonce verification failed"
+msgstr ""
+
+#: ../helpers/class-fw-settings-form.php:74
+#: ../helpers/class-fw-settings-form.php:217
+msgid "Save Changes"
+msgstr "ذخیره تنظیمات"
+
+#: ../helpers/class-fw-settings-form.php:75
+#: ../helpers/class-fw-settings-form.php:218
+msgid "Reset Options"
+msgstr "بازگردانی تنظیمات پیش فرض"
+
+#: ../helpers/class-fw-settings-form.php:76
+msgid ""
+"Click OK to reset.\n"
+"All settings will be lost and replaced with default settings!"
+msgstr ""
+"برای بازگردانی تنظیمات پیش فرض روی OK کلیک کنید. \n"
+"همه تنظیمات اعمال شده از بین رفته و با تنظیمات پیش فرض جایگزین می شوند!"
+
+#: ../helpers/class-fw-settings-form.php:205
+msgid "No options to display."
+msgstr ""
+
+#: ../helpers/class-fw-settings-form.php:261
+msgid "You have no permissions to change settings options"
+msgstr ""
+
+#: ../helpers/class-fw-settings-form.php:298
+msgid "The options were successfully reset"
+msgstr ""
+
+#: ../helpers/class-fw-settings-form.php:312
+msgid "The options were successfully saved"
+msgstr ""
+
+#: ../helpers/class-fw-wp-filesystem.php:43
+msgid "Cannot connect to Filesystem directly"
+msgstr ""
+
+#: ../helpers/class-fw-wp-filesystem.php:271
+#, php-format
+msgid "Cannot create directory \"%s\". It must be inside \"%s\""
+msgstr ""
+
+#: ../helpers/class-fw-wp-filesystem.php:273
+msgid "\" or \""
+msgstr "\" یا \""
+
+#: ../helpers/class-fw-wp-list-table.php:185
+msgid "No items found."
+msgstr "موردی پیدا نشد."
+
+#: ../helpers/class-fw-wp-list-table.php:309
+msgid "Bulk Actions"
+msgstr "عمل دسته جمعی"
+
+#: ../helpers/class-fw-wp-list-table.php:403
+msgid "All dates"
+msgstr "همه تاریخ ها"
+
+#: ../helpers/class-fw-wp-list-table.php:416
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: ../helpers/class-fw-wp-list-table.php:432
+msgid "List View"
+msgstr "حالت لیست"
+
+#: ../helpers/class-fw-wp-list-table.php:433
+msgid "Excerpt View"
+msgstr "حالت پیشرفته"
+
+#: ../helpers/class-fw-wp-list-table.php:459
+#, php-format
+msgid "%s pending"
+msgstr ""
+
+#: ../helpers/class-fw-wp-list-table.php:527
+#: ../helpers/class-fw-wp-list-table.php:942
+#, php-format
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "%s آیتم"
+
+#: ../helpers/class-fw-wp-list-table.php:545
+msgid "Go to the first page"
+msgstr "رفتن به اولین صفحه"
+
+#: ../helpers/class-fw-wp-list-table.php:552
+msgid "Go to the previous page"
+msgstr "صفحه قبلی"
+
+#: ../helpers/class-fw-wp-list-table.php:561
+msgid "Current page"
+msgstr "صفحه جاری"
+
+#: ../helpers/class-fw-wp-list-table.php:567
+#, php-format
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: ../helpers/class-fw-wp-list-table.php:571
+msgid "Go to the next page"
+msgstr "رفتن به صفحه بعدی"
+
+#: ../helpers/class-fw-wp-list-table.php:578
+msgid "Go to the last page"
+msgstr "رفتن به آخرین صفحه"
+
+#: ../helpers/general.php:1397
+msgid "year"
+msgstr "سال"
+
+#: ../helpers/general.php:1398
+msgid "years"
+msgstr "سال ها"
+
+#: ../helpers/general.php:1400
+msgid "month"
+msgstr "ماه"
+
+#: ../helpers/general.php:1401
+msgid "months"
+msgstr "ماه ها"
+
+#: ../helpers/general.php:1403
+msgid "week"
+msgstr "هفته"
+
+#: ../helpers/general.php:1404
+msgid "weeks"
+msgstr "هفته ها"
+
+#: ../helpers/general.php:1406
+msgid "day"
+msgstr "روز"
+
+#: ../helpers/general.php:1407
+msgid "days"
+msgstr "روزها"
+
+#: ../helpers/general.php:1409
+msgid "hour"
+msgstr "ساعت"
+
+#: ../helpers/general.php:1410
+msgid "hours"
+msgstr "ساعت ها"
+
+#: ../helpers/general.php:1412
+msgid "minute"
+msgstr "دقیقه"
+
+#: ../helpers/general.php:1413
+msgid "minutes"
+msgstr "دقیقه ها"
+
+#: ../helpers/general.php:1415
+msgid "second"
+msgstr "ثانیه"
+
+#: ../helpers/general.php:1416
+msgid "seconds"
+msgstr "ثانیه ها"
+
+#: ../helpers/general.php:1813
+msgid "Maximum stack depth exceeded"
+msgstr ""
+
+#: ../helpers/general.php:1816
+msgid "Underflow or the modes mismatch"
+msgstr ""
+
+#: ../helpers/general.php:1819
+msgid "Unexpected control character found"
+msgstr ""
+
+#: ../helpers/general.php:1822
+msgid "Syntax error, malformed JSON"
+msgstr ""
+
+#: ../helpers/general.php:1825
+msgid "Malformed UTF-8 characters, possibly incorrectly encoded"
+msgstr ""
+
+#: ../includes/hooks.php:104
+msgid "Please register option-types on 'fw_option_types_init' action"
+msgstr ""
+
+#: ../includes/hooks.php:112
+msgid "Please register container-types on 'fw_container_types_init' action"
+msgstr ""
+
+#: ../includes/option-types/addable-box/class-fw-option-type-addable-box.php:198
+#: ../includes/option-types/addable-option/class-fw-option-type-addable-option.php:20
+#: ../includes/option-types/addable-popup/class-fw-option-type-addable-popup.php:187
+msgid "Add"
+msgstr "افزودن"
+
+#: ../includes/option-types/addable-popup/view.php:38
+#: ../includes/option-types/addable-popup/view.php:53
+msgid "Clone"
+msgstr "کپی کردن"
+
+#: ../includes/option-types/background-image/view.php:37
+msgid "Predefined images"
+msgstr "تصاویر از پیش تعریف شده"
+
+#: ../includes/option-types/background-image/view.php:38
+msgid "Custom image"
+msgstr "تصویر دلخواه"
+
+#: ../includes/option-types/class-fw-option-type-undefined.php:25
+msgid "UNDEFINED OPTION TYPE"
+msgstr ""
+
+#: ../includes/option-types/datetime-range/view.php:41
+#: ../includes/option-types/gradient/view.php:46
+msgid "to"
+msgstr "به"
+
+#: ../includes/option-types/icon-v2/class-fw-option-type-icon-v2.php:81
+msgid "Change Icon"
+msgstr "تغییر آیکن"
+
+#: ../includes/option-types/icon-v2/class-fw-option-type-icon-v2.php:82
+msgid "Add Icon"
+msgstr "افزودن آیکن"
+
+#: ../includes/option-types/icon-v2/views/templates.php:7
+msgid "Icons"
+msgstr "آیکن ها"
+
+#: ../includes/option-types/icon-v2/views/templates.php:22
+msgid "Favorites"
+msgstr "علاقه مندی ها"
+
+#: ../includes/option-types/icon-v2/views/templates.php:36
+#: ../includes/option-types/multi-upload/class-fw-option-type-multi-upload.php:192
+#: ../includes/option-types/upload/class-fw-option-type-upload.php:182
+msgid "Upload"
+msgstr "آپلود"
+
+#: ../includes/option-types/icon-v2/views/templates.php:40
+msgid "Upload Icon"
+msgstr "آپلود آیکن"
+
+#: ../includes/option-types/icon-v2/views/templates.php:68
+msgid "Search Icon"
+msgstr "آیکن جستجو"
+
+#: ../includes/option-types/icon-v2/views/templates.php:73
+msgid "All Packs"
+msgstr "همه دسته ها"
+
+#: ../includes/option-types/icon-v2/views/templates.php:153
+msgid "Add to Favorites"
+msgstr "اضافه کردن به علاقه مندی ها"
+
+#: ../includes/option-types/icon/class-fw-option-type-icon.php:156
+msgid "Unknown Set"
+msgstr "دسته ناشناس"
+
+#: ../includes/option-types/icon/class-fw-option-type-icon.php:186
+msgid "Web Application Icons"
+msgstr "آیکن نرم افزار تحت وب"
+
+#: ../includes/option-types/icon/class-fw-option-type-icon.php:188
+msgid "Hand Icons"
+msgstr "آیکن های دست"
+
+#: ../includes/option-types/icon/class-fw-option-type-icon.php:189
+msgid "Transportation Icons"
+msgstr "آیکن حمل و نقل"
+
+#: ../includes/option-types/icon/class-fw-option-type-icon.php:190
+msgid "Gender Icons"
+msgstr "آیکن جنسیت"
+
+#: ../includes/option-types/icon/class-fw-option-type-icon.php:191
+msgid "File Type Icons"
+msgstr "آیکن نوع فایل"
+
+#: ../includes/option-types/icon/class-fw-option-type-icon.php:194
+msgid "Payment Icons"
+msgstr "آیکن پرداخت"
+
+#: ../includes/option-types/icon/class-fw-option-type-icon.php:196
+msgid "Currency Icons"
+msgstr "آیکون ارز"
+
+#: ../includes/option-types/icon/class-fw-option-type-icon.php:197
+msgid "Text Editor Icons"
+msgstr "آیکن ویرایشگر متن"
+
+#: ../includes/option-types/icon/class-fw-option-type-icon.php:198
+msgid "Directional Icons"
+msgstr "آیکن های جهت دار"
+
+#: ../includes/option-types/icon/class-fw-option-type-icon.php:199
+msgid "Video Player Icons"
+msgstr "آیکن پخش کننده"
+
+#: ../includes/option-types/icon/class-fw-option-type-icon.php:200
+msgid "Brand Icons"
+msgstr "آیکن های برند"
+
+#: ../includes/option-types/icon/class-fw-option-type-icon.php:201
+msgid "Medical Icons"
+msgstr "آیکن ها پزشکی"
+
+#: ../includes/option-types/icon/view.php:39
+msgid "All Categories"
+msgstr "همه دسته بندی ها"
+
+#: ../includes/option-types/map/views/view.php:12
+msgid "Specify location"
+msgstr "مشخص کردن مکان"
+
+#: ../includes/option-types/map/views/view.php:27
+msgid "Location Venue"
+msgstr "نام مکان"
+
+#: ../includes/option-types/map/views/view.php:42
+msgid "Address"
+msgstr "آدرس"
+
+#: ../includes/option-types/map/views/view.php:57
+msgid "City"
+msgstr "شهر"
+
+#: ../includes/option-types/map/views/view.php:72
+msgid "Country"
+msgstr "کشور"
+
+#: ../includes/option-types/map/views/view.php:87
+msgid "State"
+msgstr "استان"
+
+#: ../includes/option-types/map/views/view.php:103
+msgid "Zip Code"
+msgstr "کد پستی"
+
+#: ../includes/option-types/map/views/view.php:138
+msgid "Cannot find the location?"
+msgstr "نتوانستید محل را پیدا کنید؟"
+
+#: ../includes/option-types/map/views/view.php:150
+msgid "Reset location"
+msgstr "بازیابی محل"
+
+#: ../includes/option-types/multi-picker/class-fw-option-type-multi-picker.php:241
+#, php-format
+msgid "No 'picker' key set for multi-picker option: %s"
+msgstr ""
+
+#: ../includes/option-types/multi-select/class-fw-option-type-multi-select.php:497
+#: ../includes/option-types/multi-select/class-fw-option-type-multi-select.php:507
+#, fuzzy
+#| msgid "Unknown tab:"
+msgctxt "unknown-post-type"
+msgid "Unknown"
+msgstr "زبانه ناشناس:"
+
+#: ../includes/option-types/multi-upload/class-fw-option-type-multi-upload.php:164
+msgid "Add Images"
+msgstr "افزودن تصاویر"
+
+#: ../includes/option-types/multi-upload/class-fw-option-type-multi-upload.php:166
+msgid "Select Images"
+msgstr "انتخاب تصاویر"
+
+#: ../includes/option-types/multi-upload/class-fw-option-type-multi-upload.php:194
+msgid "1 File"
+msgstr "1 فایل"
+
+#: ../includes/option-types/multi-upload/class-fw-option-type-multi-upload.php:195
+#, php-format
+msgid "%u Files"
+msgstr "فایل های %u"
+
+#: ../includes/option-types/multi-upload/views/images-only.php:14
+#: ../includes/option-types/multi-upload/views/images-only.php:35
+#: ../includes/option-types/upload/views/images-only.php:13
+#: ../includes/option-types/upload/views/images-only.php:30
+msgid "No image"
+msgstr "بدون تصویر"
+
+#: ../includes/option-types/radio-text/class-fw-option-type-radio-text.php:22
+msgid "25%"
+msgstr "25%"
+
+#: ../includes/option-types/radio-text/class-fw-option-type-radio-text.php:23
+msgid "50%"
+msgstr "50%"
+
+#: ../includes/option-types/radio-text/class-fw-option-type-radio-text.php:24
+msgid "100%"
+msgstr "100%"
+
+#: ../includes/option-types/typography-v2/view.php:40
+msgid "Font face"
+msgstr "فونت"
+
+#: ../includes/option-types/typography-v2/view.php:50
+msgid "Normal"
+msgstr "نرمال"
+
+#: ../includes/option-types/typography-v2/view.php:51
+msgid "Italic"
+msgstr "کج"
+
+#: ../includes/option-types/typography-v2/view.php:52
+msgid "Oblique"
+msgstr "چسبنده"
+
+#: ../includes/option-types/typography-v2/view.php:61
+#: ../includes/option-types/typography-v2/view.php:125
+msgid "Style"
+msgstr "استایل"
+
+#: ../includes/option-types/typography-v2/view.php:89
+msgid "Weight"
+msgstr "عرض"
+
+#: ../includes/option-types/typography-v2/view.php:106
+msgid "Script"
+msgstr "اسکریپت"
+
+#: ../includes/option-types/typography-v2/view.php:136
+msgid "Size"
+msgstr "سایز"
+
+#: ../includes/option-types/typography-v2/view.php:147
+msgid "Line height"
+msgstr "طول خط"
+
+#: ../includes/option-types/typography-v2/view.php:158
+msgid "Spacing"
+msgstr "فاصله گذاری"
+
+#: ../includes/option-types/typography-v2/view.php:181
+msgid "Color"
+msgstr "رنگ"
+
+#: ../includes/option-types/upload/class-fw-option-type-upload.php:154
+msgid "Add Image"
+msgstr "افزودن عکس"
+
+#: ../includes/option-types/upload/class-fw-option-type-upload.php:156
+msgid "Select Image"
+msgstr "انتخاب تصویر"
+
+#: ../manifest.php:5
+msgid "Unyson"
+msgstr "یونیزون"
+
+#: ../views/backend-settings-form.php:175
+msgid "Resetting"
+msgstr "بازنشانی"
+
+#: ../views/backend-settings-form.php:177
+msgid "We are currently resetting your settings."
+msgstr "ما در حال ریست تنظیمات شما هستیم."
+
+#: ../views/backend-settings-form.php:179
+#: ../views/backend-settings-form.php:185
+msgid "This may take a few moments."
+msgstr "این ممکن است چند دقیقه طول بکشد."
+
+#: ../views/backend-settings-form.php:181
+msgid "Saving"
+msgstr "در حال ذخیره کردن"
+
+#: ../views/backend-settings-form.php:183
+msgid "We are currently saving your settings."
+msgstr "ما در حال ذخیره کردن تنظیمات قالب شما هستیم."
+
+#~ msgid "Project"
+#~ msgstr "پروژه"
+
+#~ msgid "Projects"
+#~ msgstr "پروژه ها"
+
+#~ msgid "Add New"
+#~ msgstr "افزودن جدید"
+
+#~ msgid "Add New %s"
+#~ msgstr "افزودن %s جدید"
+
+#~ msgid "All %s"
+#~ msgstr "همه %s"
+
+#~ msgid "Category"
+#~ msgstr "دسته بندی"
+
+#~ msgid "Categories"
+#~ msgstr "دسته بندی ها"
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "Gallery"
+#~ msgstr "گالری"
+
+#~ msgid "Edit this item"
+#~ msgstr "ویرایش این آیتم"
+
+#~ msgid "View all categories"
+#~ msgstr "نمایش همه دسته بندی ها"
+
+#~ msgid "Cover Image"
+#~ msgstr "عکس کاور"
+
+#~ msgid "General"
+#~ msgstr "عمومی"
+
+#~ msgid "General Settings"
+#~ msgstr "تنظیمات عمومی"
+
+#~ msgid "Site name"
+#~ msgstr "عنوان سایت"
+
+#~ msgid "Site description"
+#~ msgstr "توضیحات سایت"
+
+#~ msgid "Current time"
+#~ msgstr "زمان جاری"
+
+#~ msgid "Current month"
+#~ msgstr "ماه جاری"
+
+#~ msgid "Current year"
+#~ msgstr "سال جاری"
+
+#~ msgid "Homepage"
+#~ msgstr "صفحه خانگی"
+
+#~ msgid "Homepage Title"
+#~ msgstr "عنوان صفحه اصلی"
+
+#~ msgid "Homepage Description"
+#~ msgstr "توضیحات صفحه خانگی"
+
+#~ msgid "Custom Posts"
+#~ msgstr "پست های دلخواه"
+
+#~ msgid "Description"
+#~ msgstr "توضیحات"
+
+#~ msgid "Other"
+#~ msgstr "دیگر"
+
+#~ msgid "Author Page Title"
+#~ msgstr "عنوان صفحه نویسنده"
+
+#~ msgid "Author Page Description"
+#~ msgstr "توضیح صفحه نویسنده"
+
+#~ msgid "404 Page Title"
+#~ msgstr "عنوان صفحه 404"
+
+#~ msgid "404 Not Found"
+#~ msgstr "404 یافت نشد"
+
+#~ msgid "SEO Title"
+#~ msgstr "عنوان سئو"
+
+#~ msgid "SEO Description"
+#~ msgstr "توضیحات سئو"
+
+#~ msgid "Page Title"
+#~ msgstr "عنوان صفحه"
+
+#~ msgid "Google"
+#~ msgstr "گوگل"
+
+#~ msgid "Bing"
+#~ msgstr "بینگ"
+
+#~ msgid "Sitemap"
+#~ msgstr "نقشه سایت"
+
+#~ msgid "View Sitemap"
+#~ msgstr "نمایش نقشه سایت"
+
+#~ msgid "XML Sitemap"
+#~ msgstr "نقشه سایت XML"
+
+#~ msgid "Lesson"
+#~ msgstr "درس"
+
+#~ msgid "Lessons"
+#~ msgstr "دروس"
+
+#~ msgid "Create a lesson"
+#~ msgstr "ایجاد یک درس"
+
+#~ msgid "Add New category"
+#~ msgstr "افزودن دسته بندی جدید"
+
+#~ msgid "Back to"
+#~ msgstr "بازگشت به"
+
+#~ msgid "Correct answers"
+#~ msgstr "جواب های صحیح"
+
+#~ msgid "Creates a"
+#~ msgstr "ایجاد یک"
+
+#~ msgid "Add/Edit Question"
+#~ msgstr "افزودن/ویرایش سوال"
+
+#~ msgid "More"
+#~ msgstr "بیشتر"
+
+#~ msgid "Correct answer"
+#~ msgstr "جواب صحیح"
+
+#~ msgid "True"
+#~ msgstr "درست"
+
+#~ msgid "False"
+#~ msgstr "اشتباه"
+
+#~ msgid "True/False"
+#~ msgstr "درست/اشتباه"
+
+#~ msgid "Correct Answer"
+#~ msgstr "جواب صحیح"
+
+#~ msgid "Correct answer cannot be empty"
+#~ msgstr "جواب صحیح نمیتواند خالی باشد"
+
+#~ msgid "Question"
+#~ msgstr "سوال"
+
+#~ msgid "Background"
+#~ msgstr "پس زمینه"
+
+#~ msgid "Rating:"
+#~ msgstr "امتیاز:"
+
+#~ msgid "Rating"
+#~ msgstr "امتیاز"
+
+#~ msgid "ERROR"
+#~ msgstr "خطا"
+
+#~ msgid "(Edit)"
+#~ msgstr "(ویرایش)"
+
+#~ msgid "5 stars"
+#~ msgstr "5 ستاره"
+
+#~ msgid "7 stars"
+#~ msgstr "7 ستاره"
+
+#~ msgid "Add/Edit Tabs"
+#~ msgstr "افزودن/ویرایش سربرگ ها"
+
+#~ msgid "Table"
+#~ msgstr "جدول"
+
+#~ msgid "Add a Table"
+#~ msgstr "افزودن یک جدول"
+
+#~ msgid "Default row"
+#~ msgstr "سطر پیش فرض"
+
+#~ msgid "Default column"
+#~ msgstr "ستون پیش فرض"
+
+#~ msgid "Description column"
+#~ msgstr "توضیحات ستون"
+
+#~ msgid "Add Column"
+#~ msgstr "افزودن ستون"
+
+#~ msgid "Add Row"
+#~ msgstr "افزودن سطر"
+
+#~ msgid "Add a Team Member"
+#~ msgstr "افزودن یک عضو تیم"
+
+#~ msgid "Calendar"
+#~ msgstr "تقویم"
+
+#~ msgid "Add a Calendar"
+#~ msgstr "افزودن یک تقویم"
+
+#~ msgid "Calendar Type"
+#~ msgstr "نوع تقویم"
+
+#~ msgid "Monday"
+#~ msgstr "دوشنبه"
+
+#~ msgid "Add/Edit Date & Time"
+#~ msgstr "افزودن/ویرایش تاریخ و ساعت"
+
+#~ msgid "Date & Time"
+#~ msgstr "تاریخ و سات"
+
+#~ msgid "Event"
+#~ msgstr "رخداد"
+
+#~ msgid "Week "
+#~ msgstr "هفته"
+
+#~ msgid "All day"
+#~ msgstr "همه روز"
+
+#~ msgid "Time"
+#~ msgstr "زمان"
+
+#~ msgid "February"
+#~ msgstr "فبریه"
+
+#~ msgid "March"
+#~ msgstr "مارس"
+
+#~ msgid "April"
+#~ msgstr "آپریل"
+
+#~ msgid "July"
+#~ msgstr "جولای"
+
+#~ msgid "August"
+#~ msgstr "آگوست"
+
+#~ msgid "December"
+#~ msgstr "دسامبر"
+
+#~ msgid "Feb"
+#~ msgstr "فبریه"
+
+#~ msgid "Mar"
+#~ msgstr "مارس"
+
+#~ msgid "Apr"
+#~ msgstr "آپریل"
+
+#~ msgid "Jul"
+#~ msgstr "جولای"
+
+#~ msgid "Aug"
+#~ msgstr "آگوست"
+
+#~ msgid "Dec"
+#~ msgstr "دسامبر"
+
+#~ msgid "Tuesday"
+#~ msgstr "پنجشنبه"
+
+#~ msgid "Wednesday"
+#~ msgstr "چهارشنبه"
+
+#~ msgid "Thursday"
+#~ msgstr "سه شنبه"
+
+#~ msgid "Friday"
+#~ msgstr "جمعه"
+
+#~ msgid "Saturday"
+#~ msgstr "شنبه"
+
+#~ msgid "This can be left blank"
+#~ msgstr "این میتواند خالی بماند"
+
+#~ msgid "API Settings"
+#~ msgstr "تنظیمات  API"
+
+#~ msgid "App ID/API Key:"
+#~ msgstr "کد ID/API نرم افزار :"
+
+#~ msgid "Build contact forms"
+#~ msgstr "ایجاد فرم تماس"
+
+#~ msgid "404 Not found"
+#~ msgstr "404 یافت نشد"
+
+#~ msgid "No title"
+#~ msgstr "بدون عنوان"
+
+#~ msgid "Date"
+#~ msgstr "تاریخ"
+
+#~ msgid "All Events"
+#~ msgstr "همه رخ دادها"
+
+#~ msgid "Google Calendar"
+#~ msgstr "تقویم گوگل"
+
+#~ msgid "Do you realy want to change without saving?"
+#~ msgstr "آیا واقعا میخواهید بدون ذخیره کردن تغییر دهید؟"
+
+#~ msgid "Created"
+#~ msgstr "ایجاد شد"
+
+#~ msgid "Add Sidebar"
+#~ msgstr "افزودن ساید بار"
+
+#~ msgid "Page"
+#~ msgstr "صفحه"
+
+#~ msgid "Pages"
+#~ msgstr "صفحه ها"
+
+#~ msgid "Blog Category"
+#~ msgstr "دسته بندی بلاگ"
+
+#~ msgid "Home Page"
+#~ msgstr "صفحه خانگی"
+
+#~ msgid "Search Page"
+#~ msgstr "صفحه جستجو"
+
+#~ msgid "404 Page"
+#~ msgstr "404 پیدا نشد"
+
+#~ msgid "Author Page"
+#~ msgstr "صفحه نویسنده"
+
+#~ msgid "Archive Page"
+#~ msgstr "صفحه آرشیو"
+
+#~ msgid "Others"
+#~ msgstr "دیگر"
+
+#~ msgid "Edit Menu Item"
+#~ msgstr "ویرایش آیتم منو"
+
+#~ msgid "URL"
+#~ msgstr "آدرس"
+
+#~ msgid "CSS Classes (optional)"
+#~ msgstr "کلاس های CSS (اختیاری)"
+
+#~ msgid "Item Title"
+#~ msgstr "عنوان آیتم"
+
+#~ msgid "Hide"
+#~ msgstr "مخفی"
+
+#~ msgid "Description (HTML)"
+#~ msgstr "توضیحات (HTML)"
+
+#~ msgid "Edit Icon"
+#~ msgstr "ویرایش آیکن"
+
+#~ msgid "Use as Mega Menu"
+#~ msgstr "استفاده به عنوان مگامنو"
+
+#~ msgid "Move"
+#~ msgstr "حرکت"
+
+#~ msgid "Up one"
+#~ msgstr "یکی بالا"
+
+#~ msgid "Down one"
+#~ msgstr "یکی پایین"
+
+#~ msgid "To the top"
+#~ msgstr "به بالا"
+
+#~ msgid "Default Language"
+#~ msgstr "زبان پیش فرض"
+
+#~ msgid "Convert data"
+#~ msgstr "تبدیل داده"
+
+#~ msgid "All Languages"
+#~ msgstr "همه زبان ها"
+
+#~ msgid "Title:"
+#~ msgstr "عنوان:"
+
+#~ msgid "Custom field updated."
+#~ msgstr "فیلد دلخواه به روز رسانی شد."
+
+#~ msgid "Custom field deleted."
+#~ msgstr "ورودی دلخواه پاک شد."
+
+#~ msgid "Slider Title"
+#~ msgstr "عنوان اسلایدر"
+
+#~ msgid "Slider"
+#~ msgstr "اسلایدر"
+
+#~ msgid "Add New Slider"
+#~ msgstr "افزودن اسلایدر جدید"
+
+#~ msgid "Edit Slider"
+#~ msgstr "ویرایش اسلایدر"
+
+#~ msgid "New Slider"
+#~ msgstr "افزودن اسلایدر جدید"
+
+#~ msgid "Horizontal"
+#~ msgstr "افقی"
+
+#~ msgid "Vertical"
+#~ msgstr "عمودی"
+
+#~ msgid "Fade"
+#~ msgstr "محو"
+
+#~ msgid "Choose a subtitle for your slide."
+#~ msgstr "یک زیر نویس برای اسلاید خود انتخاب کنید."
+
+#~ msgid "Add a Slider"
+#~ msgstr "افزودن یک اسلایدر"
+
+#~ msgid "Select Slider"
+#~ msgstr "انتخاب اسلایدر"
+
+#~ msgid "Set width"
+#~ msgstr "تنظیم عرض"
+
+#~ msgid "Set height"
+#~ msgstr "تنظیم طول"
+
+#~ msgid "No Sliders Available"
+#~ msgstr "اسلایدری در دسترس نیست"
+
+#~ msgid "create a new Slider"
+#~ msgstr "ایجاد یک اسلایدر جدید"
+
+#~ msgid "Schedule"
+#~ msgstr "زمانبندی"
+
+#~ msgid "Submit for Review"
+#~ msgstr "ثبت برای بازبینی"
+
+#~ msgid "Choose Category"
+#~ msgstr "انتخاب دسته بندی"
+
+#~ msgid "Choose Tag"
+#~ msgstr "انتخاب تگ"
+
+#~ msgid "Choose"
+#~ msgstr "انتخاب"
+
+#~ msgid "Add Slide"
+#~ msgstr "افزودن اسلاید"
+
+#~ msgid "Letter spacing"
+#~ msgstr "فاصله نوشته ها"
